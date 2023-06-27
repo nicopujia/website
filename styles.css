@@ -1,0 +1,145 @@
+:root {
+    --dark-bg: #292929;
+    --bg: #fafafa;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg);
+    font-family: sans-serif;
+}
+
+h1 {font-family: Orbitron;}
+h2 {font-family: Orbitron;}
+h3 {font-family: Orbitron;}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.space-around {
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+/* Navigation bar */
+nav {
+    background-color: var(--dark-bg);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    height: 7%;
+    min-height: 40px;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: end;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: var(--bg);
+}
+
+/* Home section */
+#home {
+    height: 100vh;
+    background-color: var(--dark-bg);
+    color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+#home img {
+    width: auto;
+    height: 40vh;
+    margin: 0;
+}
+
+#home h1 {
+    margin: 0;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    font-weight: bold;
+}
+
+#home h2 {
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+/*********************/
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* About section */
+#about p {
+    text-align: justify;
+}
+
+/* Projects section */
+@media (min-width: 600px) {
+  .projects-container { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .projects-container { grid-template-columns: repeat(3, 1fr); }
+}
+
+.projects-container {
+    display: grid;
+    gap: 2rem;
+}
+
+#projects article {
+    width: min-content;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#projects article h3 {
+    white-space: nowrap
+}
+
+#projects article p {
+    text-align: justify;
+    color: #414141;
+}
+
+.project-logo {
+    border-radius: 15%;
+    width: 250px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-bg);
+    color: var(--bg);
+    text-align: center;
+    padding: 20px;
+}
