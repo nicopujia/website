@@ -9,141 +9,72 @@
     <script src="js/main.js" defer></script>
 </head>
 
-<body class="min-h-screen bg-zinc-100 dark:bg-zinc-800 dark:text-white">
-    <header class="bg-zinc-800 dark:bg-zinc-900 text-white font-extralight top-0 sticky z-50 py-2 flex items-center justify-between flex-row">
-        <a href="#home" class="flex flex-row text-3xl items-center mx-8">
-            <img src="images/logo.png" alt="N" class="h-7 pr-1">
-            <h1 class="hidden md:contents">ICO PUJÍA</h1>
-        </a>
-        
-        <nav class="hidden md:block space-x-8 text-xl3">
-            <ul class="flex flex-row text-2xl">
-                <li><a href="#projects" class="px-4 hover:opacity-80 duration-200">PROJECTS</a></li>
-                <li><a href="#blog" class="px-4 hover:opacity-80 duration-200">BLOG</a></li>
-                <li><a href="#contact" class="px-4 hover:opacity-80 duration-200">CONTACT</a></li>
-            </ul>
-        </nav>
-
-        <button id="open-menu-button" class="text-3xl md:hidden focus:outline-none px-8">
-            <svg viewBox="0 0 100 100" width="40" height="40" class="fill-white">
-                <line stroke="white" stroke-width="4" x1="10" y1="20" x2="90" y2="20"/>
-                <line stroke="white" stroke-width="4" x1="10" y1="50" x2="90" y2="50"/>
-                <line stroke="white" stroke-width="4" x1="10" y1="80" x2="90" y2="80"/>
-            </svg>
-        </button>
-        
-        <section id="mobile-menu" class="absolute top-0 bg-zinc-800 w-full min-h-screen text-4xl flex-col justify content-center px-8 py-2 hidden origin-top animate-open-menu">
-            <button class="self-end">
-                <svg width="40" height="40" viewBox="0 0 100 100"> 
-                    <line x1="10" y1="10" x2="90" y2="90" stroke="white" stroke-width="4"/>
-                    <line x1="90" y1="10" x2="10" y2="90" stroke="white" stroke-width="4"/>
-                </svg>
-            </button>
-
-            <nav aria-label="mobile">
-                <ul class="flex flex-col items-center">
-                    <li class="py-2"><a href="#home" class="hover:opacity-80 duration-200">HOME</a></li>
-                    <li class="py-2"><a href="#projects" class="hover:opacity-80 duration-200">PROJECTS</a></li>
-                    <li class="py-2"><a href="#blog" class="hover:opacity-80 duration-200">BLOG</a></li>
-                    <li class="py-2"><a href="#contact" class="hover:opacity-80 duration-200">CONTACT</a></li>
-                </ul>
-            </nav>
-        </section>
+<body>
+    <header class="bg-zinc-800 dark:bg-zinc-900 text-white min-h-screen p-2 xl:p-0 flex flex-col justify-between">
+        <div></div>
+        <div class="flex flex-col text-center xl:flex-row justify-evenly items-center">
+            <img src="images/logo.svg" alt="Logo" class="w-64 sm:w-72 md:w-80 xl:w-96 h-auto p-5">
+            <div class="flex flex-col">
+                <h1 class="text-6xl sm:text-7xl md:text-8xl xl:text-9xl font-bold">NICO PUJÍA</h1>
+                <p class="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extralight font-serif tracking-tighter">SOFTWARE SOLUTIONS</p>
+            </div>
+        </div>
+        <ul class="flex flex-row justify-center">
+            <li class="p-2"><a href="mailto:contact@nicolaspujia.com"><svg class="h-8 w-8 text-white opacity-80 hover:opacity-100" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="3" y="5" width="18" height="14" rx="2" />  <polyline points="3 7 12 13 21 7" /></svg></a></li>
+            <li class="p-2"><a href="https://github.com/nicop496/"><svg class="h-8 w-8 text-white opacity-80 hover:opacity-100"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg></a></li>
+            <li class="p-2"><a href="https://instagram.com/nico_pujia"><svg class="h-8 w-8 text-white opacity-80 hover:opacity-100"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round">  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg></a></li>
+            <li class="p-2"><a href="https://youtube.com/@nico_pujia"><svg class="h-8 w-8 text-white opacity-80 hover:opacity-100"  viewBox="0 0 24 24"  fill="none" stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg></a></li>
+        </ul>
     </header>
     
-    <main>
-        <section id="home" class="bg-zinc-800 dark:bg-zinc-900 text-white xl:min-h-screen flex flex-col xl:flex-row justify-around items-center p-10 xl:p-0">
-            <h2 class="font-extralight text-5xl sm:text-7xl xl:w-1/3 text-center p-10 xl:p-0">Software developer, entrepreneur and artist</h2>
-            <div class="bg-zinc-700 xl:max-w-prose text-justify rounded-2xl p-6 grid grid-cols-1 gap-3 shadow-2xl">
-                <p>I am Nicolás Pujía, an Argentine teenager passionate about software development, entrepreneurship and art.</p>
-                <p>Whether it is innovative applications that simplify our lives, or video games that provide moments of satisfaction, I approach each new project with unwavering enthusiasm, always seeking to expand the limits of my knowledge.</p>
-                <p>Please, take a look at my projects below and feel free to contact me for any possible work, collaborations or ideas you would like to share with me.</p>
-            </div>
-        </section>
-
-        <div class="max-w-4xl mx-auto flex flex-col justify-center bg-white dark:bg-zinc-700 p-4">
-            <section id="projects">
-                <h2 class="text-4xl font-bold">PROJECTS</h2>
-                <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-2 gap-4 m-2">
-                    <li>
-                        <article>
-                            <a href="https://play.google.com/store/apps/details?id=com.nicopujia.dodgethepush" target="_blank" class="bg-zinc-100 dark:bg-zinc-800 w-auto h-auto xl:h-44 shadow-sm hover:shadow-xl duration-200 rounded-lg flex flex-col xl:flex-row">                            
-                                <img src="images/project-logos/dodge-the-push.png" alt="Logo" class="rounded-t-lg xl:rounded-l-lg w-auto h-full">
-                                <div class="flex flex-col justify-between p-2">
-                                    <div>
-                                        <h3 class="text-2xl font-extralight">Dodge the Push</h3>
-                                        <p class="text-justify">Mobile game in which you have to avoid obstacles that come from above.</p>
-                                    </div>
-                                    <ul class="flex flex-row pt-2">
-                                        <li class="px-2 py-1 border-2 border-zinc-300 text-zinc-500 dark:text-zinc-300 rounded-full font-extralight mr-1">Flutter</li>
-                                        <li class="px-2 py-1 border-2 border-zinc-300 text-zinc-500 dark:text-zinc-300 rounded-full font-extralight">Play Games</li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <a href="https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder" target="_blank" class="bg-zinc-100 dark:bg-zinc-800 w-auto h-auto xl:h-44 shadow-sm hover:shadow-xl duration-200 rounded-lg flex flex-col xl:flex-row">                            
-                                <img src="images/project-logos/game-finder.png" alt="Logo" class="rounded-t-lg xl:rounded-l-lg w-auto h-full">
-                                <div class="flex flex-col justify-between p-2">
-                                    <div>
-                                        <h3 class="text-2xl font-extralight">Game Finder</h3>
-                                        <p class="text-justify">App to find new games to play. Search by filters or by similar game.</p>
-                                    </div>
-                                    <ul class="flex flex-row pt-2">
-                                        <li class="px-2 py-1 border-2 border-zinc-300 text-zinc-500 dark:text-zinc-300 rounded-full font-extralight mr-1">Flutter</li>
-                                        <li class="px-2 py-1 border-2 border-zinc-300 text-zinc-500 dark:text-zinc-300 rounded-full font-extralight">IGDB API</li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <a href="https://play.google.com/store/apps/details?id=com.nicopujia.englishvocabulary" target="_blank" class="bg-zinc-100 dark:bg-zinc-800 w-auto h-auto xl:h-44 shadow-sm hover:shadow-xl duration-200 rounded-lg flex flex-col xl:flex-row">                            
-                                <img src="images/project-logos/english-vocabulary.png" alt="Logo" class="rounded-t-lg xl:rounded-l-lg w-auto h-full">
-                                <div class="flex flex-col justify-between p-2">
-                                    <div>
-                                        <h3 class="text-2xl font-extralight">English Vocabulary</h3>
-                                        <p class="text-justify">App to save and practice vocabulary in English with its translation, image and audio</p>
-                                    </div>
-                                    <ul class="flex flex-row pt-2">
-                                        <li class="px-2 py-1 border-2 border-zinc-300 text-zinc-500 dark:text-zinc-300 rounded-full font-extralight mr-1">Flutter</li>
-                                        <li class="px-2 py-1 border-2 border-zinc-300 text-zinc-500 dark:text-zinc-300 rounded-full font-extralight">Web scraping</li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </article>
-                    </li>
-                </ul>             
-            </section>
-
-            <section id="blog" class="pt-4">
-                <h2 class="text-4xl font-bold">BLOG</h2>
-                <div class="m-2">
-                    <p>Coming soon...</p>
+    <main class="dark:bg-zinc-700 dark:text-white">
+        <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+            <li class="bg-zinc-100 dark:bg-zinc-800 shadow-sm rounded-lg flex flex-col">
+                <div class="relative">
+                    <div>
+                        <img src="images/projects-icons/dodge-the-push.png" alt="Logo" class="rounded-t-lg w-full">
+                        <div class="p-3 pt-0">
+                            <h3 class="text-2xl font-extralight">Dodge the Push</h3>
+                            <p class="text-justify">Mobile game in which you have to avoid, moving horizontally, obstacles that come from above.</p>
+                        </div>
+                    </div bg-black top-0 left-0v>
+                    <div class="project absolute opacity-0 hover:opacity-100 bg-black bg-opacity-50 top-0 left-0 rounded-lg w-full h-full flex items-center justify-center hover:shadow-xl duration-200">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder"><img src="images/stores-icons/play-store.svg" alt="Play Store" class="w-24"></a>
+                    </div>
                 </div>
-            </section>
-            
-            <section id="contact" class="pt-4">
-                <h2 class="text-4xl font-bold">CONTACT</h2>
-                <div class="mx-2 mt-2">
-                    <p>✉ For anything you wish, you can contact me at <strong>nicopujia.dev@gmail.com</strong>.</p>
-                    <div class="h-2"></div>
-                    <p>Also, you can check out my social media:</p>
-                    
-                    <ul class="flex flex-row mt-2">
-                        <li class="pr-4"><a href="https://github.com/nicop496/"><img src="images/icons/github.png" alt="Github" class="h-8 dark:invert hover:animate-spin"></a></li>
-                        <li class="pr-4"><a href="https://instagram.com/nico_pujia"><img src="images/icons/instagram.png" alt="Instagram" class="h-8 dark:invert hover:animate-spin"></a></li>
-                        <li><a href="https://youtube.com/@nico_pujia"><img src="images/icons/youtube.png" alt="YouTube" class="h-8 dark:invert hover:animate-spin"></a></li>
-                    </ul>
+            </li>
+            <li class="bg-zinc-100 dark:bg-zinc-800 shadow-sm rounded-lg flex flex-col">
+                <div class="relative">
+                    <div>
+                        <img src="images/projects-icons/game-finder.png" alt="Logo" class="rounded-t-lg w-full">
+                        <div class="p-3 pt-0">
+                            <h3 class="text-2xl font-extralight">Game Finder</h3>
+                            <p class="text-justify">App to find new games to play. Search by filters or by similar game.</p>
+                        </div>
+                    </div bg-black top-0 left-0v>
+                    <div class="project absolute opacity-0 hover:opacity-100 bg-black bg-opacity-50 top-0 left-0 rounded-lg w-full h-full flex items-center justify-center hover:shadow-xl duration-200">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder"><img src="images/stores-icons/play-store.svg" alt="Play Store" class="w-24"></a>
+                    </div>
                 </div>
-            </section>
-        </div>
+            </li>
+            <li class="bg-zinc-100 dark:bg-zinc-800 shadow-sm rounded-lg flex flex-col">
+                <div class="relative">
+                    <div>
+                        <img src="images/projects-icons/english-vocabulary.png" alt="Logo" class="rounded-t-lg w-full">
+                        <div class="p-3 pt-0">
+                            <h3 class="text-2xl font-extralight">English Vocabulary</h3>
+                            <p class="text-justify">App to save and practice vocabulary in English with its translation, image and audio</p>
+                        </div>
+                    </div>
+                    <div class="project absolute opacity-0 hover:opacity-100 bg-black bg-opacity-50 top-0 left-0 rounded-lg w-full h-full flex items-center justify-center hover:shadow-xl duration-200">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder"><img src="images/stores-icons/play-store.svg" alt="Play Store" class="w-24"></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </main>
     
-    <footer class="bg-zinc-800 dark:bg-zinc-900 text-white flex flex-col items-center px-10 py-5 font-thin text-sm">
+    <footer class="bg-zinc-800 dark:bg-zinc-900 px-2 py-5 text-white text-center font-thin text-sm">
         <p>2023 &copy; Nico Pujía. All rights reserved.</p>
     </footer>
 </body>
