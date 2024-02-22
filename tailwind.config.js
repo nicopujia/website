@@ -1,8 +1,29 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/*.{html,js}"],
+  darkMode: "selector",
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        "r-to-l": "r-to-l 2s",
+      },
+      keyframes: {
+        "r-to-l": {
+          "0%": { right: "-300px", opacity: "0" },
+          "100%": { right: "0px", opacity: "100" },
+        },
+      },
+    },
+    fontFamily: {
+      "sans": ["'Josefin Sans'", "sans-serif"],
+    },
+    colors: {
+      primary: "#7a99ff",
+      light: "#e4e4e7",
+      lighter: "#f8fafc",
+      dark: "#52525b",
+      darker: "#27272a",
+    },
   },
   plugins: [],
 }
