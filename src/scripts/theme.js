@@ -1,24 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
     const toggleButton = document.getElementById("toggle-theme-button");
-    const lightIcon = document.getElementById("light-theme-icon");
-    const darkIcon = document.getElementById("dark-theme-icon");
+    const lightIcon = toggleButton.children.item(0);
+    const darkIcon = toggleButton.children.item(1);
 
-    function setDarkMode(enabled) {
-        if (enabled) {
-            lightIcon.classList.add("hidden");
-            darkIcon.classList.remove("hidden");
-            document.documentElement.classList.remove("dark");
-        } else {
-            lightIcon.classList.remove("hidden");
-            darkIcon.classList.add("hidden");
-            document.documentElement.classList.add("dark");
-
-        }
+    function toggleTheme() {
+        lightIcon.classList.toggle("hidden");
+        darkIcon.classList.toggle("hidden");
+        document.documentElement.classList.toggle("dark");
     }
 
-    setDarkMode(!window.matchMedia('(prefers-color-scheme: dark)').matches);
+    const systemThemeIsDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (systemThemeIsDarkMode) {
+        lightIcon.classList.add("hidden");
+        darkIcon.classList.remove("hidden");
+        document.documentElement.classList.add("dark");
+    }
 
-    toggleButton.addEventListener("change", () => {
-        setDarkMode(toggleButton.checked);
-    })
+    toggleButton.addEventListener("click", toggleTheme);
 })
