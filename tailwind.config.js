@@ -19,10 +19,10 @@ module.exports = {
     },
     colors: {
       primary: "#7a99ff",
-      light: "#e4e4e7",
-      lighter: "#f8fafc",
+      light: "#d4d4d8",
+      lighter: "#fafafa",
       dark: "#52525b",
-      darker: "#27272a",
+      darker: "#18181b",
     },
   },
   plugins: [],
