@@ -18,7 +18,7 @@ module.exports = {
       "sans": ["'Josefin Sans'", "sans-serif"],
     },
     colors: {
-      primary: "#7a99ff",
+      primary: "#4070FF",
       light: "#d4d4d8",
       lighter: "#fafafa",
       dark: "#52525b",

@@ -724,10 +724,6 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.self-end {
-  align-self: flex-end;
-}
-
 .self-center {
   align-self: center;
 }
@@ -844,8 +840,8 @@ video {
   line-height: 1;
 }
 
-.text-8xl {
-  font-size: 6rem;
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -862,16 +858,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -906,7 +892,7 @@ video {
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(122 153 255 / var(--tw-text-opacity));
+  color: rgb(64 112 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -928,7 +914,7 @@ video {
 }
 
 .shadow-primary {
-  --tw-shadow-color: #7a99ff;
+  --tw-shadow-color: #4070FF;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -978,37 +964,17 @@ video {
 }
 
 .hover\:shadow-primary:hover {
-  --tw-shadow-color: #7a99ff;
+  --tw-shadow-color: #4070FF;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
 @media (min-width: 640px) {
-  .sm\:static {
-    position: static;
-  }
-
-  .sm\:flex {
-    display: flex;
-  }
-
-  .sm\:hidden {
-    display: none;
-  }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
   .sm\:gap-12 {
     gap: 3rem;
-  }
-
-  .sm\:p-0 {
-    padding: 0px;
   }
 
   .sm\:p-12 {
