@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="es" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolás Pujía</title>
     <link rel="icon" type="image/ico" href="/favicon.ico" />
-    <link rel="stylesheet" href="styles.css">
-    <script src="scripts/theme.js" defer></script>
-    <script src="scripts/menu.js" defer></script>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../scripts/theme.js" defer></script>
+    <script src="../scripts/menu.js" defer></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,13 +25,13 @@
             <ul class="backdrop-blur-xl z-50 w-full h-full absolute left-0 top-24 gap-8 hidden flex-col p-8 md:flex md:p-0 md:static md:flex-row"
                 id="nav-links">
                 <li class="opacity-65 hover:opacity-100 hover:font-normal hover:scale-110 duration-300">
-                    <a href="#about">ABOUT</a>
+                    <a href="#about">SOBRE MÍ</a>
                 </li>
                 <li class="opacity-65 hover:opacity-100 hover:font-normal hover:scale-110 duration-300">
-                    <a href="#projects">PROJECTS</a>
+                    <a href="#projects">PROYECTOS</a>
                 </li>
                 <li class="opacity-65 hover:opacity-100 hover:font-normal hover:scale-110 duration-300">
-                    <a href="#contact">CONTACT</a>
+                    <a href="#contact">CONTACTO</a>
                 </li>
             </ul>
 
@@ -42,14 +42,14 @@
                     <button id="menu-button">
                         <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                            <title>Open menu</title>
+                            <title>Abrir menú</title>
                         </svg>
                         <svg class="h-8 w-8 hidden" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
                              fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" />
                             <line x1="18" y1="6" x2="6" y2="18" />
                             <line x1="6" y1="6" x2="18" y2="18" />
-                            <title>Close menu</title>
+                            <title>Cerrar menú</title>
                         </svg>
                     </button>
                 </li>
@@ -67,28 +67,28 @@
                             <line x1="21" y1="12" x2="23" y2="12" />
                             <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
                             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-                            <title>Turn light theme on</title>
+                            <title>Activar modo claro</title>
                         </svg>
                         <svg class="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                              stroke-linecap="round" stroke-linejoin="round">
                             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-                            <title>Turn dark theme on</title>
+                            <title>Activar modo oscuro</title>
                         </svg>
                     </button>
                 </li>
                 <!-- Language button -->
                 <li class="opacity-65 hover:opacity-100 hover:font-normal hover:scale-110 duration-300">
-                    <a href="es/index.html">ES</a>
+                    <a href="../index.html">EN</a>
                 </li>
             </ul>
         </nav>
 
         <div>
             <span class="font-extralight leading-relaxed sm:leading-loose text-5xl sm:text-6xl relative animate-r-to-l">
-                Turning <span class="font-extrabold text-darker dark:text-lighter">ideas&nbsp;💡</span>
-                into&nbsp;<span class="font-extrabold text-darker dark:text-lighter">real software&nbsp;📱</span>.
+                Transformando <span class="font-extrabold text-darker dark:text-lighter">ideas&nbsp;💡</span>
+                en&nbsp;<span class="font-extrabold text-darker dark:text-lighter">software real&nbsp;📱</span>.
                 <br>
-                Welcome, I am <h1 class="text-primary font-extrabold inline">Nicolás Pujía</h1>.
+                Bienvenido, soy <h1 class="text-primary font-extrabold inline">Nicolás Pujía</h1>.
             </span>
         </div>
 
@@ -99,7 +99,7 @@
                  stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="7 13 12 18 17 13" />
                 <polyline points="7 6 12 11 17 6" />
-                <title>Scroll down</title>
+                <title>Desplazarse hacia abajo</title>
             </svg>
         </button>
     </header>
@@ -107,48 +107,48 @@
     <main class="relative">
         <section class="bg-gradient-to-br from-lighter dark:from-dark to-light dark:to-darker min-h-screen flex flex-col lg:flex-row justify-evenly items-center gap-8 p-8 sm:p-12 lg:p-16"
                  id="about">
-            <h2 class="text-7xl sm:text-9xl text-center">Who am I?</h2>
+            <h2 class="text-7xl sm:text-9xl text-center">¿Quién soy yo?</h2>
             <div class="max-w-prose space-y-8 sm:p-12 lg:p-16">
                 <p>
-                    I am a software developer from Argentina who likes to create innovative
-                    <strong class="text-primary">apps & video games</strong>.
+                    Soy un desarrollador de software argentino al que le gusta crear
+                    <strong class="text-primary">apps y videojuegos</strong> innovadores.
                 </p>
                 <p>
-                    I started my journey by making any kind of stuff with <strong class="text-primary">Python</strong>,
-                    including games, web scraping, automation scripts, backend, GUIs,
+                    Comencé creando todo tipo de cosas con <strong class="text-primary">Python</strong>,
+                    incluyendo juegos, scripts de automatización, web scraping, backend, GUIs
                     <a class="underline hover:bg-lighter duration-300" href="https://github.com/nicopujia/old_projects"
                        target="_blank">
-                        and more↗
+                        y más↗
                     </a>.
 
-                    After that, I learned <strong class="text-primary">Godot</strong> because I was interested in
-                    making mobile games.
+                    Después de eso, aprendí <strong class="text-primary">Godot</strong> porque estaba interesado en
+                    hacer juegos para móviles.
 
-                    Later, I moved to <strong class="text-primary">Flutter</strong> to create high-performance
-                    applications (not like Python ones), which is what I mainly do now.
+                    Más tarde, me moví a <strong class="text-primary">Flutter</strong> para crear aplicaciones con un
+                    buen rendimiento (no como las de Python), que es lo que hago ahora principalmente.
                 </p>
                 <p>
-                    With every project I start, I seek to improve and create something new, always challenging myself a
-                    little bit more.
+                    Con cada proyecto que empiezo busco mejorar y crear algo nuevo, siempre desafiándome un poquito más.
                 </p>
             </div>
         </section>
 
         <section class="bg-gradient-to-bl from-light dark:from-darker to-lighter dark:to-dark min-h-screen p-8 sm:p-12 lg:p-16 gap-8 sm:gap-12 lg:gap-16 flex flex-col items-center"
                  id="projects">
-            <h2 class="text-7xl sm:text-9xl text-center">What have I built?</h2>
+            <h2 class="text-7xl sm:text-9xl text-center">¿Qué he creado?</h2>
 
             <div class="max-w-screen-2xl grid grid-flow-row sm:grid-cols-2 xl:grid-cols-3 gap-8 sm:gap-12 lg:gap-16">
                 <!-- Biome Fighters -->
                 <article
                          class="bg-lighter dark:bg-darker rounded-lg overflow-hidden flex flex-col duration-300 hover:stroke-2 scale-100 hover:scale-105 shadow-primary shadow-md hover:shadow-lg hover:shadow-primary">
-                    <img class="w-full h-auto object-cover" src="images/biome-fighters.webp" alt="Icon">
+                    <img class="w-full h-auto object-cover" src="../images/biome-fighters.webp" alt="Icon">
                     <div class="flex flex-col">
                         <!-- Title -->
                         <h3 class="text-primary font-bold text-2xl pt-4 px-4">Biome Fighters</h3>
                         <!-- Description -->
                         <p class="text-gray-700 text-base px-4">
-                            1v1 online multiplayer platform fighter game with more than just two platforms.
+                            Juego de lucha en plataformas multijugador <i>online</i> 1 contra 1 con más que solo dos
+                            plataformas.
                         </p>
                         <!-- Technologies -->
                         <ul class="flex flex-wrap p-4">
@@ -176,6 +176,7 @@
                                         <path stroke="none" d="M0 0h24v24H0z" />
                                         <path
                                               d="M9 19c-4.286 1.35-4.286-2.55-6-3m12 5v-3.5c0-1 .099-1.405-.5-2 2.791-.3 5.5-1.366 5.5-6.04a4.567 4.567 0 0 0 -1.333 -3.21 4.192 4.192 0 00-.08-3.227s-1.05-.3-3.476 1.267a12.334 12.334 0 0 0 -6.222 0C6.462 2.723 5.413 3.023 5.413 3.023a4.192 4.192 0 0 0 -.08 3.227A4.566 4.566 0 004 9.486c0 4.64 2.709 5.68 5.5 6.014-.591.589-.56 1.183-.5 2V21" />
+                                        <title>Repositorio de GitHub</title>
                                     </svg>
                                 </a>
                             </li>
@@ -186,13 +187,14 @@
                 <!-- Game Finder -->
                 <article
                          class="bg-lighter dark:bg-darker rounded-lg overflow-hidden flex flex-col duration-300 hover:stroke-2 scale-100 hover:scale-105 shadow-primary shadow-md hover:shadow-lg hover:shadow-primary">
-                    <img class="w-full h-auto object-cover" src="images/game-finder.webp" alt="Icon">
+                    <img class="w-full h-auto object-cover" src="../images/game-finder.webp" alt="Icon">
                     <div class="flex flex-col">
                         <!-- Title -->
-                        <h3 class="text-primary font-bold text-2xl pt-4 px-4">Game Finder</h3>
+                        <h3 class="text-primary font-bold text-2xl pt-4 px-4">Buscador de juegos</h3>
                         <!-- Description -->
                         <p class="text-gray-700 text-base px-4">
-                            App to find new games to play. Search by filters or by similar game.
+                            App para encontrar nuevos juegos a los jugar. Se puede buscar con una variedad de filtros o
+                            por juego similar.
                         </p>
                         <!-- Technologies -->
                         <ul class="flex flex-wrap p-4">
@@ -226,6 +228,7 @@
                                         <line x1="16" y1="3" x2="15" y2="5" />
                                         <line x1="9" y1="18" x2="9" y2="21" />
                                         <line x1="15" y1="18" x2="15" y2="21" />
+                                        <title>Página de Play Store</title>
                                     </svg>
                                 </a>
                             </li>
@@ -236,13 +239,13 @@
                 <!-- English Vocabulary -->
                 <article
                          class="bg-lighter dark:bg-darker rounded-lg overflow-hidden flex flex-col duration-300 hover:stroke-2 scale-100 hover:scale-105 shadow-primary shadow-md hover:shadow-lg hover:shadow-primary">
-                    <img class="w-full h-auto object-cover" src="images/english-vocabulary.webp" alt="Icon">
+                    <img class="w-full h-auto object-cover" src="../images/english-vocabulary.webp" alt="Icon">
                     <div class="flex flex-col">
                         <!-- Title -->
                         <h3 class="text-primary font-bold text-2xl pt-4 px-4">English Vocabulary</h3>
                         <!-- Description -->
                         <p class="text-gray-700 text-base px-4">
-                            App to save and practice vocabulary in English with its translation, image and audio.
+                            App para guardar y practicar vocabulario en inglés con su traducción, imagen y audio.
                         </p>
                         <!-- Technologies -->
                         <ul class="flex flex-wrap p-4">
@@ -276,6 +279,7 @@
                                         <line x1="16" y1="3" x2="15" y2="5" />
                                         <line x1="9" y1="18" x2="9" y2="21" />
                                         <line x1="15" y1="18" x2="15" y2="21" />
+                                        <title>Página de Play Store</title>
                                     </svg>
                                 </a>
                             </li>
@@ -286,13 +290,14 @@
                 <!-- Dodge the Push -->
                 <article
                          class="bg-lighter dark:bg-darker rounded-lg overflow-hidden flex flex-col duration-300 hover:stroke-2 scale-100 hover:scale-105 shadow-primary shadow-md hover:shadow-lg hover:shadow-primary">
-                    <img class="w-full h-auto object-cover" src="images/dodge-the-push.webp" alt="Icon">
+                    <img class="w-full h-auto object-cover" src="../images/dodge-the-push.webp" alt="Icon">
                     <div class="flex flex-col">
                         <!-- Title -->
                         <h3 class="text-primary font-bold text-2xl pt-4 px-4">Dodge the Push</h3>
                         <!-- Description -->
                         <p class="text-gray-700 text-base px-4">
-                            Mobile game in which you have to avoid, moving horizontally, obstacles that come from above.
+                            Juego para dispositivos móviles en el que tenés que esquivar, moviéndote horizontalmente,
+                            obstáculos que vienen desde arriba.
                         </p>
                         <!-- Technologies -->
                         <ul class="flex flex-wrap p-4">
@@ -326,6 +331,7 @@
                                         <line x1="16" y1="3" x2="15" y2="5" />
                                         <line x1="9" y1="18" x2="9" y2="21" />
                                         <line x1="15" y1="18" x2="15" y2="21" />
+                                        <title>Página de Play Store</title>
                                     </svg>
                                 </a>
                             </li>
@@ -338,10 +344,10 @@
         <section class="bg-gradient-to-br from-lighter dark:from-dark to-light dark:to-darker p-8 sm:p-12 lg:p-16 flex flex-col md:flex-row justify-end"
                  id="contact">
             <div class="flex flex-col justify-center text-right gap-8 lg:order-2">
-                <h2 class="text-7xl sm:text-9xl">Want to talk?</h2>
-                <p>Have a project in mind or just want to say hello? Feel free to reach me out!</p>
+                <h2 class="text-7xl sm:text-9xl">¿Querés hablar?</h2>
+                <p>¿Tenés un proyecto en mente o simplemente querés charlar? ¡Comunicate conmigo!</p>
                 <p>
-                    You can contact me by email at
+                    Podés contactarme por correo electrónico a
                     <a class="text-primary underline" href="mailto:nicopujia.dev@gmail.com">nicopujia.dev@gmail.com</a>.
                 </p>
             </div>
