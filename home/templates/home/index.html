@@ -1,5 +1,8 @@
 {% extends "base.html" %}
-{% load static %}
+{% load static i18n %}
+{% block title %}
+    {% translate "Home" %}
+{% endblock title %}
 {% block content %}
     <header class="bg-gradient-to-bl from-light dark:from-darker to-lighter dark:to-dark min-h-screen flex flex-col justify-between p-8 sm:p-12 lg:p-16 gap-8 sm:gap-12 lg:gap-16">
         <nav class="font-extralight text-3xl flex flex-row justify-between">
@@ -342,5 +345,4 @@
     <footer class="bg-gradient-to-bl from-light dark:from-darker to-lighter dark:to-dark text-sm text-center p-8 sm:p-12 lg:p-16">
         <p>Copyright © 2023-2024 Nicolás Pujía</p>
     </footer>
-    
 {% endblock content %}

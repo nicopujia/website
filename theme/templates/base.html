@@ -6,9 +6,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-            Nicolás Pujía |
             {% block title %}
             {% endblock title %}
+            | Nicolás Pujía
         </title>
         <link rel="icon" type="image/ico" href="{% static "favicon.ico" %}" />
         <script src="{% static "js/theme.js" %}" defer></script>
@@ -21,6 +21,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
               rel="stylesheet">
+        {% tailwind_preload_css %}
         {% tailwind_css %}
     </head>
     <body class="text-dark dark:text-light text-xl font-sans">
