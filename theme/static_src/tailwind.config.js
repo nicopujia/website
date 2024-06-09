@@ -21,16 +21,14 @@ module.exports = {
     theme: {
         extend: {
             animation: {
-                'right-to-left': 'right-to-left 2s',
+                'fade-in': 'fade-in 1s',
             },
             keyframes: {
-                'right-to-left': {
+                'fade-in': {
                     '0%': {
-                        right: '-300px',
                         opacity: '0',
                     },
                     '100%': {
-                        right: '0px',
                         opacity: '100',
                     },
                 },
@@ -44,10 +42,11 @@ module.exports = {
         },
         colors: {
             primary: '#4070FF',
-            light: '#d4d4d8',
-            lighter: '#fafafa',
+            light: '#aaaaad',
+            lighter: '#fdfdfd',
             dark: '#52525b',
             darker: '#18181b',
+            transparent: '#00000000',
         },
     },
     plugins: [

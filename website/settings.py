@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'tailwind',
     'theme',
     'django_browser_reload',
-    'home',
+    'portfolio',
 ]
 
 MIDDLEWARE = [
@@ -67,6 +67,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             BASE_DIR / 'templates',
+            BASE_DIR / 'website' / 'templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -124,11 +125,20 @@ USE_I18N = True
 
 USE_TZ = True
 
+LOCALE_PATHS = [
+    BASE_DIR / 'locale',
+]
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+    BASE_DIR / 'website' / 'static',
+]
 
 
 # Default primary key field type
@@ -143,3 +153,14 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 TAILWIND_APP_NAME = 'theme'
 
 NPM_BIN_PATH = 'C:\\Program Files\\nodejs\\npm.cmd' if sys.platform == 'win32' else '/usr/local/bin/npm'
+ 
+
+# Media files
+MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = 'media/'
+
+# Local settings
+try:
+    from .local_settings import *
+except ImportError:
+    pass

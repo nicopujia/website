@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static i18n %}
+{% block title %}
+    {% translate "Home" %}
+{% endblock title %}
+{% block heading %}
+    {% blocktranslate trimmed %}
+        <span class="dark:text-light">Transforming ideas into</span>
+        <a href="{{ portfolio_url }}" class="text-darker dark:text-lighter link">real software</a>
+    {% endblocktranslate %}
+{% endblock heading %}
+{% block content %}
+    <div class="flex flex-col gap-8 text-center align-middle">
+        <p class="text-2xl sm:text-3xl">
+            {% translate "Welcome, I am" %}
+            <strong>
+                <a href="{{ about_url }}" class="text-primary link">Nicolás Pujía</a>
+            </strong>
+        </p>
+        <p class="text-1xl sm:text-2xl italic">
+            <i>{% translate "Your trusted developer" %}</i>
+        </p>
+    </div>
+{% endblock content %}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-02 13:59-0300\n"
+"POT-Creation-Date: 2024-06-08 21:38-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1513,6 +1513,141 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: .\home\templates\home\index.html:4
+#: .\portfolio\templates\portfolio\index.html:4
+msgid "Portfolio"
+msgstr "Portafolio"
+
+#: .\portfolio\templates\portfolio\index.html:7
+msgid "What have I made?"
+msgstr "¿Qué hice?"
+
+#: .\portfolio\templates\portfolio\index.html:11
+msgid ""
+"<p> Welcome to my portfolio! Here, you'll find a collection of my most "
+"significant projects and milestones. </p> <p> Each project not only "
+"showcases a particular technology from my \"tech stack\", but also reflects "
+"the scale and complexity of the work I've done. Besides, the more "
+"substantial and frequent a technology appears in my projects, the more "
+"expertise I have with it. Take a look and tell me what you think! </p>"
+msgstr ""
+"<p> ¡Bienvenido a mi portafolio! Acá vas a encontrar una recopilación de mis "
+"proyectos e hitos más importantes. </p> <p> Cada uno de los proyectos no "
+"solo muestra una tecnología particular de mi \"tech stack\", sino que "
+"también refleja la escala y la complejidad del trabajo que he realizado. "
+"Además, cuanto más sustancial y frecuente aparece una tecnología en mis "
+"proyectos, más experiencia tengo con ella. ¡Mirá tranquilo y decime que te "
+"parecen! </p>"
+
+#: .\portfolio\templates\portfolio\project.html:19
+msgid "Repository"
+msgstr "Repositorio"
+
+#: .\portfolio\templates\portfolio\project.html:29
+msgid "Website"
+msgstr "Sitio web"
+
+#: .\portfolio\templates\portfolio\project.html:34
+msgid "Description"
+msgstr "Descripción"
+
+#: .\portfolio\templates\portfolio\project.html:41
+msgid "Screenshots"
+msgstr "Capturas de pantalla"
+
+#: .\theme\templates\navbar_items\buttons\menu.html:8
+msgid "Open menu"
+msgstr "Abrir menú"
+
+#: .\theme\templates\navbar_items\buttons\menu.html:9
+msgid "Close menu"
+msgstr "Cerrar menú"
+
+#: .\theme\templates\navbar_items\buttons\theme.html:8
+msgid "Toggle theme auto"
+msgstr "Alternar tema automático"
+
+#: .\theme\templates\navbar_items\buttons\theme.html:9
+msgid "Toggle dark theme"
+msgstr "Alternar tema oscuro"
+
+#: .\theme\templates\navbar_items\buttons\theme.html:10
+msgid "Toggle light theme"
+msgstr "Alternar tema claro"
+
+#: .\website\templates\about.html:4
+msgid "About"
+msgstr "Sobre mí"
+
+#: .\website\templates\about.html:7
+msgid "Who am I?"
+msgstr "¿Quién soy?"
+
+#: .\website\templates\about.html:11
+#, python-format
+msgid ""
+"<p> I am from <a href=\"https://www.google.com/maps/place/Buenos+Aires,+Cdad."
+"+Aut%%C3%%B3noma+de+Buenos+Aires/\" class=\"link\" target=\"_blank\"> Buenos "
+"Aires, Argentina ↗ </a> and, more than just a <strong>software developer</"
+"strong>, I consider myself an ambitious individual who believes that we can "
+"always improve, both ourselves and the world around us. </p> <p> As an "
+"<strong>inconformist</strong>, I constantly strive for better solutions and "
+"innovative ideas. Software development is the bridge I use to materialize "
+"that belief, turning concepts into reality and always pushing the boundaries "
+"of what I am capable of (and, maybe in a future, of what is even possible). "
+"</p> <p> So, take a look around, explore <a href=\"%(portfolio_url)s\" class="
+"\"link\">my portfolio</a> and, if you think that I can be helpful to you, "
+"just contact me! I'm always eager for new projects. </p>"
+msgstr ""
+"<p> Soy de <a href=\"https://www.google.com/maps/place/Buenos+Aires,+Cdad."
+"+Aut%%C3%%B3noma+de+Buenos+Aires/\" class=\"link\" target=\"_blank\"> Buenos "
+"Aires, Argentina ↗ </a> y, más que solo un <strong>desarrollador de "
+"software</strong>, me considero una persona ambiciosa que cree que siempre "
+"podemos mejorar, tanto a nosotros mismos como al mundo que nos rodea. </p> "
+"<p> Soy un <strong>inconformista</strong>, y siempre busco mejores "
+"soluciones e ideas innovadoras. El desarrollo de software es el puente que "
+"utilizo para materializar esa creencia, convirtiendo conceptos en realidad y "
+"siempre llevando al límite lo que soy capaz de hacer (y, tal vez en un "
+"futuro, incluso lo que es posible). </p> <p> Entonces, date una vuelta, "
+"explorá <a href=\"%(portfolio_url)s\" class=\"link\">mi portafolio</a> y, si "
+"pensás que puedo ser útil para vos, ¡simplemente contactame! Siempre estoy "
+"con ganas de nuevos proyectos. </p>"
+
+#: .\website\templates\contact.html:4
+msgid "Contact"
+msgstr "Contacto"
+
+#: .\website\templates\contact.html:7
+msgid "Want to talk?"
+msgstr "¿Querés hablar?"
+
+#: .\website\templates\contact.html:12
+msgid ""
+"Have a project in mind or just want to say hello? Feel free to reach me out! "
+"Below are my email and my online profiles."
+msgstr ""
+"¿Tenés un proyecto en mente o simplemente me querés saludar? ¡No dudes en "
+"comunicarte conmigo! A continuación te dejo mi correo electrónico y mis "
+"perfiles en distintos sitios web."
+
+#: .\website\templates\home.html:4
 msgid "Home"
 msgstr "Inicio"
+
+#: .\website\templates\home.html:7
+#, python-format
+msgid ""
+"<span class=\"dark:text-light\">Transforming ideas into</span> <a href="
+"\"%(portfolio_url)s\" class=\"text-darker dark:text-lighter link\">real "
+"software</a>"
+msgstr ""
+"<span class=\"dark:text-light\">Transformando ideas en</span> <a href="
+"\"%(portfolio_url)s\" class=\"text-darker dark:text-lighter link\">software "
+"real</a>"
+
+#: .\website\templates\home.html:15
+msgid "Welcome, I am"
+msgstr "Bienvenido, soy"
+
+#: .\website\templates\home.html:21
+msgid "Your trusted developer"
+msgstr "Tu desarrollador de confianza"

@@ -11,8 +11,6 @@
             | Nicolás Pujía
         </title>
         <link rel="icon" type="image/ico" href="{% static "favicon.ico" %}" />
-        <script src="{% static "js/theme.js" %}" defer></script>
-        <script src="{% static "js/menu.js" %}" defer></script>
         <meta name="description"
               content="{% block description %}{% endblock description %}">
         <meta name="keywords" content="{% block keywords %}{% endblock keywords %}">
@@ -21,11 +19,35 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
               rel="stylesheet">
-        {% tailwind_preload_css %}
         {% tailwind_css %}
+        {% url "home" as home_url %}
+        {% url "about" as about_url %}
+        {% url "portfolio" as portfolio_url %}
+        {% url "contact" as contact_url %}
     </head>
-    <body class="text-dark dark:text-light text-xl font-sans">
-        {% block content %}
-        {% endblock content %}
+    <body class="bg-gradient-to-t from-light to-lighter dark:from-darker dark:to-dark text-dark  dark:text-light text-xl font-sans min-h-screen flex flex-col gap-8 p-4 sm:gap-16 sm:p-16">
+        <header class="flex flex-row justify-between w-full">
+            <nav class="font-extralight text-3xl flex flex-row justify-between w-full">
+                <ul class="backdrop-blur-lg z-10 size-full absolute left-0 text-center py-24 top-0 gap-8 hidden flex-col lg:flex lg:p-0 lg:static lg:flex-row rounded-b-lg"
+                    id="nav-links">
+                    {% include "navbar_items/text_link.html" with href=home_url text="Home" %}
+                    {% include "navbar_items/text_link.html" with href=about_url text="About" %}
+                    {% include "navbar_items/text_link.html" with href=portfolio_url text="Portfolio" %}
+                    {% include "navbar_items/text_link.html" with href=contact_url text="Contact" %}
+                </ul>
+                <ul class="flex flex-row gap-8 justify-between z-20">
+                    <div class="lg:hidden">{% include "navbar_items/buttons/menu.html" %}</div>
+                    {% include "navbar_items/buttons/theme.html" %}
+                </ul>
+            </nav>
+        </header>
+        <main class="animate-fade-in">
+            <h1 class="dark:text-lighter text-5xl sm:text-7xl md:text-8xl xl:text-9xl text-center align-middle py-8">
+                {% block heading %}
+                {% endblock heading %}
+            </h1>
+            {% block content %}
+            {% endblock content %}
+        </main>
     </body>
 </html>

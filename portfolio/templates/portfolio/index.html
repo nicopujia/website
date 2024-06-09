@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}
+    {% translate "Portfolio" %}
+{% endblock title %}
+{% block heading %}
+    {% translate "What have I made?" %}
+{% endblock heading %}
+{% block content %}
+    <div class="flex flex-col gap-8">
+        {% blocktranslate trimmed %}
+            <p>
+                Welcome to my portfolio! Here, you'll find a collection of my most significant projects and milestones.
+            </p>
+            <p>
+                Each project not only showcases a particular technology from my "tech stack", but also reflects the scale and complexity of the work I've done. Besides, the more substantial and frequent a technology appears in my projects, the more expertise I have with it. Take a look and tell me what you think!
+            </p>
+        {% endblocktranslate %}
+        <div class="max-w-screen-2xl grid grid-flow-row md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12 lg:gap-16">
+            {% get_current_language as LANGUAGE_CODE %}
+            {% for project in projects %}
+                <article>
+                    <a class="bg-lighter dark:bg-darker rounded-lg overflow-hidden group flex flex-col sm:flex-row duration-300 scale-100 hover:scale-105 shadow-primary shadow-md hover:shadow-lg hover:shadow-primary"
+                       href="{% url "project" project.slug %}">
+                        <div class="flex flex-col order-last">
+                            <h2 class="text-primary text-2xl pt-4 px-4 font-extrabold underline decoration-primary/35 group-hover:decoration-primary decoration-dotted group-hover:decoration-solid duration-300">
+                                {{ project.title }}
+                            </h2>
+                            <ul class="flex flex-wrap p-4">
+                                {% for tag in project.tags|split:"," %}
+                                    <li class="bg-light text-dark dark:bg-dark dark:text-light bg-opacity-50 inline-block rounded-full px-4 pt-1 mr-1 mb-1 text-sm font-semibold">
+                                        {{ tag }}
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <img class="w-full h-auto object-cover order-first"
+                             src="{{ project.icon.url }}"
+                             alt="{{ project.icon.name }}"
+                             width="{{ project.icon.width }}"
+                             height="{{ project.icon.height }}">
+                    </a>
+                </article>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock content %}
