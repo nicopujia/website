@@ -19,7 +19,7 @@ urlpatterns += i18n_patterns(
     path('contact', ContactView.as_view(), name='contact'),
     path('portfolio/', ProjectListView.as_view(), name='portfolio'),
     path('portfolio/<slug:slug>/', ProjectDetailView.as_view(), name='project'),
-    prefix_default_language=False,
+    prefix_default_language=True,
 )
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

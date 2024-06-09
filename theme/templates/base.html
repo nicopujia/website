@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% load static tailwind_tags i18n %}
-{% get_current_language as LANGUAGE_CODE %}
-<html lang="{{ LANGUAGE_CODE }}" class="scroll-smooth">
+{% get_current_language as CURRENT_LANGUAGE %}
+<html lang="{{ CURRENT_LANGUAGE }}" class="scroll-smooth">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,6 +37,14 @@
                 </ul>
                 <ul class="flex flex-row gap-8 justify-between z-20">
                     <div class="lg:hidden">{% include "navbar_items/buttons/menu.html" %}</div>
+                    {% get_available_languages as AVAILABLE_LANGUAGES %}
+                    {% for language in AVAILABLE_LANGUAGES %}
+                        {% with lang_code=language.0 url_without_lang=request.get_full_path|slice:"3:" %}
+                            {% if lang_code != CURRENT_LANGUAGE %}
+                                {% include "navbar_items/text_link.html" with href="/"|add:lang_code|add:url_without_lang text=lang_code %}
+                            {% endif %}
+                        {% endwith %}
+                    {% endfor %}
                     {% include "navbar_items/buttons/theme.html" %}
                 </ul>
             </nav>
