@@ -25,10 +25,10 @@
         {% url "portfolio" as portfolio_url %}
         {% url "contact" as contact_url %}
     </head>
-    <body class="bg-gradient-to-t from-light to-lighter dark:from-darker dark:to-dark text-dark  dark:text-light text-xl font-sans min-h-screen flex flex-col gap-8 p-4 sm:gap-16 sm:p-16">
+    <body class="bg-gradient-to-t from-light to-lighter dark:from-darker dark:to-dark text-dark  dark:text-light text-xl font-sans min-h-screen flex flex-col gap-8 p-8 sm:gap-16 sm:p-16">
         <header class="flex flex-row justify-between w-full">
-            <nav class="font-extralight text-3xl flex flex-row justify-between w-full">
-                <ul class="backdrop-blur-lg z-10 size-full absolute left-0 text-center py-24 top-0 gap-8 hidden flex-col lg:flex lg:p-0 lg:static lg:flex-row rounded-b-lg"
+            <nav class="font-extralight text-4xl flex flex-row justify-between w-full">
+                <ul class="backdrop-blur-lg z-10 size-full border-b border-darker dark:border-light animate-fade-in-quickly absolute left-0 top-0 pt-24 sm:py-32 pb-8 sm:pb-16 px-8 sm:px-16 gap-8 hidden flex-col xl:border-0 xl:flex xl:p-0 xl:static xl:flex-row xl:backdrop-filter-none"
                     id="nav-links">
                     {% include "navbar_items/text_link.html" with href=home_url text="Home" %}
                     {% include "navbar_items/text_link.html" with href=about_url text="About" %}
@@ -36,7 +36,7 @@
                     {% include "navbar_items/text_link.html" with href=contact_url text="Contact" %}
                 </ul>
                 <ul class="flex flex-row gap-8 justify-between z-20">
-                    <div class="lg:hidden">{% include "navbar_items/buttons/menu.html" %}</div>
+                    {% include "navbar_items/buttons/menu.html" with extra_classes="xl:hidden" %}
                     {% get_available_languages as AVAILABLE_LANGUAGES %}
                     {% for language in AVAILABLE_LANGUAGES %}
                         {% with lang_code=language.0 url_without_lang=request.get_full_path|slice:"3:" %}
