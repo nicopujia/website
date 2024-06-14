@@ -21,8 +21,7 @@ module.exports = {
     theme: {
         extend: {
             animation: {
-                'fade-in': 'fade-in 1s',
-                'fade-in-quickly': 'fade-in 0.2s',
+                'svg-path': 'svg-path 5s linear both',
             },
             keyframes: {
                 'fade-in': {
@@ -33,10 +32,15 @@ module.exports = {
                         opacity: '100',
                     },
                 },
+                'svg-path': {
+                    '100%': {
+                        'stroke-dashoffset': 0,
+                    },
+                },
             },
         },
         fontFamily: {
-            'sans': [
+            sans: [
                 '"Josefin Sans"',
                 'sans-serif',
             ],

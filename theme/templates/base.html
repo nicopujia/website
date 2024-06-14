@@ -27,10 +27,10 @@
     </head>
     <body class="bg-gradient-to-t from-light to-lighter dark:from-darker dark:to-dark text-dark  dark:text-light text-xl font-sans min-h-screen flex flex-col gap-8 p-8 sm:gap-16 sm:p-16">
         <header class="flex flex-row justify-between w-full">
-            <nav class="font-extralight text-4xl flex flex-row justify-between w-full">
-                <ul class="backdrop-blur-lg z-10 size-full border-b border-darker dark:border-light animate-fade-in-quickly absolute left-0 top-0 pt-24 sm:py-32 pb-8 sm:pb-16 px-8 sm:px-16 gap-8 hidden flex-col xl:border-0 xl:flex xl:p-0 xl:static xl:flex-row xl:backdrop-filter-none"
+            <nav class="font-light text-4xl flex flex-row justify-between w-full">
+                <ul class="backdrop-blur-lg z-10 size-full border-b border-darker dark:border-light absolute left-0 top-0 pt-24 sm:py-32 pb-8 sm:pb-16 px-8 sm:px-16 gap-8 hidden flex-col xl:border-0 xl:flex xl:p-0 xl:static xl:flex-row xl:backdrop-filter-none"
                     id="nav-links">
-                    {% include "navbar_items/text_link.html" with href=home_url text="Home" %}
+                    {% include "navbar_items/icon_link.html" with href=home_url extra_classes="w-auto fill-none stroke-dark dark:stroke-light" view_box="-1 -1 39.99 19" target="_self" svg_path="m 0 9 c 0 0 4 -9 7 -9 c 5 0 3 17 0 17 c -3 0 7 -17 11 -17 c 4 0 1 10 1 10 c -5 14 8 3 8 -4 c 0 -3 -1 -6 -3 -6 c -3 0 -3 1 2 1 c 16 -2 16 9 -0.083 9" %}
                     {% include "navbar_items/text_link.html" with href=about_url text="About" %}
                     {% include "navbar_items/text_link.html" with href=portfolio_url text="Portfolio" %}
                     {% include "navbar_items/text_link.html" with href=contact_url text="Contact" %}
@@ -49,7 +49,7 @@
                 </ul>
             </nav>
         </header>
-        <main class="animate-fade-in">
+        <main class="animate-[fade-in_1s]">
             <h1 class="dark:text-lighter text-5xl sm:text-7xl md:text-8xl xl:text-9xl text-center align-middle py-8">
                 {% block heading %}
                 {% endblock heading %}

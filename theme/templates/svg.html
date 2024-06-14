@@ -1,10 +1,8 @@
 {% load i18n %}
 <svg class="size-8 {{ extra_classes }}"
      xmlns="http://www.w3.org/2000/svg"
-     width="16"
-     height="16"
      fill="currentColor"
-     viewBox="0 0 16 16">
+     viewBox="{{ view_box|default:"0 0 16 16" }}">
     <path d="{{ svg_path }}" />
     <title>{% translate help_text %}</title>
 </svg>
