@@ -21,7 +21,7 @@ module.exports = {
     theme: {
         extend: {
             animation: {
-                'svg-path': 'svg-path 5s linear both',
+                'svg-path': 'svg-path 8s linear both',
             },
             keyframes: {
                 'fade-in': {
