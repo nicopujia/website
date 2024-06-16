@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "simple_page.html" %}
 {% load i18n static %}
 {% block title %}
     {% translate "About" %}
@@ -6,22 +6,22 @@
 {% block heading %}
     {% translate "Who am I?" %}
 {% endblock heading %}
-{% block content %}
+{% block main_content %}
     <div class="flex flex-col gap-2 max-w-prose m-auto">
         {% blocktranslate trimmed %}
             <p>
                 I am from
-                <a href="https://www.google.com/maps/place/Buenos+Aires,+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/" class="link" target="_blank">
-                    Buenos Aires, Argentina ↗
-                </a>
+                <a class="link"
+                   href="https://www.google.com/maps/place/Buenos+Aires,+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/"
+                   target="_blank">Buenos Aires, Argentina ↗</a>
                 and, more than just a <strong>software developer</strong>, I consider myself an ambitious individual who believes that we can always improve, both ourselves and the world around us.
             </p>
             <p>
                 As an <strong>inconformist</strong>, I constantly strive for better solutions and innovative ideas. Software development is the bridge I use to materialize that belief, turning concepts into reality and always pushing the boundaries of what I am capable of (and, maybe in a future, of what is even possible).
             </p>
             <p>
-                So, take a look around, explore <a href="{{ portfolio_url }}" class="link">my portfolio</a> and, if you think that I can be helpful to you, just contact me! I'm always eager for new projects.
+                So, take a look around, explore <a href="{{ portfolio_url }}" class="link">my portfolio</a> and, if you think that I can be helpful to you, feel free to <a href="{{ contact_url }}" class="link">contact me</a>! I'm always eager for new projects.
             </p>
         {% endblocktranslate %}
     </div>
-{% endblock content %}
+{% endblock main_content %}

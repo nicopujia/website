@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+const drawSvgPathAnimDuration = '4s'
 module.exports = {
     content: [
         // Templates within theme app (BASE_DIR/theme/templates), e.g. base.html.
@@ -21,7 +23,10 @@ module.exports = {
     theme: {
         extend: {
             animation: {
-                'svg-path': 'svg-path 8s linear both',
+                'draw-svg-path': `draw-svg-path ${drawSvgPathAnimDuration} ease-in-out`,
+                'light-ray': 'light-ray 0.8s steps(2, jump-none) infinite alternate',
+                'fade-in': 'fade-in 1s both',
+                'fade-in-after-draw-svg-path': `fade-in 2s ${drawSvgPathAnimDuration} both`,
             },
             keyframes: {
                 'fade-in': {
@@ -32,9 +37,17 @@ module.exports = {
                         opacity: '100',
                     },
                 },
-                'svg-path': {
+                'draw-svg-path': {
                     '100%': {
                         'stroke-dashoffset': 0,
+                    },
+                },
+                'light-ray': {
+                    '0%': {
+                        stroke: '#fecf00',
+                    },
+                    '100%': {
+                        stroke: '#00000000',
                     },
                 },
             },
@@ -52,6 +65,10 @@ module.exports = {
             dark: '#52525b',
             darker: '#18181b',
             transparent: '#00000000',
+        },
+        screens: {
+            xs: '365px',
+            ...defaultTheme.screens,
         },
     },
     plugins: [

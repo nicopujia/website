@@ -3,33 +3,56 @@
 {% block title %}
     {% translate "Home" %}
 {% endblock title %}
-{% block heading %}
-    <svg viewBox="-15 -38 194 82" class="w-full mx-auto h-min mb-16">
-        <path id="banner-path" stroke-linecap="round" stroke-linejoin="round" class="animate-svg-path stroke-dark dark:stroke-light stroke-1 xl:stroke-[0.5] fill-none" d="m 0 -10 a 1 1 0 0 1 40 0 c 0 24 -13 20 -13 39 q 0 2 -2 2 h -10 q -2 0 -2 -2 c 0 -20 -13 -16 -13 -40 M 15 33 h 10 a 1 1 0 0 1 0 4 h -10 a 1 1 0 0 1 0 -4 M -5 -10 h -9 M -2 -22 l -8 -4 M -3 2 l -8 4 M 45 -10 h 9 M 43 2 l 8 4 M 42 -22 l 8 -4 Z M 60 0 h 64 l -4 -4 l 4 4 l -4 4 l 4 -4 Z m 84 -37 h 20 a 10 10 0 0 1 10 10 v 60 a 10 10 0 0 1 -10 10 h -20 a 10 10 0 0 1 -10 -10 v -60 a 10 10 0 0 1 10 -10 m 9 5 a 1 1 0 1 1 1 1 a 1 1 0 0 1 -1 -1" />
-    </svg>
-    <script>
-        const bannerPath = document.getElementById('banner-path')
-        const length = bannerPath.getTotalLength();
-        bannerPath.style.strokeDasharray = length;
-        bannerPath.style.strokeDashoffset = length;
-    </script>
-    {% blocktranslate trimmed %}
-        <span class="opacity-0 animate-[fade-in_2s_2s_both] xl:leading-relaxed">
-            <span class="dark:text-light">Transforming ideas into</span>
-            <a href="{{ portfolio_url }}" class="text-darker dark:text-lighter link">real software</a>
-        </span>
-    {% endblocktranslate %}
-{% endblock heading %}
+{% block header_class %}
+    {{ block.super }}
+    opacity-0 animate-fade-in-after-draw-svg-path
+{% endblock header_class %}
 {% block content %}
-    <div class="flex flex-col gap-8 text-center align-middle">
-        <p class="text-2xl sm:text-3xl opacity-0 animate-[fade-in_2s_3s_both]">
-            {% translate "Welcome, I am" %}
-            <strong>
-                <a href="{{ about_url }}" class="text-primary link">Nicolás Pujía</a>
-            </strong>
-        </p>
-        <p class="text-1xl sm:text-2xl italic opacity-0 animate-[fade-in_2s_4s_both]">
-            <i>{% translate "Your trusted developer" %}</i>
-        </p>
-    </div>
+    <main>
+        {# Screen 0 #}
+        <div class="flex h-screen relative p-8 text-center" id="screen-0">
+            <svg viewBox="-15 -38 194 82"
+                 class="my-auto w-full h-min stroke-dark dark:stroke-light stroke-1 fill-none">
+                {% include "include/svg/animated_path.html" with d="M 0 -10 A 1 1 0 0 1 40 -10 C 40 14 27 10 27 29 Q 27 31 25 31 H 15 Q 13 31 13 29 C 13 9 0 13 0 -11" %}
+                {% include "include/svg/animated_path.html" with d="M 15 33 H 25 A 1 1 0 0 1 25 37 H 15 A 1 1 0 0 1 15 33" %}
+                {% include "include/svg/animated_path.html" with extra_class="light-ray" d="M -5 -10 H -14" %}
+                {% include "include/svg/animated_path.html" with extra_class="light-ray" d="M -2 -22 L -10 -26" %}
+                {% include "include/svg/animated_path.html" with extra_class="light-ray" d="M -3 2 L -11 6" %}
+                {% include "include/svg/animated_path.html" with extra_class="light-ray" d="M 45 -10 H 54" %}
+                {% include "include/svg/animated_path.html" with extra_class="light-ray" d="M 43 2 L 51 6" %}
+                {% include "include/svg/animated_path.html" with extra_class="light-ray" d="M 42 -22 L 50 -26 Z" %}
+                {% include "include/svg/animated_path.html" with d="M 60 0 H 124 L 120 -4 L 124 0 L 120 4 L 124 0 Z" %}
+                {% include "include/svg/animated_path.html" with d="M 144 -37 H 164 A 10 10 0 0 1 174 -27 V 33 A 10 10 0 0 1 164 43 H 144 A 10 10 0 0 1 134 33 V -27 A 10 10 0 0 1 144 -37" %}
+                {% include "include/svg/animated_path.html" with d="M 153 -32 A 1 1 0 1 1 154 -31 A 1 1 0 0 1 153 -32" %}
+            </svg>
+            {% include "include/scroll_down_btn.html" with target_element="screen-1" extra_class="opacity-0 animate-fade-in-after-draw-svg-path" %}
+        </div>
+        {# Screen 1 #}
+        <div class="flex h-screen relative appear-on-scroll p-8 text-center text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl xl:leading-relaxed"
+             id="screen-1">
+            <h1 class="m-auto">
+                {% blocktranslate trimmed %}
+                    <span class="dark:text-light">Transforming ideas into</span>
+                    <a href="{{ portfolio_url }}" class="text-darker dark:text-lighter link">real software</a>
+                {% endblocktranslate %}
+            </h1>
+            {% include "include/scroll_down_btn.html" with target_element="screen-2" %}
+        </div>
+        {# Screen 2 #}
+        <div class="flex h-screen relative appear-on-scroll p-8 text-center"
+             id="screen-2">
+            <div class="m-auto flex flex-col gap-16">
+                <p class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
+                    {% translate "Welcome, I am" %}
+                    <strong>
+                        <a href="{{ about_url }}" class="text-darker dark:text-lighter link">Nicolás Pujía</a>
+                    </strong>
+                </p>
+                <p class="text-3xl sm:text-4xl italic">
+                    <i>{% translate "Your trusted developer" %}</i>
+                </p>
+            </div>
+            {% include "include/scroll_down_btn.html" with extra_class="-scale-y-100 mb-4 hover:-scale-y-110" target_element="screen-0" %}
+        </div>
+    </main>
 {% endblock content %}

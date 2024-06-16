@@ -1,10 +1,10 @@
 const storageKey = 'theme'
 const lightTheme = 'light'
 const darkTheme = 'dark'
-const themeButton = document.getElementById('theme-button')
-const autoIcon = themeButton.children.item(0)
-const darkIcon = themeButton.children.item(1)
-const lightIcon = themeButton.children.item(2)
+const themeBtn = document.getElementById('theme-btn')
+const autoIcon = themeBtn.children.item(0)
+const darkIcon = themeBtn.children.item(1)
+const lightIcon = themeBtn.children.item(2)
 
 function setDarkTheme(enabled) {
     document.documentElement.classList.toggle('dark', enabled)
@@ -28,14 +28,14 @@ function showSavedTheme() {
             break;
     }
 
-    for (const icon of themeButton.children) {
+    for (const icon of themeBtn.children) {
         icon.classList.add('hidden')
     }
 
     currentIcon.classList.remove('hidden')
 }
 
-themeButton.addEventListener('click', () => {
+themeBtn.addEventListener('click', () => {
     switch (localStorage.getItem(storageKey)) {
         case lightTheme:
             localStorage.setItem(storageKey, null)

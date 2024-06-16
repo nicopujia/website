@@ -1,61 +1,113 @@
 <!DOCTYPE html>
 {% load static tailwind_tags i18n %}
-{% get_current_language as CURRENT_LANGUAGE %}
-<html lang="{{ CURRENT_LANGUAGE }}" class="scroll-smooth">
+{% get_current_language as current_language %}
+<html lang="{{ current_language }}" class="scroll-smooth">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             {% block title %}
             {% endblock title %}
             | Nicolás Pujía
         </title>
-        <link rel="icon" type="image/ico" href="{% static "favicon.ico" %}" />
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description"
               content="{% block description %}{% endblock description %}">
         <meta name="keywords" content="{% block keywords %}{% endblock keywords %}">
+        <!-- Favicon -->
+        <link rel="icon" type="image/ico" href="{% static "favicon.ico" %}" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
               rel="stylesheet">
+        <!-- Styles -->
         {% tailwind_css %}
+        {# Urls #}
         {% url "home" as home_url %}
         {% url "about" as about_url %}
         {% url "portfolio" as portfolio_url %}
         {% url "contact" as contact_url %}
     </head>
-    <body class="bg-gradient-to-t from-light to-lighter dark:from-darker dark:to-dark text-dark  dark:text-light text-xl font-sans min-h-screen flex flex-col gap-8 p-8 sm:gap-16 sm:p-16">
-        <header class="flex flex-row justify-between w-full">
-            <nav class="font-light text-4xl flex flex-row justify-between w-full">
-                <ul class="backdrop-blur-lg z-10 size-full border-b border-darker dark:border-light absolute left-0 top-0 pt-24 sm:py-32 pb-8 sm:pb-16 px-8 sm:px-16 gap-8 hidden flex-col xl:border-0 xl:flex xl:p-0 xl:static xl:flex-row xl:backdrop-filter-none"
-                    id="nav-links">
-                    {% include "navbar_items/icon_link.html" with href=home_url help_text="Home" extra_classes="w-auto fill-none stroke-dark dark:stroke-light" view_box="-1 -1 39.99 19" target="_self" svg_path="m 0 9 c 0 0 4 -9 7 -9 c 3 0 3 17 0 17 c -3 0 7 -17 11 -17 c 4 0 1 10 1 10 c -5 14.55 8 3 8 -4 c 0 -4 -1 -6 -3 -6 c -2 0 -2 2 2 1 c 16 -3 16 11 -0.083 9" %}
-                    {% include "navbar_items/text_link.html" with href=about_url text="About" %}
-                    {% include "navbar_items/text_link.html" with href=portfolio_url text="Portfolio" %}
-                    {% include "navbar_items/text_link.html" with href=contact_url text="Contact" %}
+    <body class="bg-gradient-to-t from-light to-lighter dark:from-darker dark:to-dark text-dark dark:text-light text-xl font-sans">
+        <!-- Navbar -->
+        <header class="{% block header_class %}flex w-full fixed top-0 left-0 z-10 backdrop-blur-lg p-8 font-light text-4xl{% endblock header_class %}"
+                id="navbar">
+            <nav class="flex justify-between w-full relative">
+                <!-- Links -->
+                <ul class="h-screen w-screen z-20 fixed left-0 top-0 px-8 pt-24 gap-8 hidden flex-col xl:size-full xl:flex xl:p-0 xl:static xl:flex-row xl:backdrop-filter-none"
+                    id="navbar-links">
+                    <li class="btn hover:stroke-2">
+                        <a href="{{ home_url }}" class="inline-block">
+                            <svg class="size-8 w-auto fill-none stroke-dark dark:stroke-light"
+                                 viewBox="-1 -1 39.99 19">
+                                <path d="m 0 9 c 0 0 4 -9 7 -9 c 3 0 3 17 0 17 c -3 0 7 -17 11 -17 c 4 0 1 10 1 10 c -5 14.55 8 3 8 -4 c 0 -4 -1 -6 -3 -6 c -2 0 -2 2 2 1 c 16 -3 16 11 -0.083 9" />
+                                <title>{% translate "Home"|upper %}</title>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="btn">
+                        <a href="{{ about_url }}">{% translate "About"|upper %}</a>
+                    </li>
+                    <li class="btn">
+                        <a href="{{ portfolio_url }}">{% translate "Portfolio"|upper %}</a>
+                    </li>
+                    <li class="btn">
+                        <a href="{{ contact_url }}">{% translate "Contact"|upper %}</a>
+                    </li>
                 </ul>
-                <ul class="flex flex-row gap-8 justify-between z-20">
-                    {% include "navbar_items/buttons/menu.html" with extra_classes="xl:hidden" %}
-                    {% get_available_languages as AVAILABLE_LANGUAGES %}
-                    {% for language in AVAILABLE_LANGUAGES %}
+                <!-- Buttons -->
+                <ul class="flex gap-8 justify-between z-20">
+                    <li class="h-8 xl:hidden">
+                        <button type="button" id="navbar-menu-btn" class="btn">
+                            <svg fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                                <title>{% translate "Open menu" %}</title>
+                            </svg>
+                            <svg class="hidden" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                                <title>{% translate "Close menu" %}</title>
+                            </svg>
+                        </button>
+                    </li>
+                    {% get_available_languages as available_languages %}
+                    {% for language in available_languages %}
                         {% with lang_code=language.0 url_without_lang=request.get_full_path|slice:"3:" %}
-                            {% if lang_code != CURRENT_LANGUAGE %}
-                                {% include "navbar_items/text_link.html" with href="/"|add:lang_code|add:url_without_lang text=lang_code %}
+                            {% if lang_code != current_language %}
+                                <li class="btn">
+                                    <a href="{{ "/"|add:lang_code|add:url_without_lang }}">{{ lang_code|upper }}</a>
+                                </li>
                             {% endif %}
                         {% endwith %}
                     {% endfor %}
-                    {% include "navbar_items/buttons/theme.html" %}
+                    <li class="h-8">
+                        <button type="button" id="theme-btn" class="btn">
+                            <svg fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16" />
+                                <title>{% translate "Toggle theme auto" %}</title>
+                            </svg>
+                            <svg class="hidden" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286" />
+                                <title>{% translate "Toggle dark theme" %}</title>
+                            </svg>
+                            <svg class="hidden" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8m.5-9.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707M3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707" />
+                                <title>{% translate "Toggle light theme" %}</title>
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
             </nav>
         </header>
-        <main class="animate-[fade-in_1s]">
-            <h1 class="dark:text-lighter text-5xl sm:text-7xl md:text-8xl xl:text-9xl text-center align-middle py-8">
-                {% block heading %}
-                {% endblock heading %}
-            </h1>
-            {% block content %}
-            {% endblock content %}
-        </main>
+        <!-- Content -->
+        {% block content %}
+        {% endblock content %}
+        <!-- Scripts -->
+        {% block scripts %}
+            <script src="{% static "scripts/animations/appear_on_scroll.js" %}"></script>
+            <script src="{% static "scripts/animations/draw_svg_paths.js" %}"></script>
+            <script src="{% static "scripts/navbar.js" %}"></script>
+            <script src="{% static "scripts/theme.js" %}"></script>
+        {% endblock scripts %}
     </body>
 </html>

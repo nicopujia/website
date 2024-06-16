@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "simple_page.html" %}
 {% load i18n %}
 {% block title %}
     {% translate "Portfolio" %}
@@ -6,7 +6,7 @@
 {% block heading %}
     {% translate "What have I made?" %}
 {% endblock heading %}
-{% block content %}
+{% block main_content %}
     <div class="flex flex-col gap-8">
         {% blocktranslate trimmed %}
             <p>
@@ -44,4 +44,4 @@
             {% endfor %}
         </div>
     </div>
-{% endblock content %}
+{% endblock main_content %}

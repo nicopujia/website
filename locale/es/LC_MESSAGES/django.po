@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-08 21:38-0300\n"
+"POT-Creation-Date: 2024-06-16 19:38-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1513,7 +1513,7 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: .\portfolio\templates\portfolio\index.html:4
+#: .\portfolio\templates\portfolio\index.html:4 .\theme\templates\base.html:53
 msgid "Portfolio"
 msgstr "Portafolio"
 
@@ -1554,49 +1554,61 @@ msgstr "Descripción"
 msgid "Screenshots"
 msgstr "Capturas de pantalla"
 
-#: .\theme\templates\navbar_items\buttons\menu.html:8
+#: .\theme\templates\base.html:45 .\website\templates\home.html:4
+msgid "Home"
+msgstr "Inicio"
+
+#: .\theme\templates\base.html:50 .\website\templates\about.html:4
+msgid "About"
+msgstr "Sobre mí"
+
+#: .\theme\templates\base.html:56 .\website\templates\contact.html:4
+msgid "Contact"
+msgstr "Contacto"
+
+#: .\theme\templates\base.html:65
 msgid "Open menu"
 msgstr "Abrir menú"
 
-#: .\theme\templates\navbar_items\buttons\menu.html:9
+#: .\theme\templates\base.html:69
 msgid "Close menu"
 msgstr "Cerrar menú"
 
-#: .\theme\templates\navbar_items\buttons\theme.html:8
+#: .\theme\templates\base.html:87
 msgid "Toggle theme auto"
 msgstr "Alternar tema automático"
 
-#: .\theme\templates\navbar_items\buttons\theme.html:9
+#: .\theme\templates\base.html:91
 msgid "Toggle dark theme"
 msgstr "Alternar tema oscuro"
 
-#: .\theme\templates\navbar_items\buttons\theme.html:10
+#: .\theme\templates\base.html:95
 msgid "Toggle light theme"
 msgstr "Alternar tema claro"
 
-#: .\website\templates\about.html:4
-msgid "About"
-msgstr "Sobre mí"
+#: .\theme\templates\include\scroll_down_btn.html:13
+msgid "Scroll"
+msgstr "Desplazarse"
 
 #: .\website\templates\about.html:7
 msgid "Who am I?"
 msgstr "¿Quién soy?"
 
 #: .\website\templates\about.html:11
-#, python-format
 msgid ""
-"<p> I am from <a href=\"https://www.google.com/maps/place/Buenos+Aires,+Cdad."
-"+Aut%%C3%%B3noma+de+Buenos+Aires/\" class=\"link\" target=\"_blank\"> Buenos "
-"Aires, Argentina ↗ </a> and, more than just a <strong>software developer</"
-"strong>, I consider myself an ambitious individual who believes that we can "
-"always improve, both ourselves and the world around us. </p> <p> As an "
-"<strong>inconformist</strong>, I constantly strive for better solutions and "
-"innovative ideas. Software development is the bridge I use to materialize "
-"that belief, turning concepts into reality and always pushing the boundaries "
-"of what I am capable of (and, maybe in a future, of what is even possible). "
-"</p> <p> So, take a look around, explore <a href=\"%(portfolio_url)s\" class="
-"\"link\">my portfolio</a> and, if you think that I can be helpful to you, "
-"just contact me! I'm always eager for new projects. </p>"
+"<p> I am from <a class=\"link\" href=\"https://www.google.com/maps/place/"
+"Buenos+Aires,+Cdad.+Aut%%C3%%B3noma+de+Buenos+Aires/\" target=\"_blank"
+"\">Buenos Aires, Argentina ↗</a> and, more than just a <strong>software "
+"developer</strong>, I consider myself an ambitious individual who believes "
+"that we can always improve, both ourselves and the world around us. </p> <p> "
+"As an <strong>inconformist</strong>, I constantly strive for better "
+"solutions and innovative ideas. Software development is the bridge I use to "
+"materialize that belief, turning concepts into reality and always pushing "
+"the boundaries of what I am capable of (and, maybe in a future, of what is "
+"even possible). </p> <p> So, take a look around, explore <a href="
+"\"%(portfolio_url)s\" class=\"link\">my portfolio</a> and, if you think that "
+"I can be helpful to you, feel free to <a href=\"%(contact_url)s\" class="
+"\"link\">contact me</a>! I'm always eager for new projects. </p>"
 msgstr ""
 "<p> Soy de <a href=\"https://www.google.com/maps/place/Buenos+Aires,+Cdad."
 "+Aut%%C3%%B3noma+de+Buenos+Aires/\" class=\"link\" target=\"_blank\"> Buenos "
@@ -1607,14 +1619,10 @@ msgstr ""
 "soluciones e ideas innovadoras. El desarrollo de software es el puente que "
 "utilizo para materializar esa creencia, convirtiendo conceptos en realidad y "
 "siempre llevando al límite lo que soy capaz de hacer (y, tal vez en un "
-"futuro, incluso lo que es posible). </p> <p> Entonces, date una vuelta, "
+"futuro, de lo que es incluso posible). </p> <p> Entonces, date una vuelta, "
 "explorá <a href=\"%(portfolio_url)s\" class=\"link\">mi portafolio</a> y, si "
-"pensás que puedo ser útil para vos, ¡simplemente contactame! Siempre estoy "
-"con ganas de nuevos proyectos. </p>"
-
-#: .\website\templates\contact.html:4
-msgid "Contact"
-msgstr "Contacto"
+"pensás que puedo ser útil para vos, ¡simplemente <a href=\"%(contact_url)s\" class="
+"\"link\">contactame</a>! Siempre estoy con ganas de nuevos proyectos. </p>"
 
 #: .\website\templates\contact.html:7
 msgid "Want to talk?"
@@ -1629,11 +1637,23 @@ msgstr ""
 "comunicarte conmigo! A continuación te dejo mi correo electrónico y mis "
 "perfiles en distintos sitios web."
 
-#: .\website\templates\home.html:4
-msgid "Home"
-msgstr "Inicio"
+#: .\website\templates\contact.html:15
+msgid "Email me"
+msgstr ""
 
-#: .\website\templates\home.html:7
+#: .\website\templates\contact.html:16
+msgid "My GitHub profile"
+msgstr ""
+
+#: .\website\templates\contact.html:17
+msgid "My YouTube channel"
+msgstr ""
+
+#: .\website\templates\contact.html:18
+msgid "My Android apps"
+msgstr ""
+
+#: .\website\templates\home.html:34
 #, python-format
 msgid ""
 "<span class=\"dark:text-light\">Transforming ideas into</span> <a href="
@@ -1644,10 +1664,10 @@ msgstr ""
 "\"%(portfolio_url)s\" class=\"text-darker dark:text-lighter link\">software "
 "real</a>"
 
-#: .\website\templates\home.html:15
+#: .\website\templates\home.html:46
 msgid "Welcome, I am"
 msgstr "Bienvenido, soy"
 
-#: .\website\templates\home.html:21
+#: .\website\templates\home.html:52
 msgid "Your trusted developer"
 msgstr "Tu desarrollador de confianza"
