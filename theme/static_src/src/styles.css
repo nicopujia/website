@@ -11,3 +11,7 @@
         @apply opacity-65 hover:opacity-100 hover:font-semibold hover:stroke-2 motion-safe:duration-500 hover:scale-110 h-8 min-w-8 fill-dark hover:fill-darker dark:fill-light dark:hover:fill-lighter
     }
 }
+
+html {
+    scrollbar-width: none;
+}
