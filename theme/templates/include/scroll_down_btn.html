@@ -1,9 +1,8 @@
 {% load i18n %}
 <button type="button"
-    class="btn absolute bottom-0 left-1/2 transform -translate-x-1/2 {{ extra_class }}"
-    onclick="{% if target_position %}window.scrollTo(0, {{ target_position }});{% elif target_element %}document.getElementById('{{ target_element }}').scrollIntoView(){% else %}window.scrollBy(window.innerHeight){% endif %}""
-    >
-    <svg class="h-8 w-8 fill-none animate-bounce"
+        class="btn absolute bottom-0 left-1/2 transform -translate-x-1/2 {{ extra_class }}"
+        onclick="{% if target_position %}window.scrollTo(0, {{ target_position }});{% elif target_element %}document.getElementById('{{ target_element }}').scrollIntoView(){% else %}window.scrollBy(window.innerHeight){% endif %}">
+    <svg class="h-8 w-8 fill-none motion-safe:animate-bounce"
          viewBox="0 0 24 24"
          stroke="currentColor"
          stroke-linecap="round"

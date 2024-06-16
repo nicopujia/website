@@ -71,6 +71,11 @@ module.exports = {
             ...defaultTheme.screens,
         },
     },
+    variants: {
+        extend: {
+            animation: ['motion-safe'],
+        },
+    },
     plugins: [
         /**
          * '@tailwindcss/forms' is the forms plugin that provides a minimal styling

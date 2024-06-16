@@ -20,10 +20,10 @@
             {% get_current_language as LANGUAGE_CODE %}
             {% for project in projects %}
                 <article>
-                    <a class="bg-lighter dark:bg-darker rounded-lg overflow-hidden group flex flex-col sm:flex-row duration-300 scale-100 hover:scale-105 shadow-primary shadow-md hover:shadow-lg hover:shadow-primary"
+                    <a class="bg-lighter dark:bg-darker rounded-lg overflow-hidden group flex flex-col sm:flex-row motion-safe:duration-300 scale-100 hover:scale-105 shadow-primary shadow-md hover:shadow-lg hover:shadow-primary"
                        href="{% url "project" project.slug %}">
                         <div class="flex flex-col order-last">
-                            <h2 class="text-primary text-2xl pt-4 px-4 font-extrabold underline decoration-primary/35 group-hover:decoration-primary decoration-dotted group-hover:decoration-solid duration-300">
+                            <h2 class="text-primary text-2xl pt-4 px-4 font-extrabold underline decoration-primary/35 group-hover:decoration-primary decoration-dotted group-hover:decoration-solid motion-safe:duration-300">
                                 {{ project.title }}
                             </h2>
                             <ul class="flex flex-wrap p-4">

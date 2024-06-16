@@ -8,7 +8,7 @@
          alt="{{ project.icon.name }}"
          width="256"
          height="256"
-         class="rounded-2xl order-first inline-block m-8 shadow-sm hover:shadow-md duration-200 shadow-primary hover:shadow-primary hover:scale-105">
+         class="rounded-2xl order-first inline-block m-8 shadow-sm hover:shadow-md motion-safe:duration-200 shadow-primary hover:shadow-primary hover:scale-105">
     <span class="inline-block">{{ project.title }}</span>
 {% endblock heading %}
 {% block main_content %}
@@ -47,7 +47,7 @@
                                      alt="{{ screenshot.name }}"
                                      width="{{ screenshot.width }}"
                                      height="{{ screenshot.height }}"
-                                     class="hover:scale-110 duration-700">
+                                     class="hover:scale-110 motion-safe:duration-700">
                             </div>
                         {% endif %}
                     {% endfor %}
