@@ -1639,19 +1639,19 @@ msgstr ""
 
 #: .\website\templates\contact.html:15
 msgid "Email me"
-msgstr ""
+msgstr "Envíeme un correo electrónico"
 
 #: .\website\templates\contact.html:16
 msgid "My GitHub profile"
-msgstr ""
+msgstr "Mi perfil de GitHub"
 
 #: .\website\templates\contact.html:17
 msgid "My YouTube channel"
-msgstr ""
+msgstr "Mi canal de YouTube"
 
 #: .\website\templates\contact.html:18
 msgid "My Android apps"
-msgstr ""
+msgstr "Mis aplicaciones para Android"
 
 #: .\website\templates\home.html:34
 #, python-format
