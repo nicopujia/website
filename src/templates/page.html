@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block html_lang %}{{ page.lang }}{% endblock %}
-{% block title %}{{ super() }} > {{ page.title|striptags|title }}{% endblock %}
+{% block title %}{{ page.title|striptags|title }} · {{ SITENAME }}{% endblock %}
 {% block description %}{{ page.summary|striptags }}{% endblock %}
 {% if page.keywords %}
     {% block keywords %}{{ super() }}, {{ page.keywords }}{% endblock %}

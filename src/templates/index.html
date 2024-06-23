@@ -1,37 +1,37 @@
 {% extends "base.html" %}
 {% from "tags.html" import filter_list_item as tag_list_item with context %}
 {% from "categories.html" import filter_list_item as category_list_item with context %}
-{% block title %}{{ super() }} > Entries{% endblock %}
+{% block title %}Entries · {{ SITENAME }}{% endblock %}
 {% block description %}A list of all my entries{% endblock %}
-    {% block content %}
-        <section>
-            <h1 class="text-center py-24 px-8">
-                {% block content_title %}Entries{% endblock %}
-            </h1>
-            <div class="flex flex-wrap p-8 gap-8 justify-center container mx-auto">
-                {% for article in articles_page.object_list %}
-                    <article class="bg-lighter dark:bg-darker shadow-primary hover:shadow-primary motion-safe:duration-300 scale-100 hover:scale-105 shadow-md hover:shadow-lg rounded-lg max-w-sm flex flex-col h-fit float-start">
-                        {% if article.thumbnail %}
-                            <img src="/images/{{ article.thumbnail }}"
-                                 alt="Thumbnail"
-                                 class="rounded-t-lg order-first object-cover" />
-                        {% endif %}
-                        <div class="flex flex-col gap-2 p-4">
-                            <h1 class="link text-2xl font-extrabold underline flex flex-col gap-2">
-                                <a href="/{{ article.url }}">{{ article.title }}</a>
-                            </h1>
-                            <time datetime="{{ article.date.isoformat() }}" class="font-mono">{{ article.locale_date }}</time>
-                            <div class="markdown">{{ article.summary }}</div>
-                            <ul class="flex flex-wrap gap-2">
-                                {{ category_list_item(article.category) }}
-                                {% for tag in article.tags %}{{ tag_list_item(tag) }}{% endfor %}
-                            </ul>
-                        </div>
-                    </article>
-                {% endfor %}
-            </div>
-            {% if articles_page.has_other_pages() %}
-                {% include "pagination.html" %}
-            {% endif %}
-        </section>
-    {% endblock content %}
+{% block content %}
+    <section>
+        <h1 class="text-center py-24 px-8">
+            {% block content_title %}Entries{% endblock %}
+        </h1>
+        <div class="flex flex-wrap p-8 gap-8 justify-center container mx-auto">
+            {% for article in articles_page.object_list %}
+                <article class="bg-lighter dark:bg-darker shadow-primary hover:shadow-primary motion-safe:duration-300 scale-100 hover:scale-105 shadow-md hover:shadow-lg rounded-lg max-w-sm flex flex-col h-fit float-start">
+                    {% if article.thumbnail %}
+                        <img src="/images/{{ article.thumbnail }}"
+                             alt="Thumbnail"
+                             class="rounded-t-lg order-first object-cover" />
+                    {% endif %}
+                    <div class="flex flex-col gap-2 p-4">
+                        <h1 class="link text-2xl font-extrabold underline flex flex-col gap-2">
+                            <a href="/{{ article.url }}">{{ article.title }}</a>
+                        </h1>
+                        <time datetime="{{ article.date.isoformat() }}" class="font-mono">{{ article.locale_date }}</time>
+                        <div class="markdown">{{ article.summary }}</div>
+                        <ul class="flex flex-wrap gap-2">
+                            {{ category_list_item(article.category) }}
+                            {% for tag in article.tags %}{{ tag_list_item(tag) }}{% endfor %}
+                        </ul>
+                    </div>
+                </article>
+            {% endfor %}
+        </div>
+        {% if articles_page.has_other_pages() %}
+            {% include "pagination.html" %}
+        {% endif %}
+    </section>
+{% endblock content %}

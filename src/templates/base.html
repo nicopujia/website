@@ -3,9 +3,9 @@
       class="motion-safe:scroll-smooth">
     <head>
         {% block head %}
-            {# djlint:off #}
-            <title>{% block title %}{{ SITENAME|striptags }}{% endblock %}</title>
-            {# djlint:on #}
+            <title>
+                {% block title %}{{ SITENAME|striptags }}{% endblock %}
+            </title>
             <!-- Metadata -->
             <meta charset="utf-8" />
             <meta name="generator" content="Pelican" />
