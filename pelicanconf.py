@@ -1,6 +1,7 @@
 # General
 RELATIVE_URLS = True
 SITENAME = AUTHOR = 'Nicolás Pujía'
+DEFAULT_CATEGORY = 'Notes'
 PATH = 'content'
 STATIC_PATHS = [
     'images',
