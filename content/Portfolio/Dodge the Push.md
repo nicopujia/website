@@ -1,3 +1,4 @@
+---
 lang: en
 date: 2023-06-13
 summary: Mobile game in which you have to avoid, moving horizontally, obstacles that come from above.
@@ -5,6 +6,7 @@ tags: Flutter, Flame Engine, Play Games API, AdMob API
 category: Portfolio
 thumbnail: projects/dodge-the-push/logo.webp
 google_play: https://play.google.com/store/apps/details?id=com.nicopujia.dodgethepush
+---
 
 ## Description
 

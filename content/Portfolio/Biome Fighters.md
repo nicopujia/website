@@ -1,3 +1,4 @@
+---
 lang: en
 date: 2023-12-28
 modified: 2024-03-18
@@ -7,6 +8,7 @@ category: Portfolio
 thumbnail: projects/biome-fighters/logo.webp
 github: https://github.com/nicopujia/biome_fighters
 youtube: https://youtu.be/MzYI5f1HNUU?si=pvkVsRpZaRKO-gxa
+---
 
 ## Description
 

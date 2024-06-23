@@ -1,3 +1,4 @@
+---
 lang: en
 date: 2023-03-13
 modified: 2023-07-6
@@ -6,6 +7,7 @@ tags: Flutter, IGDB API, AdMob API
 category: Portfolio
 thumbnail: projects/game-finder/logo.webp
 google_play: https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder
+---
 
 ## Description
 
