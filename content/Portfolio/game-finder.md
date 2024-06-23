@@ -1,12 +1,15 @@
 ---
-lang: en
+title: Game Finder
 date: 2023-03-13
-modified: 2023-07-6
-summary: App to find new games to play. Search by filters or by similar game.
+modified: 2023-07-06
 tags: Flutter, IGDB API, AdMob API
+keywords: I don't know what to play, what to play, game recommendations, find new games
 category: Portfolio
-thumbnail: projects/game-finder/logo.webp
+summary: App to find new games to play. Search by filters or by similar game.
+lang: en
+status: published
 google_play: https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder
+thumbnail: projects/game-finder/logo.webp
 ---
 
 ## Description

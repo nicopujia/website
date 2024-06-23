@@ -1,11 +1,15 @@
 ---
-lang: en
+title: Dodge the Push
 date: 2023-06-13
-summary: Mobile game in which you have to avoid, moving horizontally, obstacles that come from above.
+modified: 2023-06-13
 tags: Flutter, Flame Engine, Play Games API, AdMob API
+keywords: flutter games examples, flame engine examples
 category: Portfolio
-thumbnail: projects/dodge-the-push/logo.webp
+summary: Mobile game in which you have to avoid, moving horizontally, obstacles that come from above.
+lang: en
+status: published
 google_play: https://play.google.com/store/apps/details?id=com.nicopujia.dodgethepush
+thumbnail: projects/dodge-the-push/logo.webp
 ---
 
 ## Description

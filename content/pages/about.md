@@ -1,3 +1,13 @@
+---
+title: About
+date: 2024-06-21
+modified: 2024-06-23
+keywords: biography, journey, who is nicolas pujia
+summary: Who is Nicolás Pujía?
+lang: en
+status: published
+---
+
 ## Who am I?
 
 My name is **Nicolás Pujía**, and I was born in **Buenos Aires, Argentina** in 2007.

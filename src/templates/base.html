@@ -6,15 +6,15 @@
             {# djlint:off #}
             <title>{% block title %}{{ SITENAME|striptags }}{% endblock %}</title>
             {# djlint:on #}
-            <!-- Meta -->
+            <!-- Metadata -->
             <meta charset="utf-8" />
             <meta name="generator" content="Pelican" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            {% if keywords %}
-                <meta name="keywords"
-                      content="{% block keywords %}{{ keywords }}{% endblock keywords %}" />
-            {% endif %}
-            {% if SITESUBTITLE %}<meta name="description" content="{{ SITESUBTITLE }}" />{% endif %}
+            <meta name="description" content="{% block description %}{% endblock %}" />
+            <meta name="keywords"
+                  content="{% block keywords %}nicolas pujia, nico pujia, software developer, engineer, buenos aires, argentina, personal website{% endblock %}" />
+            <meta name="author" content="{% block author %}{{ AUTHOR }}{% endblock %}" />
+            <meta name="robots" content="index, follow" />
             <!-- Fonts -->
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

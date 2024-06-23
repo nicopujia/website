@@ -1,12 +1,15 @@
 ---
-lang: en
-date: 2023-12-28
+title: Biome Fighters
+date: 2024-03-18
 modified: 2024-03-18
-summary: 1v1 **online multiplayer** platform fighter game *with more than just two platforms*
 tags: Godot Engine, Python, FastAPI, MongoDB, Aseprite, GCP
+keywords: godot multiplayer example
 category: Portfolio
-thumbnail: projects/biome-fighters/logo.webp
+summary: 1v1 **online multiplayer** platform fighter game *with more than just two platforms*
+lang: en
+status: published
 github: https://github.com/nicopujia/biome_fighters
+thumbnail: projects/biome-fighters/logo.webp
 youtube: https://youtu.be/MzYI5f1HNUU?si=pvkVsRpZaRKO-gxa
 ---
 

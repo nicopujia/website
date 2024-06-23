@@ -14,9 +14,6 @@ TIMEZONE = 'America/Argentina/Buenos_Aires'
 # Templates
 DIRECT_TEMPLATES = ['index', 'categories', 'tags']
 
-# Metadata
-FILENAME_METADATA = '(?P<title>.*)'
-
 # Feed
 AUTHOR_FEED_ATOM = AUTHOR_FEED_RSS = CATEGORY_FEED_ATOM = FEED_ALL_ATOM = TRANSLATION_FEED_ATOM = None
 
