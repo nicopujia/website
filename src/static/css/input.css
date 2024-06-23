@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl dark:text-lighter
+    }
+
+    .markdown {
+        @apply max-w-prose flex flex-col gap-4 mx-auto
+    }
+
+    .markdown h2 {
+        @apply text-4xl lg:text-5xl xl:text-6xl
+    }
+
+    .markdown h3 {
+        @apply text-3xl lg:text-4xl xl:text-5xl
+    }
+
+    .markdown h2,
+    .markdown h3 {
+        @apply pt-8
+    }
+
+    .markdown p {
+        @apply overflow-hidden
+    }
+
+    .markdown a {
+        @apply link
+    }
+
+    .markdown ul {
+        @apply pl-8
+    }
+
+    .markdown ul li {
+        @apply list-disc
+    }
+
+    .markdown img {
+        @apply w-full max-h-[80vh] object-contain hover:scale-105 motion-safe:duration-500
+    }
+
+    .markdown strong {
+        @apply text-primary
+    }
+}
+
+@layer components {
+    .link {
+        @apply underline decoration-primary hover:opacity-50 motion-safe:duration-300
+    }
+
+    .btn {
+        @apply motion-safe:duration-300 opacity-100 hover:opacity-75 hover:scale-90 h-8 min-w-8
+    }
+}
+
+html {
+    scrollbar-width: none;
+}

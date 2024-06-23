@@ -1,53 +1,45 @@
 # Nicolás Pujía's personal website
 
-This repository contains the source code for my personal website. It's built using **Django** and **TailwindCSS**. If everything is working correctly, you can find the live site at the URL provided in the repository settings.
-
-## Requirements
-
-- Git
-- Python 3.12
+This repository contains the source code for my personal website. It's built using **[Pelican](https://getpelican.com/)** and **[Tailwind](https://tailwindcss.com/)**. If everything is working correctly, you can find the live site at the URL provided in the repository settings.
 
 ## Installation
 
-Follow these steps to set up the website on your local machine:
-
-### Clone the Repository
+### 1. Set up the environment
 
 ```bash
-git clone https://github.com/nicopujia/website.git
-cd website
-```
+# Project (requires Git):
+git clone https://github.com/nicopujia/persona_website.git
+cd personal_website
 
-### Set Up the Virtual Environment
-
-```bash
-python3.12 -m venv env
+# Python requirements (requires Python >= 3.8.1):
+python -m venv env
 source env/bin/activate # For Linux / MacOS
 .\env\Scripts\activate # For Windows
+python -m pip install -r requirements.txt
+
+# Tailwind (requires Node.js):
+npm install tailwind
 ```
 
-### Install Dependencies
+### 2. Run the development commands
 
-```bash
-pip install -r requirements.txt
-django-admin compilemessages
-python manage.py migrate
-python manage.py tailwind start
-```
+In different terminals, run:
 
-### Run the Development Server
+- `npx tailwindcss -i ./src/static/css/input.css -o ./src/static/css/output.css --watch`
+- `python -m pelican -l -r`
 
-Open another terminal and run:
-
-```bash
-python manage.py runserver
-```
-
-You should now be able to see the website running at [http://127.0.0.1:8000](http://127.0.0.1:8000).
+You should now be able to see the website running at <http://127.0.0.1:8000>, and your changes should automatically be updated after pressing F5.
 
 ## Deployment
 
-For deployment instructions, please refer to the official Django documentation [deployment guide](https://docs.djangoproject.com/en/5.0/howto/deployment/).
+You can easily deploy the website (for free) using the static website hosting provider of your choice (e.g. GitHub Pages, Netlify, etc).
+
+- Build command: `npx tailwindcss -o ./src/static/output.css --minify && pelican -s publishconf.py`
+- Build output directory: `output`
+
+For more details about Pelican deployment, see [here](https://docs.getpelican.com/en/stable/publish.html#deployment).
+
+**Note**: remember to modify the config files (`pelicanconf.py` & `publishconf.py`) to match your own needs.
 
 ## License
 

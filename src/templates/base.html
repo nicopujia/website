@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}"
+      class="motion-safe:scroll-smooth">
+    <head>
+        {% block head %}
+            {# djlint:off #}
+            <title>{% block title %}{{ SITENAME|striptags }}{% endblock %}</title>
+            {# djlint:on #}
+            <!-- Meta -->
+            <meta charset="utf-8" />
+            <meta name="generator" content="Pelican" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            {% if keywords %}
+                <meta name="keywords"
+                      content="{% block keywords %}{{ keywords }}{% endblock keywords %}" />
+            {% endif %}
+            {% if SITESUBTITLE %}<meta name="description" content="{{ SITESUBTITLE }}" />{% endif %}
+            <!-- Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+                  rel="stylesheet" />
+            <!-- Stylesheet -->
+            <link rel="stylesheet" type="text/css" href="/theme/css/{{ CSS_FILE }}" />
+        {% endblock head %}
+    </head>
+    <body class="bg-gradient-to-tl from-light to-lighter dark:from-darker dark:to-dark text-dark dark:text-light text-xl font-sans min-h-screen">
+        <!-- Navbar -->
+        <header class="sticky top-0 left-0 z-10 backdrop-blur-lg p-8 font-light text-4xl flex w-full {% block navbar_extra_class %}{% endblock navbar_extra_class %}"
+                id="navbar">
+            <h1 class="btn z-30">
+                <a href="/{{ SITEURL }}/">
+                    <svg class="h-8 w-auto fill-none stroke-dark dark:stroke-light"
+                         viewBox="-1 -1 39.99 19">
+                        <path d="m 0 9 c 0 0 4 -9 7 -9 c 3 0 3 17 0 17 c -3 0 7 -17 11 -17 c 4 0 1 10 1 10 c -5 14.55 8 3 8 -4 c 0 -4 -1 -6 -3 -6 c -2 0 -2 2 2 1 c 16 -3 16 11 -0.083 9" />
+                    </svg>
+                    <span class="sr-only">{{ SITENAME }}</span>
+                </a>
+            </h1>
+            <nav class="relative flex gap-8 w-full justify-end">
+                <h1 class="sr-only">Browse site</h1>
+                <!-- Links -->
+                <ul class="h-screen w-screen z-20 fixed left-0 top-0 px-8 pt-24 gap-8 hidden flex-col xl:h-full xl:w-fit xl:flex xl:p-0 xl:static xl:flex-row xl:backdrop-filter-none"
+                    id="navbar-links">
+                    {% for name, link in LINKS %}
+                        <li class="btn">
+                            <a href="{{ link }}" target="_blank">{{ name.upper() }}</a>
+                        </li>
+                    {% endfor %}
+                    {% if DISPLAY_PAGES_ON_MENU %}
+                        {% for p in pages %}
+                            <li class="btn">
+                                <a href="/{{ SITEURL }}/{{ p.url }}"
+                                   {% if p==page %}aria-current="page"{% endif %}>{{ p.title.upper() }}</a>
+                            </li>
+                        {% endfor %}
+                    {% endif %}
+                    {% macro dropdown(title, link) %}
+                        <li class="h-8 group relative">
+                            <a {% if link %}href="/{{ SITEURL }}/{{ link }}"{% endif %}
+                               class="btn whitespace-nowrap flex gap-2">
+                                {{ title.upper() }}
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     fill="none"
+                                     viewBox="0 0 24 24"
+                                     stroke-width="1.5"
+                                     stroke="currentColor"
+                                     class="size-8 group-hover:-scale-y-100">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </a>
+                            <ul class="invisible group-hover:visible opacity-0 group-hover:opacity-100 motion-safe:duration-500 absolute z-50 flex flex-col text-2xl bg-lighter dark:bg-dark rounded-md gap-y-4 p-4">
+                                {{ caller() }}
+                            </ul>
+                        </li>
+                    {% endmacro %}
+                    {% call dropdown("Entries", INDEX_SAVE_AS) %}
+                        {% for categ, categ_articles in categories %}
+                            <li class="btn whitespace-nowrap block">
+                                <a href="/{{ SITEURL }}/{{ categ.url }}" class="inline-block">{{ categ.name.title() }} ({{ categ_articles|count }})</a>
+                            </li>
+                        {% endfor %}
+                    {% endcall %}
+                    {% macro simple_dropdown(title, iterable) %}
+                        {% if iterable %}
+                            {% call dropdown(title) %}
+                                {% for name, link in iterable %}
+                                    <li class="btn whitespace-nowrap">
+                                        <a href="{{ link }}" class="block" target="_blank">{{ name }} ↗</a>
+                                    </li>
+                                {% endfor %}
+                            {% endcall %}
+                        {% endif %}
+                    {% endmacro %}
+                    {{ simple_dropdown("Social", SOCIAL) }}
+                    {{ simple_dropdown("Other", LINKS) }}
+                </ul>
+                <!-- Theme button -->
+                <button type="button" id="theme-btn" class="btn z-30">
+                    <svg fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16" />
+                        <title>Toggle theme (current: auto)</title>
+                    </svg>
+                    <svg class="hidden" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286" />
+                        <title>Toggle theme (current: dark)</title>
+                    </svg>
+                    <svg class="hidden" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8m.5-9.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707M3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707" />
+                        <title>Toggle theme (current: light)</title>
+                    </svg>
+                </button>
+                <!-- Menu button -->
+                <button type="button" id="navbar-menu-btn" class="btn h-8 xl:hidden z-30">
+                    <svg fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        <title>Open menu</title>
+                    </svg>
+                    <svg class="hidden" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                        <title>Close menu</title>
+                    </svg>
+                </button>
+            </nav>
+        </header>
+        <!-- Content -->
+        <main class="motion-safe:animate-fade-in">
+            {% block content %}
+            {% endblock content %}
+        </main>
+        <!-- Footer -->
+        <footer class="text-center px-8 py-24 w-full text-sm">
+            <a href="/{{ SITEURL }}/entries.html" class="link">See all entries</a>
+            · <a href="/{{ SITEURL }}/categories.html" class="link">See all categories</a>
+            · <a href="/{{ SITEURL }}/tags.html" class="link">See all tags</a>
+        </footer>
+        <!-- Scripts -->
+        {% block scripts %}
+            <script src="/theme/js/navbar.js"></script>
+            <script src="/theme/js/theme.js"></script>
+        {% endblock scripts %}
+    </body>
+</html>

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block html_lang %}{{ page.lang }}{% endblock %}
+{% block title %}{{ super() }} > {{ page.title|striptags|title }}{% endblock %}
+{% block head %}
+    {{ super() }}
+    {% import 'translations.html' as translations with context %}
+    {% if translations.entry_hreflang(page) %}{{ translations.entry_hreflang(page) }}{% endif %}
+{% endblock head %}
+{% block content %}
+    <article class="flex flex-col">
+        <h1 class="text-center py-24 px-8">{{ page.title|striptags|title }}</h1>
+        <div class="markdown p-8 pt-0">
+            {% import 'translations.html' as translations with context %}
+            {{ translations.translations_for(page) }}
+            {{ page.content }}
+        </div>
+    </article>
+{% endblock content %}
