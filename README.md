@@ -25,7 +25,7 @@ npm install tailwind
 
 In different terminals, run:
 
-- `npx tailwindcss -i ./src/static/css/input.css -o ./src/static/css/output.css --watch`
+- `npm run dev`
 - `python -m pelican -l -r`
 
 You should now be able to see the website running at <http://127.0.0.1:8000>, and your changes should automatically be updated after pressing F5.
@@ -34,7 +34,7 @@ You should now be able to see the website running at <http://127.0.0.1:8000>, an
 
 You can easily deploy the website (for free) using the static website hosting provider of your choice (e.g. GitHub Pages, Netlify, etc).
 
-- Build command: `npx tailwindcss -o ./src/static/output.css --minify && pelican -s publishconf.py`
+- Build command: `npm run build && pelican -s publishconf.py`
 - Build output directory: `output`
 
 For more details about Pelican deployment, see [here](https://docs.getpelican.com/en/stable/publish.html#deployment).

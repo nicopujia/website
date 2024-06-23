@@ -1,6 +1,11 @@
 {
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/static/css/input.css -o ./src/static/css/output.css --watch",
+    "build": "npx tailwindcss -i ./src/static/css/input.css -o ./src/static/css/output.css --minify"
+  },
   "devDependencies": {
-    "tailwind": "^4.0.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4"
   }
 }

@@ -1,5 +1,3 @@
-from pelican.settings import DEFAULT_CONFIG
-
 # General
 RELATIVE_URLS = True
 SITENAME = AUTHOR = 'Nicolás Pujía'
