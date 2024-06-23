@@ -26,7 +26,7 @@ npm install tailwind
 In different terminals, run:
 
 - `npm run dev`
-- `python -m pelican -l -r`
+- `python -m pelican -lr`
 
 You should now be able to see the website running at <http://127.0.0.1:8000>, and your changes should automatically be updated after pressing F5.
 
