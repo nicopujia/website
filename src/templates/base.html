@@ -29,7 +29,7 @@
         <header class="sticky top-0 left-0 z-10 backdrop-blur-lg p-8 font-light text-4xl flex w-full {% block navbar_extra_class %}{% endblock navbar_extra_class %}"
                 id="navbar">
             <h1 class="btn z-30">
-                <a href="/{{ SITEURL }}/">
+                <a href="/">
                     <svg class="h-8 w-auto fill-none stroke-dark dark:stroke-light"
                          viewBox="-1 -1 39.99 19">
                         <path d="m 0 9 c 0 0 4 -9 7 -9 c 3 0 3 17 0 17 c -3 0 7 -17 11 -17 c 4 0 1 10 1 10 c -5 14.55 8 3 8 -4 c 0 -4 -1 -6 -3 -6 c -2 0 -2 2 2 1 c 16 -3 16 11 -0.083 9" />
@@ -50,14 +50,13 @@
                     {% if DISPLAY_PAGES_ON_MENU %}
                         {% for p in pages %}
                             <li class="btn">
-                                <a href="/{{ SITEURL }}/{{ p.url }}"
-                                   {% if p==page %}aria-current="page"{% endif %}>{{ p.title.upper() }}</a>
+                                <a href="/{{ p.url }}" {% if p==page %}aria-current="page"{% endif %}>{{ p.title.upper() }}</a>
                             </li>
                         {% endfor %}
                     {% endif %}
                     {% macro dropdown(title, link) %}
                         <li class="h-8 group relative">
-                            <a {% if link %}href="/{{ SITEURL }}/{{ link }}"{% endif %}
+                            <a {% if link %}href="/{{ link }}"{% endif %}
                                class="btn whitespace-nowrap flex gap-2">
                                 {{ title.upper() }}
                                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +76,7 @@
                     {% call dropdown("Entries", INDEX_SAVE_AS) %}
                         {% for categ, categ_articles in categories %}
                             <li class="btn whitespace-nowrap block">
-                                <a href="/{{ SITEURL }}/{{ categ.url }}" class="inline-block">{{ categ.name.title() }} ({{ categ_articles|count }})</a>
+                                <a href="/{{ categ.url }}" class="inline-block">{{ categ.name.title() }} ({{ categ_articles|count }})</a>
                             </li>
                         {% endfor %}
                     {% endcall %}
@@ -130,9 +129,9 @@
         </main>
         <!-- Footer -->
         <footer class="text-center px-8 py-24 w-full text-sm">
-            <a href="/{{ SITEURL }}/entries.html" class="link">See all entries</a>
-            · <a href="/{{ SITEURL }}/categories.html" class="link">See all categories</a>
-            · <a href="/{{ SITEURL }}/tags.html" class="link">See all tags</a>
+            <a href="/entries.html" class="link">See all entries</a>
+            · <a href="/categories.html" class="link">See all categories</a>
+            · <a href="/tags.html" class="link">See all tags</a>
         </footer>
         <!-- Scripts -->
         {% block scripts %}

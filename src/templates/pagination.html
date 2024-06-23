@@ -5,19 +5,19 @@
         <ul>
             {% if articles_page.has_previous() %}
                 <li>
-                    <a href="/{{ SITEURL }}/{{ first_page.url }}">⟪</a>
+                    <a href="/{{ first_page.url }}">⟪</a>
                 </li>
                 <li>
-                    <a href="/{{ SITEURL }}/{{ articles_previous_page.url }}">⟨</a>
+                    <a href="/{{ articles_previous_page.url }}">⟨</a>
                 </li>
             {% endif %}
             <li>Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}</li>
             {% if articles_page.has_next() %}
                 <li>
-                    <a href="/{{ SITEURL }}/{{ articles_next_page.url }}">⟩</a>
+                    <a href="/{{ articles_next_page.url }}">⟩</a>
                 </li>
                 <li>
-                    <a href="/{{ SITEURL }}/{{ last_page.url }}">⟫</a>
+                    <a href="/{{ last_page.url }}">⟫</a>
                 </li>
             {% endif %}
         </ul>

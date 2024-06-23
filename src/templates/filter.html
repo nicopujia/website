@@ -3,7 +3,7 @@
 {% block title %}{{ super() }} > {{ page_title }}{% endblock %}
 {% macro filter_list_item(item, entries_amount) %}
     <li class="bg-light text-dark dark:bg-dark dark:text-light bg-opacity-50 inline-block px-4 py-1 text-sm font-semibold hover:opacity-50 font-mono {{ list_item_extra_class }}">
-        <a href="/{{ SITEURL }}/{{ item.url }}">{{ item.name }}</a>
+        <a href="/{{ item.url }}">{{ item.name }}</a>
         {% if entries_amount %}({{ entries_amount }}){% endif %}
     </li>
 {% endmacro %}
