@@ -3,7 +3,7 @@
 {% from "categories.html" import filter_list_item as category_list_item with context %}
 {% from "home.html" import scroll_down_btn %}
 {% block html_lang %}{{ article.lang }}{% endblock %}
-{% block title %}{{ super() }} > {{ article.title|striptags }}{% endblock %}
+{% block title %}{{ article.title|striptags }} · {{ SITENAME }}{% endblock %}
 {# djlint:off #}
 {% block keywords %}{{ super() }}, {{ article.tags|map(attribute="name")|join(", ")|lower }}, {{ article.keywords }}{% endblock %}
 {# djlint:on #}
