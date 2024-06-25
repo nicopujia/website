@@ -38,4 +38,5 @@ SOCIAL = (
     ('Instagram', 'https://www.instagram.com/nico_pujia/'),
     ('Twitter', 'https://x.com/nico_pujia'),
     ('YouTube', 'https://www.youtube.com/@nicopujia'),
+    ('Reddit', 'https://www.reddit.com/user/nico_pujia/'),
 )
