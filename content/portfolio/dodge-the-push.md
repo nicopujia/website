@@ -16,7 +16,7 @@ google_play: https://play.google.com/store/apps/details?id=com.nicopujia.dodgeth
 
 Dodge the Push is a simple, casual, arcade mobile game with a novel video game mechanic in which you must dodge, moving horizontally, the obstacles that come from above to avoid reaching the bottom (if not, you lose!).
 
-In order to give a bit more meaning to the game, I included a global leaderboard which makes use of the [Play Games API ↗](https://developers.google.com/games/services?hl=es-419){:target="_blank"}, so player can compete globally or against their friends to have the highest score.
+In order to give a bit more meaning to the game, I included a global leaderboard which makes use of the [Play Games API](https://developers.google.com/games/services?hl=es-419), so player can compete globally or against their friends to have the highest score.
 
 ## Screenshots
 

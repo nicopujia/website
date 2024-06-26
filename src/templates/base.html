@@ -44,7 +44,7 @@
                     id="navbar-links">
                     {% for name, link in LINKS %}
                         <li class="btn">
-                            <a href="{{ link }}" target="_blank">{{ name.upper() }}</a>
+                            <a href="{{ link }}">{{ name.upper() }}</a>
                         </li>
                     {% endfor %}
                     {% if DISPLAY_PAGES_ON_MENU %}
@@ -85,7 +85,7 @@
                             {% call dropdown(title) %}
                                 {% for name, link in iterable %}
                                     <li class="btn whitespace-nowrap">
-                                        <a href="{{ link }}" class="block" target="_blank">{{ name }} ↗</a>
+                                        <a href="{{ link }}" class="block">{{ name }}</a>
                                     </li>
                                 {% endfor %}
                             {% endcall %}

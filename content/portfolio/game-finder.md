@@ -18,7 +18,7 @@ Game Finder is a mobile app designed to help gamers discover new games to play.
 
 You can search for games by similarity or use a variety of filters. Additionally, you can add your favorite games to a personalized favorites list.
 
-The app supports multiple languages and themes. All data is sourced from the [IGDB API ↗](https://www.igdb.com/){:target="_blank"}.
+The app supports multiple languages and themes. All data is sourced from the [IGDB API](https://www.igdb.com/).
 
 ## Screenshots
 
