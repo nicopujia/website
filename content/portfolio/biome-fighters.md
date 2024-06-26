@@ -5,11 +5,11 @@ modified: 2024-03-18
 tags: Godot Engine, Python, FastAPI, MongoDB, Aseprite, GCP
 keywords: godot multiplayer example
 category: Portfolio
-summary: 1v1 **online multiplayer** platform fighter game *with more than just two platforms*
+summary: 1v1 **online multiplayer** platform fighter game *with more than just two platforms*.
 lang: en
 status: published
-github: https://github.com/nicopujia/biome_fighters
 thumbnail: projects/biome-fighters/logo.webp
+github: https://github.com/nicopujia/biome_fighters
 youtube: https://youtu.be/MzYI5f1HNUU?si=pvkVsRpZaRKO-gxa
 ---
 

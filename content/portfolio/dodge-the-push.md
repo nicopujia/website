@@ -8,8 +8,8 @@ category: Portfolio
 summary: Mobile game in which you have to avoid, moving horizontally, obstacles that come from above.
 lang: en
 status: published
-google_play: https://play.google.com/store/apps/details?id=com.nicopujia.dodgethepush
 thumbnail: projects/dodge-the-push/logo.webp
+google_play: https://play.google.com/store/apps/details?id=com.nicopujia.dodgethepush
 ---
 
 ## Description

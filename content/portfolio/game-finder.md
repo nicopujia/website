@@ -8,13 +8,13 @@ category: Portfolio
 summary: App to find new games to play. Search by filters or by similar game.
 lang: en
 status: published
-google_play: https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder
 thumbnail: projects/game-finder/logo.webp
+google_play: https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder
 ---
 
 ## Description
 
-Game Finder is a mobile app designed to help you discover new games to play.
+Game Finder is a mobile app designed to help gamers discover new games to play.
 
 You can search for games by similarity or use a variety of filters. Additionally, you can add your favorite games to a personalized favorites list.
 
