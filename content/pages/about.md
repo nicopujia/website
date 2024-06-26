@@ -1,7 +1,5 @@
 ---
 title: About
-date: 2024-06-21T00:00:00-03:00
-modified: 2024-06-25T08:40:26-03:00
 keywords: biography, journey, who is nicolas pujia
 summary: Who is Nicolás Pujía?
 lang: en
