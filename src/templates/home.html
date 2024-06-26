@@ -1,7 +1,5 @@
 {% extends "base.html" %}
-{% block navbar_extra_class %}
-    {{ super() }}motion-safe:opacity-0 motion-safe:animate-fade-in-after-draw-svg-path
-{% endblock %}
+{% block navbar_extra_class %}{{ super() }}motion-safe:animate-fade-in-after-draw-svg-path{% endblock %}
 {% block description %}My personal website{% endblock %}
 {% macro scroll_down_btn(target_position, target_element, extra_class) %}
     <button type="button"
@@ -22,7 +20,7 @@
     <div class="flex h-screen relative -top-24 left-0 p-8 text-center"
          id="screen-0">
         <svg viewBox="-15 -38 194 82"
-             class="my-auto w-full h-min stroke-dark dark:stroke-light stroke-1 fill-none">
+             class="my-auto w-full h-min stroke-dark dark:stroke-light stroke-1 fill-none motion-safe:animate-fade-in">
             {% macro drawn_path(d, extra_class) %}
                 <path stroke-linecap="round" stroke-linejoin="round" class="motion-safe:animate-draw-svg-path {{ extra_class }}" d="{{ d }}" />
             {% endmacro %}
@@ -38,7 +36,7 @@
             {{ drawn_path("M 144 -37 H 164 A 10 10 0 0 1 174 -27 V 33 A 10 10 0 0 1 164 43 H 144 A 10 10 0 0 1 134 33 V -27 A 10 10 0 0 1 144 -37") }}
             {{ drawn_path("M 153 -32 A 1 1 0 1 1 154 -31 A 1 1 0 0 1 153 -32") }}
         </svg>
-        {{ scroll_down_btn(target_element="screen-1", extra_class="motion-safe:opacity-0 motion-safe:animate-fade-in-after-draw-svg-path") }}
+        {{ scroll_down_btn(target_element="screen-1", extra_class="motion-safe:animate-fade-in-after-draw-svg-path") }}
     </div>
     <section class="flex h-screen relative appear-on-scroll p-10 sm:p-14 md:p-20 lg:p-24 xl:p-28 text-center"
              id="screen-1">

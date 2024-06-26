@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme')
-const drawSvgPathAnimDuration = '4s'
+const drawSvgPathAnimDuration = '3s'
 module.exports = {
     content: [
         'src/templates/**/*.html',
