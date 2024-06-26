@@ -55,7 +55,7 @@
     }
 
     .btn {
-        @apply motion-safe:duration-300 opacity-100 hover:opacity-75 hover:scale-90 h-8 min-w-8
+        @apply motion-safe:duration-300 opacity-100 hover:opacity-75 hover:scale-90 text-2xl h-6 min-w-6
     }
 }
 

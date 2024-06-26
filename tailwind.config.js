@@ -26,6 +26,12 @@ module.exports = {
                     },
                 },
                 'draw-svg-path': {
+                    '0%': {
+                        opacity: '0',
+                    },
+                    '25%': {
+                        opacity: '100',
+                    },
                     '100%': {
                         'stroke-dashoffset': 0,
                     },
