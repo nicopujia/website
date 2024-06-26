@@ -10,6 +10,7 @@ STATIC_PATHS = [
 ]
 
 # Time and date
+DEFAULT_DATE_FORMAT = '%B %Y'
 TIMEZONE = 'America/Argentina/Buenos_Aires'
 
 # Templates
