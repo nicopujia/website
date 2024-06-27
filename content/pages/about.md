@@ -10,7 +10,7 @@ status: published
 
 My name is **Nicolás Pujía**, and I was born in **Buenos Aires, Argentina** in 2007.
 
-More than just a **software developer**, I consider myself an **inconformist** person who believes that we can always improve, both ourselves and the world around us, and software development is the bridge I use to materialize that belief.
+More than just a **software developer**, I consider myself a **nonconformist** person who believes that we can always improve, both ourselves and the world around us, and software development is the bridge I use to materialize that belief.
 
 I don't like to label myself as a *<framework or programming language\> developer*, because what matters most is the ability to think logically and solve problems, not the tool. However, if I had to choose, I would say that my primary focus is on **Python**, as it is the language I am most comfortable with and have used the most.
 
