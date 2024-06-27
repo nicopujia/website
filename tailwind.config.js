@@ -8,6 +8,11 @@ module.exports = {
         '!src/static/node_modules',
     ],
     darkMode: 'selector',
+    safelist: [
+        {
+            pattern: /^p-\[\d+px\]$/,
+        },
+    ],
     theme: {
         extend: {
             animation: {
