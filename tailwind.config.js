@@ -45,22 +45,12 @@ module.exports = {
                     },
                 },
             },
-        },
-        fontFamily: {
-            sans: [
-                'Josefin Sans',
-                'sans-serif',
-            ],
-            mono: [
-                'ui-monospace',
-                'SFMono-Regular',
-                'Menlo',
-                'Monaco',
-                'Consolas',
-                'Liberation Mono',
-                'Courier New',
-                'monospace',
-            ],
+            fontFamily: {
+                'josefin-sans': [
+                    'JosefinSans',
+                    'sans-serif',
+                ],
+            },
         },
         colors: {
             primary: '#4070FF',

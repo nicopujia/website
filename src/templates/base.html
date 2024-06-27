@@ -15,16 +15,11 @@
                   content="{% block keywords %}nicolas pujia, nico pujia, software developer, engineer, buenos aires, argentina, personal website{% endblock %}" />
             <meta name="author" content="{% block author %}{{ AUTHOR }}{% endblock %}" />
             <meta name="robots" content="index, follow" />
-            <!-- Fonts -->
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-                  rel="stylesheet" />
             <!-- Stylesheet -->
             <link rel="stylesheet" type="text/css" href="/theme/css/{{ CSS_FILE }}" />
         {% endblock head %}
     </head>
-    <body class="bg-gradient-to-tl from-light to-lighter dark:from-darker dark:to-dark text-dark dark:text-light text-xl font-sans min-h-screen">
+    <body class="bg-gradient-to-tl from-light to-lighter dark:from-darker dark:to-dark text-dark dark:text-light text-xl font-josefin-sans min-h-screen">
         <!-- Navbar -->
         <header class="sticky top-0 left-0 z-10 backdrop-blur-lg p-4 font-light flex justify-between w-full gap-8 {% block navbar_extra_class %}{% endblock navbar_extra_class %}"
                 id="navbar">
