@@ -24,10 +24,6 @@
         @apply pt-8
     }
 
-    .markdown p {
-        @apply overflow-hidden
-    }
-
     .markdown a {
         @apply link
     }
@@ -41,11 +37,24 @@
     }
 
     .markdown img {
-        @apply w-full max-h-[80vh] object-contain hover:scale-105 motion-safe:duration-500
+        @apply max-h-[80vh] object-contain
+    }
+
+    /* <p>'s containing only <img>'s */
+    .markdown :has(img):not(:has(:not(img))) {
+        @apply h-auto flex overflow-x-scroll gap-4
     }
 
     .markdown strong {
         @apply text-primary
+    }
+
+    .markdown blockquote {
+        @apply pl-4 italic flex flex-col gap-2
+    }
+
+    .markdown blockquote p {
+        @apply font-mono
     }
 }
 
@@ -155,8 +164,4 @@
     src: url('../fonts/JosefinSans-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
-}
-
-html {
-    scrollbar-width: none;
 }

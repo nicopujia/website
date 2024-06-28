@@ -5,6 +5,7 @@ DEFAULT_CATEGORY = 'Notes'
 PATH = 'content'
 STATIC_PATHS = ['images', 'extra']
 OUTPUT_PATH = 'dist/'
+SUMMARY_MAX_LENGTH = 30
 
 # Time and date
 DEFAULT_DATE_FORMAT = '%B %Y'

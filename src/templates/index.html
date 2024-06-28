@@ -20,7 +20,10 @@
                         <h1 class="link text-2xl font-extrabold underline flex flex-col gap-2">
                             <a href="/{{ article.url }}">{{ article.title }}</a>
                         </h1>
-                        <time datetime="{{ article.date.isoformat() }}" class="font-mono">{{ article.locale_date }}</time>
+                        <span class="font-mono">
+                            <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                            – <time datetime="{{ article.modified.isoformat() }}">{{ article.locale_modified }}</time>
+                        </span>
                         <div class="markdown">{{ article.summary }}</div>
                         <ul class="flex flex-wrap gap-2">
                             {{ category_list_item(article.category) }}
