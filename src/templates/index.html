@@ -22,7 +22,9 @@
                         </h1>
                         <span class="font-mono text-sm md:text-base">
                             <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
-                            — <time datetime="{{ article.modified.isoformat() }}">{{ article.locale_modified }}</time>
+                            {% if article.modified and article.modified != article.date %}
+                                — <time datetime="{{ article.modified.isoformat() }}">{{ article.locale_modified }}</time>
+                            {% endif %}
                         </span>
                         <div class="markdown">{{ article.summary }}</div>
                         <ul class="flex flex-wrap gap-2">
