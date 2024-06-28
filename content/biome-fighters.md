@@ -3,7 +3,7 @@ title: Biome Fighters
 date: 2024-03-18
 tags: Prototype, Godot Engine, Python, FastAPI, MongoDB, Aseprite, GCP
 keywords: godot multiplayer example
-category: Portfolio
+category: Featured projects
 summary: 1v1 **online multiplayer** platform fighter game *with more than just two platforms*.
 lang: en
 status: published

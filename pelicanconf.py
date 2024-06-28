@@ -3,18 +3,21 @@ RELATIVE_URLS = True
 SITENAME = AUTHOR = 'Nicolás Pujía'
 DEFAULT_CATEGORY = 'Notes'
 PATH = 'content'
-STATIC_PATHS = [
-    'images',
-    'favicon.ico',
-    'app-ads.txt',
-]
+STATIC_PATHS = ['images', 'extra']
+OUTPUT_PATH = 'dist/'
 
 # Time and date
 DEFAULT_DATE_FORMAT = '%B %Y'
 TIMEZONE = 'America/Argentina/Buenos_Aires'
 
-# Templates
+# Template pages
 DIRECT_TEMPLATES = ['index', 'categories', 'tags']
+
+# Metadata
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/app-ads.txt': {'path': 'app-ads.txt'},
+}
 
 # Feed
 AUTHOR_FEED_ATOM = AUTHOR_FEED_RSS = CATEGORY_FEED_ATOM = FEED_ALL_ATOM = TRANSLATION_FEED_ATOM = None

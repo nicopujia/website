@@ -4,7 +4,7 @@ date: 2023-03-10
 modified: 2023-06-13
 tags: Flutter, IGDB API, AdMob API
 keywords: I don't know what to play, what to play, game recommendations, find new games
-category: Portfolio
+category: Featured projects
 summary: App to find new games to play. Search by filters or by similar game.
 lang: en
 status: published

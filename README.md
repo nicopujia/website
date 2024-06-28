@@ -35,7 +35,7 @@ You should now be able to see the website running at <http://127.0.0.1:8000>, an
 You can easily deploy the website (for free) using the static website hosting provider of your choice (e.g. GitHub Pages, Netlify, etc).
 
 - Build command: `npm run build && pelican -s publishconf.py`
-- Build output directory: `output`
+- Build output directory: `dist`
 
 For more details about Pelican deployment, see [here](https://docs.getpelican.com/en/stable/publish.html#deployment).
 

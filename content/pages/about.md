@@ -20,7 +20,7 @@ Since mid-2020, I've been immersed in this catchy world of programming, developi
 
 Later, at the end of 2022 and during 2023, I learned to **Flutter**, to create high-performance mobile applications (unlike Python ones). At the same time, I started using Git & GitHub to keep a better track of my projects. When using Flutter, I was able to create [apps and video games](/tags/flutter.html) which I ended up publishing to the Google Play Store.
 
-In December 2023 and the beginning of 2024, I experimented with networking technologies (including protocols, authentication, cryptography, ports, IP addresses, peers, and more) in order to create an online multi-platform, multiplayer [video game]({filename}/portfolio/biome-fighters.md). I developed the prototype, set it aside, and a few months later, I was called to [participate in BackdropBuild v3](https://backdropbuild.com/builds/v3/biome-fighters) because they had found my project interesting.
+In December 2023 and the beginning of 2024, I experimented with networking technologies (including protocols, authentication, cryptography, ports, IP addresses, peers, and more) in order to create an online multi-platform, multiplayer [video game]({filename}/featured-projects/biome-fighters.md). I developed the prototype, set it aside, and a few months later, I was called to [participate in BackdropBuild v3](https://backdropbuild.com/builds/v3/biome-fighters) because they had found my project interesting.
 
 In 2024, I got my first "real project", with a real company and real money involved. Because it was a full-stack web application, I had to learn a backend technology, so I got on my way of specializing with **Django** at the same time I was developing the project.
 

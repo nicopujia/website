@@ -4,7 +4,7 @@ date: 2023-04-29
 modified: 2023-07-25
 tags: Flutter, Flame Engine, Play Games API, AdMob API
 keywords: flutter games examples, flame engine examples
-category: Portfolio
+category: Featured projects
 summary: Mobile game in which you have to avoid, moving horizontally, obstacles that come from above.
 lang: en
 status: published
