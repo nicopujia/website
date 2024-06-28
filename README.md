@@ -18,7 +18,7 @@ source env/bin/activate # For Linux / MacOS
 python -m pip install -r requirements.txt
 
 # Tailwind (requires Node.js):
-npm install tailwind
+npm install
 ```
 
 ### 2. Run the development commands
