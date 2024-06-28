@@ -3,7 +3,7 @@
 {% block title %}{{ page_title }} · {{ SITENAME }}{% endblock %}
 {% block description %}{{ page_title }} of my entries{% endblock %}
 {% macro filter_list_item(item, entries_amount) %}
-    <li class="bg-light text-dark dark:bg-dark dark:text-light bg-opacity-50 inline-block px-4 py-1 text-sm hover:opacity-50 {{ list_item_extra_class }}">
+    <li class="bg-light text-dark dark:bg-dark dark:text-light bg-opacity-50 inline-block px-2 pt-1 text-sm hover:opacity-50 {{ list_item_extra_class }}">
         <a href="/{{ item.url }}">{{ item.name }}</a>
         {% if entries_amount %}({{ entries_amount }}){% endif %}
     </li>
