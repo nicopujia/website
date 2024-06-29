@@ -75,7 +75,7 @@
                     {% call dropdown("Entries", INDEX_SAVE_AS) %}
                         {% for categ, categ_articles in categories %}
                             <li class="btn whitespace-nowrap block">
-                                <a href="/{{ categ.url }}" class="inline-block">{{ categ.name.title() }} ({{ categ_articles|count }})</a>
+                                <a href="/{{ categ.url }}" class="inline-block">{{ categ.name }} ({{ categ_articles|count }})</a>
                             </li>
                         {% endfor %}
                     {% endcall %}
