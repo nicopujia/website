@@ -20,7 +20,7 @@
         <meta property="og:description" content="{{ description }}" />
         <meta property="og:url" content="{{ url|default(SITEURL) }}" />
         <meta property="og:type" content="{{ type|default("website") }}" />
-        <meta property="og:image" content="{{ image|default(SITEURL ~ "/favicon.ico") }}" />
+        <meta property="og:image" content="{{ image|default(SITEURL ~ "/images/logo.png") }}" />
         {% block extra_head %}{% endblock %}
     </head>
     <body class="bg-gradient-to-tl from-light to-lighter dark:from-darker dark:to-dark text-dark dark:text-light text-xl font-josefin-sans min-h-screen">
