@@ -1,19 +1,31 @@
 {% extends "base.html" %}
 {% from "tags.html" import filter_list_item as tag_list_item with context %}
 {% from "categories.html" import filter_list_item as category_list_item with context %}
-{% block html_lang %}{{ article.lang }}{% endblock %}
-{% block title %}{{ article.title|striptags }} · {{ SITENAME }}{% endblock %}
+{% set title = article.title|striptags %}
+{% set description = article.summary|striptags %}
+{% set type = "article" %}
+{% set lang = article.lang %}
+{% set url = SITEURL ~ "/" ~ article.url %}
+{% if article.thumbnail %}
+    {% set image = SITEURL ~ "/" ~ article.thumbnail %}
+{% endif %}
 {# djlint:off #}
 {% block keywords %}{{ super() }}, {{ article.tags|map(attribute="name")|join(", ")|lower }}, {{ article.keywords }}{% endblock %}
 {# djlint:on #}
-{% block description %}{{ article.summary|striptags }}{% endblock %}
+{% block extra_head %}
+    <meta property="article:published_time" content="{{ article.date }}" />
+    {% if article.modified %}<meta property="article:modified_time" content="{{ article.modified }}" />{% endif %}
+    <meta property="article:author" content="{{ AUTHOR }}" />
+    <meta property="article:section" content="{{ article.category }}" />
+    {% for tag in article.tags %}<meta property="article:tag" content="{{ tag.name }}" />{% endfor %}
+{% endblock extra_head %}
 {% block content %}
     <article class="relative flex flex-col">
         <header class="text-center py-24 px-8 flex flex-col gap-4">
             <h1>{{ article.title }}</h1>
             {% if article.thumbnail %}
                 <div class="overflow-hidden">
-                    <img src="/images/{{ article.thumbnail }}"
+                    <img src="{{ SITEURL }}/{{ article.thumbnail }}"
                          alt="Thumbnail"
                          class="rounded-2xl object-cover mx-auto h-80 max-w-prose" />
                 </div>

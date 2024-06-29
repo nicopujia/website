@@ -1,7 +1,8 @@
 {% extends "base.html" %}
-{% block html_lang %}{{ page.lang }}{% endblock %}
-{% block title %}{{ page.title|striptags|title }} · {{ SITENAME }}{% endblock %}
-{% block description %}{{ page.summary|striptags }}{% endblock %}
+{% set title = page.title|striptags|title %}
+{% set lang = page.lang %}
+{% set description = page.summary|striptags %}
+{% set url = SITEURL ~ "/" ~ page.url %}
 {% if page.keywords %}
     {% block keywords %}{{ super() }}, {{ page.keywords }}{% endblock %}
 {% endif %}

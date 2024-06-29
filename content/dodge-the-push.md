@@ -7,7 +7,7 @@ keywords: flutter games examples, flame engine examples
 category: Featured projects
 lang: en
 status: published
-thumbnail: projects/dodge-the-push/logo.webp
+thumbnail: images/projects/dodge-the-push/logo.webp
 google_play: https://play.google.com/store/apps/details?id=com.nicopujia.dodgethepush
 ---
 

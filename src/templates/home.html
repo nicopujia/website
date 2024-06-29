@@ -1,6 +1,5 @@
-{% extends "base.html" %}
-{% block navbar_extra_class %}{{ super() }}motion-safe:animate-fade-in-after-draw-svg-path{% endblock %}
-{% block description %}My personal website{% endblock %}
+{% extends "page.html" %}
+{% set navbar_extra_class = "motion-safe:animate-fade-in-after-draw-svg-path" %}
 {% macro scroll_down_btn(target_position, target_element, extra_class) %}
     <button type="button"
             class="btn absolute bottom-0 left-1/2 transform -translate-x-1/2 {{ extra_class }}"

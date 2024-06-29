@@ -1,5 +1,6 @@
 {% extends "index.html" %}
-{% block title %}{{ tag.name }} stuff · {{ SITENAME }}{% endblock %}
+{% set title = tag.name ~ " stuff" %}
+{% set description = "My " ~ tag.name ~ " stuff" %}
+{% set url = SITEURL ~ "/" ~ tag.url %}
 {% block content_title %}<span class="text-primary">{{ tag }}</span> stuff{% endblock %}
 {% block keywords %}{{ super() }}, {{ tag.name|lower }}{% endblock %}
-{% block description %}My {{ tag }} stuff{% endblock %}

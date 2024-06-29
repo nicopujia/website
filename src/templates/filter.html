@@ -1,7 +1,7 @@
 {# This is a base template for Tags and Categories #}
 {% extends "base.html" %}
-{% block title %}{{ page_title }} · {{ SITENAME }}{% endblock %}
-{% block description %}{{ page_title }} of my entries{% endblock %}
+{% set url = SITEURL ~ "/" ~ objects.url %}
+{% set description = title ~ " of my entries" %}
 {% macro filter_list_item(item, entries_amount) %}
     <li class="bg-light text-dark dark:bg-dark dark:text-light bg-opacity-50 inline-block px-2 pt-1 text-sm hover:opacity-50 {{ list_item_extra_class }}">
         <a href="/{{ item.url }}">{{ item.name }}</a>
@@ -10,9 +10,9 @@
 {% endmacro %}
 {% block content %}
     <section>
-        <h1 class="text-center py-24 px-8">{{ page_title }}</h1>
+        <h1 class="text-center py-24 px-8">{{ title }}</h1>
         <ul class="flex flex-wrap mx-auto justify-center p-8 gap-2">
-            {% for item, entries in items|sort %}{{ filter_list_item(item, entries|count) }}{% endfor %}
+            {% for item, entries in objects|sort %}{{ filter_list_item(item, entries|count) }}{% endfor %}
         </ul>
     </section>
 {% endblock content %}
