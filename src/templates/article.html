@@ -31,9 +31,9 @@
                 </div>
             {% endif %}
             <p>
-                Created on <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                Created in <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
                 {% if article.modified and article.modified != article.date %}
-                    · Last updated on <time datetime="{{ article.modified.isoformat() }}">{{ article.locale_modified }}</time>
+                    · Last updated in <time datetime="{{ article.modified.isoformat() }}">{{ article.locale_modified }}</time>
                 {% endif %}
             </p>
             <nav class="flex flex-col gap-4">
