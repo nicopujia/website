@@ -2,7 +2,7 @@
 title: English Vocabulary
 date: 2022-11-14
 modified: 2023-01-25
-tags: Deprecated, Flutter, SQLite, BeautifulSoup
+tags: Flutter, SQLite, BeautifulSoup
 keywords: english vocabulary, english learning app, visual vocabulary
 category: Featured projects
 lang: en
