@@ -11,6 +11,7 @@ SUMMARY_MAX_LENGTH = 30
 # Time and date
 DEFAULT_DATE_FORMAT = '%B %Y'
 TIMEZONE = 'America/Argentina/Buenos_Aires'
+LOCALE = ('en_US')
 
 # Template pages
 DIRECT_TEMPLATES = ['index', 'categories', 'tags']
