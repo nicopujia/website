@@ -3,9 +3,12 @@
 {% set url = SITEURL ~ "/" ~ objects.url %}
 {% set description = title ~ " of my entries" %}
 {% macro filter_list_item(item, entries_amount) %}
-    <li class="bg-light text-dark dark:bg-dark dark:text-light bg-opacity-50 inline-block px-2 pt-1 text-sm hover:opacity-50 {{ list_item_extra_class }}">
-        <a href="/{{ item.url }}">{{ item.name }}</a>
-        {% if entries_amount %}({{ entries_amount }}){% endif %}
+    <li>
+        <a class="bg-light text-dark dark:bg-dark dark:text-light bg-opacity-10 inline-block px-2 pt-1 text-sm hover:opacity-50 duration-300 {{ list_item_extra_class }}"
+           href="/{{ item.url }}">
+            {{ item.name }}
+            {% if entries_amount %}({{ entries_amount }}){% endif %}
+        </a>
     </li>
 {% endmacro %}
 {% block content %}
