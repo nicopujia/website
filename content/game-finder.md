@@ -7,7 +7,7 @@ keywords: I don't know what to play, what to play, game recommendations, find ne
 category: Featured projects
 lang: en
 status: published
-thumbnail: images/projects/game-finder/logo.webp
+thumbnail: images/projects/game-finder/icon.webp
 google_play: https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder
 ---
 

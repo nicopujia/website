@@ -2,11 +2,11 @@
 title: Time Runs
 date: 2021-06-18
 tags: Godot Engine
-keywords: godot, platformer, godot platformer dash, juego argentino godot
+keywords: godot, platformer, godot platformer dash, juego argentino
 category: Other projects
 lang: en
 status: published
-thumbnail: images/projects/time-runs/logo.png
+thumbnail: images/projects/time-runs/icon.png
 github: https://github.com/nicopujia/old_projects/tree/main/2021/El%20tiempo%20corre
 ---
 

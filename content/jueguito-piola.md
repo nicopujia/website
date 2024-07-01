@@ -2,11 +2,11 @@
 title: Jueguito Piola
 date: 2022-05-16
 tags: Godot Engine
-keywords: godot, platformer, godot platformer dash, juego argentino godot
+keywords: godot, platformer, godot platformer dash, juego argentino
 category: Other projects
 lang: en
 status: published
-thumbnail: images/projects/jueguito-piola/logo.png
+thumbnail: images/projects/jueguito-piola/icon.png
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Jueguito%20Piola
 ---
 
