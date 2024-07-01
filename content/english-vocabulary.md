@@ -7,7 +7,7 @@ keywords: english vocabulary, english learning app, visual vocabulary
 category: Featured projects
 lang: en
 status: published
-thumbnail: images/projects/english-vocabulary/logo.png
+thumbnail: images/projects/english-vocabulary/icon.png
 ---
 
 Mobile app made for Spanish speaking users learning English to help them save the words they don't know, so the can practice the vocabulary and easily access the translation, image and audio of each word.

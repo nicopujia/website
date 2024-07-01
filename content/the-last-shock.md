@@ -2,11 +2,11 @@
 title: The Last Shock
 date: 2022-12-15
 tags: Godot Engine
-keywords: godot, platformer, godot platformer dash, juego argentino godot
+keywords: godot, platformer, godot platformer dash, juego argentino
 category: Other projects
 lang: en
 status: published
-thumbnail: images/projects/the-last-shock/logo.png
+thumbnail: images/projects/the-last-shock/icon.png
 github: https://github.com/nicopujia/old_projects/tree/main/2022/The%20Last%20Shock
 ---
 

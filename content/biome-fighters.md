@@ -7,7 +7,7 @@ keywords: godot multiplayer example
 category: Featured projects
 lang: en
 status: published
-thumbnail: images/projects/biome-fighters/logo.webp
+thumbnail: images/projects/biome-fighters/icon.webp
 github: https://github.com/nicopujia/biome_fighters
 youtube: https://youtu.be/MzYI5f1HNUU?si=pvkVsRpZaRKO-gxa
 ---
