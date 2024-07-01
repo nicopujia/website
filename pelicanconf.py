@@ -2,7 +2,7 @@
 RELATIVE_URLS = True
 SITENAME = AUTHOR = 'Nicolás Pujía'
 SITEURL = 'http://127.0.0.1:8000'
-DEFAULT_CATEGORY = 'Notes'
+DEFAULT_CATEGORY = 'Random entries'
 PATH = 'content'
 STATIC_PATHS = ['images', 'extra']
 OUTPUT_PATH = 'dist/'
