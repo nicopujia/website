@@ -1,9 +1,9 @@
 ---
 title: Spaceship game
 date: 2022-04
-tags: Godot Engine
+tags: Godot, Pixel art, Demo, Android, Mobile
 keywords: satisfying game, godot particles, juego argentino
-category: Other projects
+category: Video games
 lang: en
 status: published
 thumbnail: images/projects/spaceship-game/icon.png

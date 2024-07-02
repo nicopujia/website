@@ -2,9 +2,9 @@
 title: The Last Shock
 date: 2022-12
 modified: 2023-01
-tags: Godot Engine
+tags: Godot, Pixel art, Demo, Android, Mobile
 keywords: platformer, godot platformer dash, juego argentino
-category: Other projects
+category: Video games
 lang: en
 status: published
 thumbnail: images/projects/the-last-shock/icon.png

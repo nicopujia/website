@@ -32,7 +32,7 @@
                         </div>
                         <ul class="flex flex-wrap gap-2 h-min">
                             {{ category_list_item(article.category) }}
-                            {% for tag in article.tags %}{{ tag_list_item(tag) }}{% endfor %}
+                            {% for tag in article.tags|sort %}{{ tag_list_item(tag) }}{% endfor %}
                         </ul>
                     </div>
                 </article>

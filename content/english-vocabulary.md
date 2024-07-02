@@ -2,9 +2,9 @@
 title: English Vocabulary
 date: 2022-11
 modified: 2023-01
-tags: Flutter, SQLite, BeautifulSoup
+tags: Best, Mobile, Android, Flutter, SQL, SQLite, Web scraping, BeautifulSoup
 keywords: english vocabulary, english learning app, visual vocabulary
-category: Featured projects
+category: Applications
 lang: en
 status: published
 thumbnail: images/projects/english-vocabulary/icon.png

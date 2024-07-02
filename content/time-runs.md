@@ -1,9 +1,9 @@
 ---
 title: Time Runs
 date: 2021-06
-tags: Godot Engine
+tags: Godot, Pixel art, Demo, Windows, Desktop
 keywords: platformer, godot platformer dash, juego argentino
-category: Other projects
+category: Video games
 lang: en
 status: published
 thumbnail: images/projects/time-runs/icon.png

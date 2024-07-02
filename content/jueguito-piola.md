@@ -1,9 +1,9 @@
 ---
 title: Jueguito Piola
 date: 2022-05
-tags: Godot Engine
+tags: Godot, Pixel art, Demo, Android, Mobile
 keywords: platformer, godot platformer dash, juego argentino
-category: Other projects
+category: Video games
 lang: en
 status: published
 thumbnail: images/projects/jueguito-piola/icon.png
@@ -33,5 +33,3 @@ There are like two versions: the initial one and the "RTX" one, where I added sp
 ![Cave level]({static}/images/projects/jueguito-piola/cave-level.jpg)
 ![Main menu]({static}/images/projects/jueguito-piola/main-menu.jpg)
 ![Shop]({static}/images/projects/jueguito-piola/shop.jpg)
-
-Note: there are Android and Windows screenshots mixed.

@@ -1,8 +1,8 @@
 ---
 title: Coin Collector
 date: 2021-05
-tags: Godot Engine
-category: Other projects
+tags: Desktop, Windows, Godot
+category: Video games
 lang: en
 status: published
 thumbnail: images/projects/coin-collector/icon.png

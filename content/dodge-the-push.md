@@ -2,9 +2,9 @@
 title: Dodge the Push
 date: 2021-10
 modified: 2023-07
-tags: Flutter, Flame Engine, Play Games API, AdMob API, Pygame, Godot Engine
+tags: Best, Mobile, Android, Flutter, Flame Engine, GPGS, AdMob, Godot, Pygame
 keywords: flutter games examples, flame engine examples
-category: Featured projects
+category: Video games
 lang: en
 status: published
 thumbnail: images/projects/dodge-the-push/icon.webp
