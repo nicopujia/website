@@ -42,7 +42,7 @@
 
     /* <p>'s containing only <img>'s */
     .markdown :has(img):not(:has(:not(img))) {
-        @apply h-auto flex overflow-x-scroll gap-4
+        @apply h-auto flex overflow-x-auto gap-4
     }
 
     .markdown strong {
