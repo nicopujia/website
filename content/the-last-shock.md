@@ -1,8 +1,9 @@
 ---
 title: The Last Shock
-date: 2022-12-15
+date: 2022-12
+modified: 2023-01
 tags: Godot Engine
-keywords: godot, platformer, godot platformer dash, juego argentino
+keywords: platformer, godot platformer dash, juego argentino
 category: Other projects
 lang: en
 status: published

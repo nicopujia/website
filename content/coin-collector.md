@@ -1,6 +1,6 @@
 ---
 title: Coin Collector
-date: 2021-05-20
+date: 2021-05
 tags: Godot Engine
 category: Other projects
 lang: en

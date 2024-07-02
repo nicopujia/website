@@ -1,8 +1,8 @@
 ---
 title: Spaceship game
-date: 2022-04-04
+date: 2022-04
 tags: Godot Engine
-keywords: godot, satisfying game, godot particles, juego argentino
+keywords: satisfying game, godot particles, juego argentino
 category: Other projects
 lang: en
 status: published

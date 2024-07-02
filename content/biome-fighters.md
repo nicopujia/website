@@ -1,7 +1,7 @@
 ---
 title: Biome Fighters
-date: 2023-09-10
-modified: 2024-03-18
+date: 2023-09
+modified: 2024-03
 tags: Godot Engine, Python, FastAPI, MongoDB, Aseprite, GCP
 keywords: godot multiplayer example
 category: Featured projects

@@ -1,8 +1,8 @@
 ---
 title: Time Runs
-date: 2021-06-18
+date: 2021-06
 tags: Godot Engine
-keywords: godot, platformer, godot platformer dash, juego argentino
+keywords: platformer, godot platformer dash, juego argentino
 category: Other projects
 lang: en
 status: published
