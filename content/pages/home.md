@@ -2,7 +2,7 @@
 title: Home
 lang: en
 status: hidden
-summary: My personal website
+summary: Transforming ideas 💡 into real software 📱
 template: home
 save_as: index.html
 ---
