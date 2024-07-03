@@ -70,6 +70,9 @@
                 {% endif %}
             </nav>
         </header>
-        <div id="article-content" class="markdown p-8 pt-0">{{ article.content }}</div>
+        <div id="article-content" class="markdown p-8 pt-0">
+            <h2 class="sr-only">Description</h2>
+            {{ article.content }}
+        </div>
     </article>
 {% endblock content %}
