@@ -2,7 +2,7 @@
 title: Game Finder
 date: 2023-02
 modified: 2023-06
-tags: Best, Mobile, Android, Flutter, AdMob, IGDB API
+tags: Best, Mobile, Flutter, AdMob, IGDB API
 keywords: I don't know what to play, what to play, game recommendations, find new games
 category: Applications
 lang: en

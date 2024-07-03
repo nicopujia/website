@@ -1,7 +1,7 @@
 ---
 title: Coin Collector
 date: 2021-05
-tags: Desktop, Windows, Godot
+tags: Desktop, Godot
 category: Video games
 lang: en
 status: published

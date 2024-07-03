@@ -1,7 +1,7 @@
 ---
 title: Spaceship game
 date: 2022-04
-tags: Godot, Pixel art, Demo, Android, Mobile
+tags: Godot, Pixel art, Demo, Mobile
 keywords: satisfying game, godot particles, juego argentino
 category: Video games
 lang: en

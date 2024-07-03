@@ -1,7 +1,7 @@
 ---
 title: Time Runs
 date: 2021-06
-tags: Godot, Pixel art, Demo, Windows, Desktop
+tags: Godot, Pixel art, Demo, Desktop
 keywords: platformer, godot platformer dash, juego argentino
 category: Video games
 lang: en

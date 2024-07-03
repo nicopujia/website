@@ -1,7 +1,7 @@
 ---
 title: Jueguito Piola
 date: 2022-05
-tags: Godot, Pixel art, Demo, Android, Mobile
+tags: Godot, Pixel art, Demo, Mobile
 keywords: platformer, godot platformer dash, juego argentino
 category: Video games
 lang: en
