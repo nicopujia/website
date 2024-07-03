@@ -1,4 +1,4 @@
-# Nicolás Pujía's personal website
+# Nicolás Pujia's personal website
 
 This repository contains the source code for my personal website. It's built using **[Pelican](https://getpelican.com/)** and **[Tailwind](https://tailwindcss.com/)**. If everything is working correctly, you can find the live site at the URL provided in the repository settings.
 

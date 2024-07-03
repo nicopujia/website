@@ -1,6 +1,6 @@
 # General
 RELATIVE_URLS = True
-SITENAME = AUTHOR = 'Nicolás Pujía'
+SITENAME = AUTHOR = 'Nicolás Pujia'
 SITEURL = 'http://127.0.0.1:8000'
 DEFAULT_CATEGORY = 'Random entries'
 PATH = 'content'

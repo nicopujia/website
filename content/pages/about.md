@@ -1,14 +1,14 @@
 ---
 title: About
 keywords: biography, journey, who is nicolas pujia
-summary: Who is Nicolás Pujía?
+summary: Who is Nicolás Pujia?
 lang: en
 status: published
 ---
 
 ## Who am I?
 
-My name is **Nicolás Pujía**, and I was born in **Buenos Aires, Argentina** in 2007.
+My name is **Nicolás Pujia**, and I was born in **Buenos Aires, Argentina** in 2007.
 
 More than just a **software developer**, I consider myself a **nonconformist** person who believes that we can always improve, both ourselves and the world around us, and software development is the bridge I use to materialize that belief.
 
