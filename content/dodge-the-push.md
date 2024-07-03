@@ -15,10 +15,6 @@ Simple, casual, arcade mobile game with a novel video game mechanic in which you
 
 In order to give a bit more meaning to the game, I included a global leaderboard which makes use of the [Play Games API](https://developers.google.com/games/services?hl=es-419), so player can compete globally or against their friends to have the highest score.
 
-## Music
-
-All the songs of this game were created by my friend [C25](https://www.youtube.com/@C_25Music). (*Yeah, I'm not a musician*).
-
 ## More than just one version
 
 The first idea of the game mechanic came to my mind in 2021, when I used to make simple games using Pygame. So I created an extremely simple prototype with it, only with the core mechanic:
@@ -43,3 +39,7 @@ I was having *a lot* of trouble with that. And I also wanted to include ads, whi
 ![Gameplay 3]({static}/images/projects/dodge-the-push/gameplay-3.jpg)
 ![Defeat screen]({static}/images/projects/dodge-the-push/continue.jpg)
 ![Final screen]({static}/images/projects/dodge-the-push/game-over.jpg)
+
+## Credits
+
+All the songs of this game were created by my friend [C25](https://www.youtube.com/@C_25Music). (*Yeah, I'm not a musician*).
