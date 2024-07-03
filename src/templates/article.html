@@ -38,7 +38,7 @@
             </p>
             <nav class="flex flex-col gap-4">
                 <h1 class="sr-only">Tags and links</h1>
-                <ul class="flex flex-wrap gap-2 mx-auto max-w-prose justify-center">
+                <ul class="flex flex-wrap gap-x-1 mx-auto max-w-prose justify-center">
                     {{ category_list_item(article.category) }}
                     {% for tag in article.tags|sort %}{{ tag_list_item(tag) }}{% endfor %}
                 </ul>
