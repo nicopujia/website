@@ -3,7 +3,7 @@ title: Cheap mobile phones
 date: 2021-04
 tags: Deprecated, Web scraping, Desktop, Tkinter, Python, BeautifulSoup
 keywords: mercado libre scraper
-category: Scripts
+category: Applications
 lang: en
 status: published
 thumbnail: images/projects/cheap-mobile-phones.jpg
