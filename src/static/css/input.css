@@ -44,6 +44,18 @@
         @apply list-decimal mb-4
     }
 
+    .markdown pre {
+        @apply max-w-prose overflow-x-scroll font-mono bg-lighter dark:bg-darker p-2 rounded
+    }
+
+    .markdown th {
+        @apply text-left
+    }
+
+    .markdown tr {
+        @apply border-b-2 border-b-dark dark:border-b-light
+    }
+
     .markdown img {
         @apply max-h-[80vh] object-contain
     }
