@@ -36,6 +36,14 @@
         @apply list-disc
     }
 
+    .markdown ol {
+        @apply pl-8
+    }
+
+    .markdown ol li {
+        @apply list-decimal mb-4
+    }
+
     .markdown img {
         @apply max-h-[80vh] object-contain
     }
