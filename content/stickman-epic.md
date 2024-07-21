@@ -1,6 +1,6 @@
 ---
 title: Stickman Epic
-date: 2022-04
+date: 2022-01
 tags: Pygame, Desktop, Python, MS Paint, Prototype
 category: Video games
 summary: Prototype of a platformer video game where players create their own platforms by drawing them with the mouse.

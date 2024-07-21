@@ -1,7 +1,7 @@
 ---
 title: Tank game
 date: 2022
-tags: Pygame, Desktop, Python, MS Paint, Prototype
+tags: Pygame, Desktop, Python, MS Paint, Prototype, Pixel art
 keywords: awesome tanks 2 pygame
 category: Video games
 lang: en
