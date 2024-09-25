@@ -18,7 +18,7 @@
 {% block content %}
     <div class="flex h-screen relative left-0 p-8 text-center" id="screen-0">
         <svg viewBox="-15 -38 194 82"
-             class="m-auto w-full h-min max-h-[75vh] stroke-dark dark:stroke-lighter fill-none motion-safe:animate-fade-in">
+             class="m-auto w-full stroke-dark dark:stroke-lighter fill-none motion-safe:animate-fade-in">
             {% macro drawn_path(d, extra_class) %}
                 <path stroke-linecap="round" stroke-linejoin="round" class="motion-safe:animate-draw-svg-path {{ extra_class }}" d="{{ d }}" />
             {% endmacro %}
