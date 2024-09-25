@@ -86,6 +86,11 @@
     .btn {
         @apply motion-safe:duration-300 opacity-100 hover:opacity-75 hover:scale-90 text-2xl h-6 min-w-6
     }
+
+    .stretched-link::after {
+        content: "";
+        @apply z-10 absolute inset-0 bg-transparent pointer-events-auto;
+    }
 }
 
 @font-face {
