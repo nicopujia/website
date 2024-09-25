@@ -72,7 +72,7 @@
                             </ul>
                         </li>
                     {% endmacro %}
-                    {% call dropdown("Entries", INDEX_SAVE_AS) %}
+                    {% call dropdown("Portfolio", INDEX_SAVE_AS) %}
                         {% for categ, categ_articles in categories %}
                             <li class="btn whitespace-nowrap block">
                                 <a href="/{{ categ.url }}" class="inline-block">{{ categ.name }} ({{ categ_articles|count }})</a>
@@ -128,8 +128,7 @@
         </main>
         <!-- Footer -->
         <footer class="text-center px-8 py-24 w-full text-sm">
-            <a href="/entries.html" class="link">Entries</a>
-            · <a href="/categories.html" class="link">Categories</a>
+            <a href="/categories.html" class="link">Categories</a>
             · <a href="/tags.html" class="link">Tags</a>
             · <a href="https://github.com/nicopujia/personal-website" class="link">Source code</a>
         </footer>
