@@ -1,1 +1,2 @@
+djlint
 pelican[markdown]==4.9.1
