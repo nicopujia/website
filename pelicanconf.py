@@ -43,10 +43,13 @@ ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL = "{lang}/" + ARTICLE_SAVE_AS
 # Theme
 THEME = "src"
 CSS_FILE = "output.css"
+
+# Links
 SOCIAL = (
     ("GitHub", "https://github.com/nicopujia"),
-    ("YouTube", "https://www.youtube.com/@nico_pujia"),
-    ("Twitter", "https://x.com/nico_pujia"),
-    ("Reddit", "https://www.reddit.com/user/nico_pujia/"),
+    ("LinkedIn", "https://www.linkedin.com/in/nicopujia/"),
+    ("Twitter", "https://x.com/nicopujia/"),
+    ("YouTube", "https://www.youtube.com/@nicopujia/"),
     ("Instagram", "https://www.instagram.com/nico_pujia/"),
+    ("Reddit", "https://www.reddit.com/user/nico_pujia/"),
 )
