@@ -35,9 +35,11 @@ AUTHOR_SAVE_AS = AUTHORS_SAVE_AS = ""
 PAGE_SAVE_AS = PAGE_URL = "{slug}.html"
 PAGE_LANG_SAVE_AS = PAGE_LANG_URL = "{lang}/" + PAGE_SAVE_AS
 INDEX_SAVE_AS = "portfolio.html"
-TAG_SAVE_AS = TAG_URL = "tags/{slug}.html"
-CATEGORY_SAVE_AS = CATEGORY_URL = "{slug}.html"
-ARTICLE_SAVE_AS = ARTICLE_URL = "{category}/{slug}.html"
+TAGS_SAVE_AS = "portfolio/technologies.html"
+TAG_SAVE_AS = TAG_URL = "portfolio/technologies/{slug}.html"
+CATEGORIES_SAVE_AS = "portfolio/categories.html"
+CATEGORY_SAVE_AS = CATEGORY_URL = "portfolio/categories/{slug}.html"
+ARTICLE_SAVE_AS = ARTICLE_URL = "portfolio/{category}/{slug}.html"
 ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL = "{lang}/" + ARTICLE_SAVE_AS
 
 # Theme

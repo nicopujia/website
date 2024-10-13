@@ -1,9 +1,8 @@
 ---
 title: Search algorithm visualization
 date: 2021-09
-tags: Pygame, Desktop, Python
+tags: Pygame, Python
 summary: Visualization of [A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) made with pygame.
-category: Applications
 lang: en
 status: published
 thumbnail: images/projects/search-algorithm-visualization/search-1.jpg

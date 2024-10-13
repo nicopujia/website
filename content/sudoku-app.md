@@ -1,8 +1,8 @@
 ---
 title: Sudoku app
 date: 2022-09
-tags: Pygame, Desktop, Python
-category: Applications
+tags: Pygame, Python
+category: Games
 lang: en
 status: published
 thumbnail: images/projects/sudoku-app/9x9-gameplay.png

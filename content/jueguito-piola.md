@@ -1,8 +1,8 @@
 ---
 title: Jueguito Piola
 date: 2022-05
-tags: Godot, Pixel art, Demo, Mobile
-category: Video games
+tags: Godot
+category: Games
 lang: en
 status: published
 thumbnail: images/projects/jueguito-piola/icon.png

@@ -1,8 +1,8 @@
 ---
 title: Save the Fish
 date: 2020-11
-tags: Pygame, Desktop, Python, MS Paint
-category: Video games
+tags: Pygame, Python, MS Paint
+category: Games
 lang: en
 status: published
 thumbnail: images/projects/save-the-fish/title.jpg

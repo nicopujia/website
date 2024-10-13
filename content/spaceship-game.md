@@ -1,8 +1,8 @@
 ---
 title: Spaceship game
 date: 2022-04
-tags: Godot, Pixel art, Demo, Mobile
-category: Video games
+tags: Godot
+category: Games
 lang: en
 status: published
 thumbnail: images/projects/spaceship-game/icon.png

@@ -1,8 +1,8 @@
 ---
 title: Cube Adventure
 date: 2020-12
-tags: Pygame, Desktop, Python, MS Paint
-category: Video games
+tags: Pygame, Python, MS Paint
+category: Games
 lang: en
 status: published
 thumbnail: images/projects/cube-adventure/title.jpg

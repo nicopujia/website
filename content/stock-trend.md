@@ -1,8 +1,8 @@
 ---
 title: Stock trend (NASDAQ index companies)
 date: 2022-08
-tags: Python, Web scraping, Selenium, Kivy, mplfinance
-category: Applications
+tags: Python, Selenium, Kivy, mplfinance
+category: Web scrapers
 lang: en
 status: published
 thumbnail: images/projects/stock-trend/chart.jpg

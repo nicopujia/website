@@ -2,8 +2,8 @@
 title: Siderplast
 date: 2024-03
 modified: 2024-10
-tags: Best, Python, Django, SQL, MySQL, Docker, Nginx, HTML, CSS, Bootstrap, Javascript, Linux, MercadoPago API
-category: Applications
+tags: Python, Django, SQL, MySQL, Docker, Nginx, HTML, CSS, Bootstrap, Javascript, Linux, MercadoPago API
+category: Websites
 lang: en
 status: published
 summary: The official website of Siderplast S.A., including both the online store for the clients and the administration panel for the company's employees, completely made by myself.

@@ -2,8 +2,8 @@
 title: Game Finder
 date: 2023-02
 modified: 2023-06
-tags: Best, Mobile, Flutter, AdMob, IGDB API
-category: Applications
+tags: Flutter, AdMob, IGDB API
+category: Apps
 lang: en
 status: published
 thumbnail: images/projects/game-finder/icon.webp

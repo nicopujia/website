@@ -1,8 +1,7 @@
 ---
 title: Cool pattern
 date: 2021-06
-tags: Turtle graphics, Desktop, Python
-category: Scripts
+tags: Turtle graphics, Python
 lang: en
 status: published
 thumbnail: images/projects/cool-pattern.jpg

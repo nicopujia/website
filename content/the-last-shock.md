@@ -2,8 +2,8 @@
 title: The Last Shock
 date: 2022-12
 modified: 2023-01
-tags: Godot, Pixel art, Demo, Mobile
-category: Video games
+tags: Godot
+category: Games
 lang: en
 status: published
 thumbnail: images/projects/the-last-shock/icon.png

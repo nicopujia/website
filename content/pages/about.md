@@ -15,9 +15,9 @@ You can see what I have made in my [portfolio](/portfolio.html) and, if you thin
 
 ## Journey
 
-I started at the age of 12 by developing projects on my own with **Python**, including web scraping tools, video games, automation scripts, mobile and desktop applications, and [more](https://github.com/nicopujia/old_projects). I also learned **Godot** as I wanted to create *mobile* [games](/tags/godot.html).
+I started at the age of 12 by developing projects on my own with **Python**, including web scraping tools, video games, automation scripts, mobile and desktop applications, and [more](https://github.com/nicopujia/old_projects). I also learned **Godot** as I wanted to create *mobile* [games](/portfolio/technologies/godot.html).
 
-At the end of 2022 and during 2023, I learned **Flutter** to create *high-performance* multi-platform [software](/tags/flutter.html). At the same time, I started using **Git** & **GitHub** to keep a better track of my projects. I ended up publishing those first apps and video games to the [Google Play Store](https://play.google.com/store/apps/dev?id=8059097220194731179).
+At the end of 2022 and during 2023, I learned **Flutter** to create *high-performance* multi-platform [software](/portfolio/technologies/flutter.html). At the same time, I started using **Git** & **GitHub** to keep a better track of my projects. I ended up publishing those first apps and video games to the [Google Play Store](https://play.google.com/store/apps/dev?id=8059097220194731179).
 
 At the end of 2023 and the start of 2024, I experimented with **computer networking** in order to create an online multi-platform, multiplayer [video game]({filename}/biome-fighters.md). I developed the prototype, set it aside, and a few months later, I was called to [participate in BackdropBuild v3](https://backdropbuild.com/builds/v3/biome-fighters) because they had found my project interesting. Although I did not end up in the top, I quickly learned how to deal with **deadlines**.
 

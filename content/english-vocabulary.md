@@ -2,8 +2,8 @@
 title: English Vocabulary
 date: 2022-11
 modified: 2023-01
-tags: Best, Deprecated, Mobile, Flutter, SQL, SQLite, Web scraping, BeautifulSoup
-category: Applications
+tags: Flutter, SQL, SQLite, BeautifulSoup
+category: Apps
 lang: en
 status: published
 thumbnail: images/projects/english-vocabulary/icon.png

@@ -1,8 +1,8 @@
 ---
 title: Cheap mobile phones
 date: 2021-04
-tags: Deprecated, Web scraping, Desktop, Tkinter, Python, BeautifulSoup
-category: Applications
+tags: Tkinter, Python, BeautifulSoup
+category: Web scrapers
 lang: en
 status: published
 thumbnail: images/projects/cheap-mobile-phones.jpg

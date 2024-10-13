@@ -2,8 +2,8 @@
 title: Dodge the Push
 date: 2021-10
 modified: 2023-07
-tags: Best, Mobile, Flutter, Flame Engine, GPGS, AdMob, Godot, Pygame
-category: Video games
+tags: Flutter, Flame Engine, GPGS, AdMob, Godot, Pygame
+category: Games
 lang: en
 status: published
 thumbnail: images/projects/dodge-the-push/icon.webp

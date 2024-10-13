@@ -1,11 +1,11 @@
 ---
 title: Job offers scraper
 date: 2023-12
-tags: Python, Selenium, Web scraping
-category: Scripts
+tags: Python, Selenium
+category: Web scrapers
 lang: en
 status: published
-thumbnail: images/job-search.jpg
+thumbnail: images/projects/job-search.jpg
 github: https://github.com/nicopujia/jobs_scraper
 ---
 

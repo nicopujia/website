@@ -1,8 +1,8 @@
 ---
 title: Time Runs
 date: 2021-06
-tags: Godot, Pixel art, Demo, Desktop
-category: Video games
+tags: Godot
+category: Games
 lang: en
 status: published
 thumbnail: images/projects/time-runs/icon.png

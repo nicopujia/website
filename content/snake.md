@@ -1,8 +1,8 @@
 ---
 title: Snake
 date: 2021-01
-tags: Pygame, Desktop, Python
-category: Video games
+tags: Pygame, Python
+category: Games
 lang: en
 status: published
 thumbnail: images/projects/snake.png

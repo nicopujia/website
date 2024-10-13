@@ -2,8 +2,8 @@
 title: Biome Fighters
 date: 2023-09
 modified: 2024-03
-tags: Best, Prototype, Cross-platform, Mobile, Desktop, Godot, Backend, Python, FastAPI, NoSQL, MongoDB, Pixel art, Aseprite, GCP
-category: Video games
+tags: Godot, Python, FastAPI, MongoDB, GCP, Aseprite, Linux
+category: Games
 lang: en
 status: published
 thumbnail: images/projects/biome-fighters/icon.webp
