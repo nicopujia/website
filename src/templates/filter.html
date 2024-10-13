@@ -14,7 +14,7 @@
 {% block content %}
     <section>
         <h1 class="text-center py-24 px-8">{{ title }}</h1>
-        <ul class="flex flex-wrap container mx-auto justify-center px-4 gap-2 items-center">
+        <ul class="flex flex-wrap container mx-auto justify-center p-8 gap-2 items-center">
             {% for item, entries in objects|sort %}{{ filter_list_item(item, entries|count) }}{% endfor %}
         </ul>
     </section>
