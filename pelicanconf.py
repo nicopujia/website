@@ -2,7 +2,7 @@
 RELATIVE_URLS = True
 SITENAME = AUTHOR = "Nicolás Pujia"
 SITEURL = "http://127.0.0.1:8000"
-DEFAULT_CATEGORY = "Other"
+DEFAULT_CATEGORY = "Other things"
 PATH = "content"
 STATIC_PATHS = ["images", "extra"]
 OUTPUT_PATH = "dist/"

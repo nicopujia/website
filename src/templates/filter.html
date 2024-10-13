@@ -1,7 +1,6 @@
 {# This is a base template for tags.html and categories.html #}
 {% extends "base.html" %}
-{% set url = SITEURL ~ "/" ~ objects.url %}
-{% set description = title ~ " of my entries" %}
+{% set description = title ~ " of my projects" %}
 {% macro filter_list_item(item, entries_amount) %}
     <li>
         <a class="bg-light dark:bg-dark text-dark dark:text-light bg-opacity-20 dark:bg-opacity-35 text-opacity-65 dark:text-opacity-65 inline-block px-2 pt-1 hover:opacity-50 duration-300 {% if entries_amount %}{% if entries_amount >= 12 %}text-5xl{% elif entries_amount >= 10 %}text-4xl{% elif entries_amount >= 8 %}text-3xl{% elif entries_amount >= 6 %}text-2xl{% elif entries_amount >= 4 %}text-xl{% elif entries_amount >= 2 %}text-lg{% else %}text-sm{% endif %}{% else %}text-sm{% endif %} {{ list_item_extra_class }}"
