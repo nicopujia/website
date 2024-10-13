@@ -1,14 +1,14 @@
 const navbar = document.getElementById('navbar')
-const links = document.getElementById('navbar-links')
-const menuBtn = document.getElementById('navbar-menu-btn')
+const mobileMenu = document.getElementById('mobile-menu')
+const mobileMenuButton = document.getElementById('mobile-menu-button')
 
-menuBtn.addEventListener('click', () => {
+mobileMenuButton.addEventListener('click', () => {
     navbar.classList.remove('motion-safe:animate-fade-in-after-draw-svg-path')
     navbar.classList.toggle('backdrop-blur-lg')
-    links.classList.toggle('backdrop-blur-lg')
-    links.classList.toggle('hidden')
-    links.classList.toggle('flex')
-    for (const icon of menuBtn.children) {
+    mobileMenu.classList.toggle('backdrop-blur-lg')
+    mobileMenu.classList.toggle('hidden')
+    mobileMenu.classList.toggle('flex')
+    for (const icon of mobileMenuButton.children) {
         icon.classList.toggle('hidden')
     }
 })

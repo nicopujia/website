@@ -3,7 +3,6 @@ title: Biome Fighters
 date: 2023-09
 modified: 2024-03
 tags: Best, Prototype, Cross-platform, Mobile, Desktop, Godot, Backend, Python, FastAPI, NoSQL, MongoDB, Pixel art, Aseprite, GCP
-keywords: godot multiplayer example
 category: Video games
 lang: en
 status: published

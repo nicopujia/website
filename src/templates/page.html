@@ -3,9 +3,6 @@
 {% set lang = page.lang %}
 {% set description = page.summary|striptags %}
 {% set url = SITEURL ~ "/" ~ page.url %}
-{% if page.keywords %}
-    {% block keywords %}{{ super() }}, {{ page.keywords }}{% endblock %}
-{% endif %}
 {% block content %}
     <article class="flex flex-col">
         <h1 class="text-center py-24 px-8">{{ page.title|striptags|title }}</h1>

@@ -16,7 +16,7 @@
     }
 
     .markdown h3 {
-        @apply text-3xl lg:text-4xl xl:text-5xl
+        @apply text-2xl lg:text-3xl xl:text-4xl
     }
 
     .markdown h2,
@@ -57,7 +57,7 @@
     }
 
     .markdown img {
-        @apply max-h-[80vh] object-contain
+        @apply max-h-[80vh] object-contain rounded-lg mx-auto
     }
 
     /* <p>'s containing only <img>'s */
@@ -84,7 +84,11 @@
     }
 
     .btn {
-        @apply motion-safe:duration-300 opacity-100 hover:opacity-75 hover:scale-90 text-2xl h-6 min-w-6
+        @apply motion-safe:duration-300 opacity-100 hover:opacity-75 hover:scale-90
+    }
+
+    .btn svg {
+        @apply size-full
     }
 
     .stretched-link::after {

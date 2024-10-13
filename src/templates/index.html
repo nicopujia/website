@@ -14,7 +14,7 @@
                 See all <a href="/tags.html" class="link">tags</a> or <a href="/categories.html" class="link">categories</a>.
             </p>
         </header>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 px-8 gap-8 container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 p-8 gap-8 container mx-auto">
             {% for article in articles_page.object_list %}
                 <article class="relative bg-lighter dark:bg-darker shadow-primary shadow-sm hover:shadow-md hover:shadow-primary duration-300 rounded-lg flex flex-col">
                     {% if article.thumbnail %}
@@ -35,7 +35,7 @@
                             </span>
                             <div class="markdown">{{ article.summary }}</div>
                         </div>
-                        <ul class="flex flex-wrap gap-x-1 h-min">
+                        <ul class="flex flex-wrap gap-x-1 h-min z-20">
                             {{ category_list_item(article.category) }}
                             {% for tag in article.tags|sort %}{{ tag_list_item(tag) }}{% endfor %}
                         </ul>

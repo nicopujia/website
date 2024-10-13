@@ -2,7 +2,7 @@
 {% set navbar_extra_class = "motion-safe:animate-fade-in-after-draw-svg-path" %}
 {% macro scroll_down_btn(target_position, target_element, extra_class) %}
     <button type="button"
-            class="btn absolute bottom-0 left-1/2 transform -translate-x-1/2 {{ extra_class }}"
+            class="btn size-14 absolute bottom-0 left-1/2 transform -translate-x-1/2 {{ extra_class }}"
             onclick="{% if target_position %}window.scrollTo(0, {{ target_position }});{% elif target_element %}document.getElementById('{{ target_element }}').scrollIntoView(){% else %}window.scrollBy(0, window.innerHeight){% endif %}">
         <svg class="fill-none motion-safe:animate-bounce"
              viewBox="0 0 24 24"
@@ -43,8 +43,8 @@
              id="screen-1">
         <h1 class="m-auto leading-normal font-light dark:text-light">
             Transforming ideas into
-            <a href="/tags/best.html"
-               title="See my best projects"
+            <a href="/portfolio.html"
+               title="See my portfolio"
                class="link text-darker dark:text-lighter inline-block font-bold">real software</a>
         </h1>
         {{ scroll_down_btn(target_element="screen-2") }}
@@ -56,11 +56,8 @@
                 Welcome, I am
                 <a href="/about.html"
                    title="Read more about me"
-                   class="link text-darker dark:text-lighter font-bold inline-block">Nico Pujia</a>
+                   class="link text-darker dark:text-lighter font-bold inline-block">Nicolás Pujia</a>
             </h1>
-            <p class="text-3xl sm:text-4xl italic">
-                <em>Your trusted developer</em>
-            </p>
         </div>
     </section>
 {% endblock content %}

@@ -1,29 +1,28 @@
 ---
 title: About
-keywords: biography, journey, who is nicolas pujia
 summary: Who is Nicolás Pujia?
 lang: en
 status: published
 ---
 
-## Who am I?
+![Me]({static}/images/me.jpeg)
 
-My name is **Nicolás Pujia**, and I was born in **Buenos Aires, Argentina** in 2007.
+## Summary
 
-More than just a **software developer**, I consider myself a **nonconformist** person who believes that we can always improve, both ourselves and the world around us, and software development is the bridge I use to materialize that belief.
+I am Nicolás Pujia, a nonconformist **software developer** from **Argentina** who has been creating all kinds of applications and 2D video games since 2020.
 
-I don't like to label myself as a *<framework or programming language\> developer*, because what matters most is the ability to think logically and solve problems, not the tool. However, if I had to choose, I would say that my primary focus is on **Python**, as it is the language I am most comfortable with and have used the most.
+You can see what I have made in my [portfolio](/portfolio.html) and, if you think that I can help transform your idea 💡 into real software 📱, or maybe improve your current software, feel free to [contact me](mailto:nicolaspujia@icloud.com).
 
-## My journey
+## Journey
 
-Since mid-2020, I've been immersed in this catchy world of programming, developing projects on my own. I started by making any kind of stuff with **Python**, including simple video games, web scraping tools, automation scripts, mobile and desktop applications, [and more](https://github.com/nicopujia/old_projects). I also learned **Godot** because I was interested in making mobile games.
+I started at the age of 12 by developing projects on my own with **Python**, including web scraping tools, video games, automation scripts, mobile and desktop applications, and [more](https://github.com/nicopujia/old_projects). I also learned **Godot** as I wanted to create *mobile* [games](/tags/godot.html).
 
-Later, at the end of 2022 and during 2023, I learned to **Flutter**, to create high-performance mobile applications (unlike Python ones). At the same time, I started using Git & GitHub to keep a better track of my projects. When using Flutter, I was able to create [apps and video games](/tags/flutter.html) which I ended up publishing to the Google Play Store.
+At the end of 2022 and during 2023, I learned **Flutter** to create *high-performance* multi-platform [software](/tags/flutter.html). At the same time, I started using **Git** & **GitHub** to keep a better track of my projects. I ended up publishing those first apps and video games to the [Google Play Store](https://play.google.com/store/apps/dev?id=8059097220194731179).
 
-At the end 2023 and the beginning of 2024, I experimented with networking technologies (including protocols, authentication, cryptography, ports, IP addresses, peers, and more) in order to create an online multi-platform, multiplayer [video game]({filename}/biome-fighters.md). I developed the prototype, set it aside, and a few months later, I was called to [participate in BackdropBuild v3](https://backdropbuild.com/builds/v3/biome-fighters) because they had found my project interesting.
+At the end of 2023 and the start of 2024, I experimented with **computer networking** in order to create an online multi-platform, multiplayer [video game]({filename}/biome-fighters.md). I developed the prototype, set it aside, and a few months later, I was called to [participate in BackdropBuild v3](https://backdropbuild.com/builds/v3/biome-fighters) because they had found my project interesting. Although I did not end up in the top, I quickly learned how to deal with **deadlines**.
 
-In 2024, I got my first "real project", with a real company and real money involved. Because it was a full-stack web application, I had to learn a backend technology, so I got on my way of specializing with **Django** at the same time I was developing the project.
+After that, thanks to a [friend](https://franciscoaurelio.com) of mine, I got my first paid [project]({filename}/siderplast.md) for a commercial client. Because it was a full-stack web application, I had to learn a backend technology, so I got on my way of specializing with **Django** at the same time I was developing the project. Besides, I learned other technologies such as **Docker**, **MySQL** and **Nginx**, as well as non-technical skills like **handling large projects** and **dealing with clients**. I also had to constantly refine the **code scalability**, otherwise the project would had become impossible to continue developing.
 
-## Beyond programming
+## Beyond software development
 
-Outside of software development, I really enjoy playing football ⚽ and engaging in other sports, such as running and cycling.
+I have always enjoyed playing football ⚽️ and doing other kinds of physical activity. But as I was not naturally talented for it, that is something that taught me **persistence** —not giving up even when things get tough—, something *quite* useful in this field. Besides, **teamwork** is a must-have skill when playing this sport, so that is another skill that I have learned.
