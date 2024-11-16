@@ -1,5 +1,4 @@
 ---
-title: Home
 lang: en
 status: hidden
 summary: Transforming ideas 💡 into real software 📱
