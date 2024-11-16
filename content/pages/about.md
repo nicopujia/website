@@ -44,7 +44,7 @@ At the end of 2023 and the start of 2024, I experimented with **computer network
 
 ### Time to earn some *money*
 
-After that, thanks to a [friend](https://franciscoaurelio.com) of mine, I got my first paid —and really large— [project]({filename}/siderplast.md) for a [client](https://siderplast.com.ar/nosotros/). Because it was a full-stack web application, I had to learn a backend technology, so I got on my way of specializing with **Django** at the same time I was developing the project. I also learned **Docker**, **MySQL** and **Nginx**, as well as non-technical skills like **handling large projects** and **dealing with clients**. Besides, I had to constantly refine the **code scalability**, otherwise the project would had become unsustainable.
+After that, thanks to a [friend](https://franciscoaurelio.com) of mine, I got my first paid —and really large— [project]({filename}/siderplast.md) for a [client](https://siderplast.com.ar/nosotros/). Because it was a full-stack web application, I had to learn a backend technology, so I got on my way of specializing with **Django** at the same time I was developing the project. I also learned **Docker**, **MySQL** and **Nginx**, as well as non-technical skills like **handling large projects** and **dealing with clients**. Besides, I had to constantly refine the **code scalability**, otherwise the project would have become unsustainable.
 
 ## Beyond software development
 
