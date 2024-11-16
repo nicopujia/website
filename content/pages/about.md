@@ -13,7 +13,7 @@ I am Nicolás Pujia, a nonconformist **software developer** from **Argentina** w
 
 ### Key achievements
 
-* Developed a large, [commercial project](({filename}/siderplast.md)) for a [client](https://siderplast.com.ar/nosotros/), currently [in production](https://siderplast.com.ar/).
+* Developed a large, [commercial project]({filename}/siderplast.md) for a [client](https://siderplast.com.ar/nosotros/), currently [in production](https://siderplast.com.ar/).
 * Prototyped a real-time [online multiplayer game]({filename}/biome-fighters.md).
 * Published 2+ apps on the [Google Play Store](https://play.google.com/store/apps/dev?id=8059097220194731179), [one of them](https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder) downloaded from people all over the world and with 5 stars.
 * Made 10+ [projects with Python](/portfolio/technologies/python.html).
