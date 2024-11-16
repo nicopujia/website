@@ -1,4 +1,5 @@
 {% extends "page.html" %}
+{% block title %}{{ SITENAME }}{% endblock %}
 {% set navbar_extra_class = "motion-safe:animate-fade-in-after-draw-svg-path" %}
 {% macro scroll_down_btn(target_position, target_element, extra_class) %}
     <button type="button"

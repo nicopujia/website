@@ -4,7 +4,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="/theme/css/{{ CSS_FILE }}" />
         {# djlint:off #}
-        <title>{% if title %}{{ title }} · {% endif %}{{ SITENAME }}</title>
+        <title>{% block title %}{{ title }} · {{ SITENAME }}{% endblock %}</title>
         {# djlint:on #}
         <meta charset="utf-8" />
         <meta name="generator" content="Pelican" />
