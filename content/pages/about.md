@@ -20,9 +20,9 @@ I am Nicolás Pujia, a nonconformist **software developer** from **Argentina** w
 
 ### Key skills
 
-**Technical**: Python, Django, SQL, Docker, Flutter, Godot.
+**Technical**: Python, Django, Docker, Flutter, Godot.
 
-**Non-technical**: problem solving, communication (English & Spanish), leadership, project management, software design.
+**Non-technical**: problem solving, communication (English & Spanish), fast learning, project management, software design.
 
 ### Reach out
 
