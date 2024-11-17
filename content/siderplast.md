@@ -2,7 +2,7 @@
 title: Siderplast S.A.
 date: 2024-03
 modified: 2024-11
-tags: Python, Django, SQL, MySQL, Docker, Nginx, HTML, CSS, Bootstrap, Javascript, Linux, MercadoPago SDK, unittest
+tags: Python, Django, SQL, MySQL, Docker, Nginx, HTML, CSS, Bootstrap, Javascript, Linux, MercadoPago SDK, unittest, Coverage.py
 category: Websites
 lang: en
 status: published
