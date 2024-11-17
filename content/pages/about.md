@@ -11,7 +11,7 @@ status: published
 
 I am Nicolás Pujia, a nonconformist **software developer** from **Argentina** who has been [creating](/portfolio.html) all kinds of applications and 2D video games since 2020.
 
-If my skills & experience can be useful for you, feel free to [contact me](mailto:nicolaspujia@icloud.com).
+If my skills and experience can benefit you, feel free to [contact me](mailto:nicolaspujia@icloud.com).
 
 ### Skills
 
@@ -38,16 +38,16 @@ I started at the age of 12 by developing projects on my own with **Python**, inc
 
 ### Developing for the world
 
-At the end of 2022 and during 2023, I learned **Flutter** to create *high-performance* multi-platform [software](/portfolio/technologies/flutter.html). At the same time, I started using **Git** & **GitHub** to keep a better track of my projects. I ended up publishing those first apps and video games to the [Google Play Store](https://play.google.com/store/apps/dev?id=8059097220194731179).
+At the end of 2022 and during 2023, I learned **Flutter** to create *high-performance* multi-platform [software](/portfolio/technologies/flutter.html). At the same time, I started using **Git** & **GitHub** to keep better track of my projects. I ended up publishing those first apps and video games to the [Google Play Store](https://play.google.com/store/apps/dev?id=8059097220194731179).
 
 ### Experimenting with new technologies
 
-At the end of 2023 and the start of 2024, I experimented with **computer networking** in order to create an online multi-platform, multiplayer [video game]({filename}/biome-fighters.md). I developed the prototype, set it aside, and a few months later, I was called to [participate in BackdropBuild v3](https://backdropbuild.com/builds/v3/biome-fighters) because they had found my project interesting. Although I did not end up in the top, I quickly learned how to deal with **deadlines**.
+At the end of 2023 and the start of 2024, I experimented with **computer networking** to create an online multi-platform, multiplayer [video game]({filename}/biome-fighters.md). I developed the prototype, set it aside, and a few months later, I was called to [participate in BackdropBuild v3](https://backdropbuild.com/builds/v3/biome-fighters) because they had found my project interesting. Although I did not end up in the top, I quickly learned how to deal with **deadlines**.
 
 ### Time to earn some money
 
-After that, thanks to a [friend](https://franciscoaurelio.com) of mine, I got my first paid —and really large— [project]({filename}/siderplast.md) for a [client](https://siderplast.com.ar/nosotros/). Because it was a full-stack web application, I had to learn a backend technology, so I got on my way of specializing with **Django** at the same time I was developing the project. I also learned **Docker**, **MySQL** and **Nginx**, as well as non-technical skills like **handling large projects** and **dealing with clients**. Besides, I had to constantly refine the **code scalability**, otherwise the project would have become unsustainable.
+After that, thanks to a [friend](https://franciscoaurelio.com) of mine, I got my first paid—and really large—[project]({filename}/siderplast.md) for a [client](https://siderplast.com.ar/nosotros/). Since it was a full-stack web application, I had to learn backend technology. Although I had already tried FastAPI, I began specializing in Django while developing the project, as it was a better fit for its requirements. I also learned **Docker**, **MySQL**, and **Nginx**, as well as non-technical skills like **handling large projects** and **dealing with clients**. I constantly refined the code's scalability to ensure the project remained sustainable.
 
 ## Beyond software development
 
-I have always enjoyed playing football ⚽️ and doing other kinds of physical activity. But as I was not naturally talented for it, that is something that taught me **persistence** —not giving up even when things get tough—, something *quite* useful in this field. Besides, **teamwork** is a must-have skill when playing this sport, and that's another skill that I have learned and even awarded for.
+I have always enjoyed playing football ⚽️ and other kinds of physical activity. Although I was not naturally talented, it taught me **persistence—never giving up even when things get tough**. Besides, **teamwork** is a must-have skill when playing this sport, and that’s another skill I have learned and even been awarded for.
