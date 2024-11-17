@@ -8,20 +8,19 @@
     }
 
     .markdown {
-        @apply max-w-prose flex flex-col gap-4 mx-auto
+        @apply max-w-prose flex gap-2 flex-col mx-auto
     }
 
     .markdown h2 {
-        @apply text-4xl lg:text-5xl xl:text-6xl
+        @apply text-5xl lg:text-6xl xl:text-7xl pt-8 font-light
     }
 
     .markdown h3 {
-        @apply text-2xl lg:text-3xl xl:text-4xl
+        @apply text-2xl lg:text-3xl xl:text-4xl pt-6 font-light
     }
 
-    .markdown h2,
-    .markdown h3 {
-        @apply pt-8
+    .markdown h4 {
+        @apply text-lg lg:text-xl xl:text-2xl pt-4 font-light
     }
 
     .markdown a {
@@ -45,15 +44,15 @@
     }
 
     .markdown pre {
-        @apply max-w-prose overflow-x-scroll font-mono bg-lighter dark:bg-darker p-2 rounded
+        @apply max-w-prose overflow-x-scroll font-mono bg-lighter dark:bg-darker p-2 rounded font-light
     }
 
-    .markdown th {
-        @apply text-left
+    .markdown td, .markdown th {
+        @apply text-center border
     }
 
     .markdown tr {
-        @apply border-b-2 border-b-dark dark:border-b-light
+        @apply border-b-dark dark:border-b-light
     }
 
     .markdown img {
@@ -74,7 +73,7 @@
     }
 
     .markdown blockquote p {
-        @apply font-mono
+        @apply font-mono font-extralight
     }
 }
 
