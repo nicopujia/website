@@ -55,7 +55,7 @@ SOCIAL = (
             <title>Email</title>
         </svg>
         """,
-        "mailto:nicolaspujia@icloud.com",
+        "mailto:me@nicolaspujia.com",
     ),
     (
         """

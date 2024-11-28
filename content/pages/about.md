@@ -11,7 +11,7 @@ status: published
 
 I am Nicolás Pujia, a nonconformist **software engineer** from **Argentina** who has been [creating](/portfolio.html) all kinds of applications and 2D video games since 2020.
 
-If my skills and experience can benefit you, feel free to [contact me](mailto:nicolaspujia@icloud.com).
+If my skills and experience can benefit you, feel free to [contact me](mailto:me@nicolaspujia.com).
 
 ### Skills
 
