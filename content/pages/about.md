@@ -9,19 +9,22 @@ status: published
 
 ## Summary
 
-I am Nicolás Pujia, a nonconformist **software engineer** from **Argentina** who has been [creating](/portfolio.html) all kinds of applications and 2D video games since 2020.
+I am Nicolás Pujia, a nonconformist **software engineer** from **Argentina** specialized in **Django** with [proven experience]({filename}/siderplast.md) in full-stack web development. I can design, develop and deploy scalable web applications. I have been [creating](/portfolio.html) all kinds of applications and since 2020.
 
-If my skills and experience can benefit you, feel free to [contact me](mailto:me@nicolaspujia.com).
+If my skills and experience can benefit you, feel free to [contact me](mailto:contact@nicolaspujia.com).
 
 ### Skills
 
 #### Technical
 
-Python, Django, SQL, software design, Git, Docker, Linux, Flutter, computer networking, project scalability, QA, Godot.
+* **Expert**: *Python.*
+* **Advanced**: *Django, Linux, Git, web scraping, REST APIs, Godot Engine.*
+* **Intermediate**: *Docker, MySQL, HTML, CSS, JS, Flutter.*
+* **Beginner**: *nginx, MongoDB, GCP, FastAPI.*
 
 #### Non-technical
 
-Problem solving, teamwork, communication (English & Spanish), project management, leadership, fast learning, discipline, hard work.
+Self-initiative, critical and logical thinking, attention to detail, teamwork.
 
 ### Experience
 
