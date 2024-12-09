@@ -17,10 +17,10 @@ If my skills and experience can benefit you, feel free to [contact me](mailto:co
 
 #### Technical
 
-* **Expert**: *Python.*
-* **Advanced**: *Django, Linux, Git, web scraping, REST APIs, Godot Engine.*
-* **Intermediate**: *Docker, MySQL, HTML, CSS, JS, Flutter.*
-* **Beginner**: *nginx, MongoDB, GCP, FastAPI.*
+* **Proficient**: Python, Django, REST APIs, Godot Engine.
+* **Competent**: Git, Docker, HTML/CSS, Flutter, FastAPI, UI/UX, software design, testing, computer networking.
+* **Advanced Beginner**: MySQL, web scraping, JavaScript, Linux, CI/CD.
+* **Novice**: nginx, GCP, MongoDB.
 
 #### Non-technical
 
