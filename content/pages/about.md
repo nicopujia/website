@@ -7,29 +7,6 @@ status: published
 
 ![Me]({static}/images/me.jpeg)
 
-## Summary
-
-I am Nicolás Pujia, a **software engineer** from Buenos Aires, **Argentina**. Since 2020, I have passionately been transforming ideas into [real software](/portfolio.html). With [experience]({filename}/siderplast.md) in **full-stack** development, I can design, develop, and deploy scalable, user-focused applications.
-
-Feel free to reach out at <contact@nicolaspujia.com> to discuss how my skills and experience can benefit your company.
-
-## Experience
-
-* Implemented a large, [commercial project]({filename}/siderplast.md) for a [client](https://siderplast.com.ar/nosotros/), currently [in production](https://siderplast.com.ar/).
-* Built a real-time [online multiplayer game]({filename}/biome-fighters.md) recognized for being innovative.
-* Published multiple apps on the [Google Play Store](https://play.google.com/store/apps/dev?id=8059097220194731179), [one of them](https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder) downloaded by 500+ users worldwide and with 5-stars rating.
-* Created 10+ [projects with Python](/portfolio/technologies/python.html), obtaining extensive knowledge about the language and programming in general.
-
-## Skills
-
-### Technical
-
-Python, Django, Docker, MySQL, JavaScript, HTML/CSS, Flutter, Godot Engine.
-
-### Non-technical
-
-Self-initiative, critical and logical thinking, teamwork.
-
 ## Journey
 
 ### Early exploration
