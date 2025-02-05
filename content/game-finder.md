@@ -6,13 +6,12 @@ tags: Flutter, AdMob, IGDB API
 category: Apps
 lang: en
 status: published
+summary: Mobile app designed to help gamers discover new games to play. You can search for games by similarity or use a variety of filters.
 thumbnail: images/projects/game-finder/icon.webp
 google_play: https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder
 ---
 
-Mobile app designed to help gamers discover new games to play. You can search for games by similarity or use a variety of filters. Additionally, you can add your favorite games to a personalized favorites list.
-
-The app supports multiple languages and themes. All data is sourced from the [IGDB API](https://www.igdb.com/).
+Mobile app designed to help gamers discover new games to play. You can search for games by similarity or use a variety of filters.
 
 ## Screenshots
 
@@ -24,3 +23,13 @@ The app supports multiple languages and themes. All data is sourced from the [IG
 ![Screenshot 6]({static}/images/projects/game-finder/6.jpg)
 ![Screenshot 7]({static}/images/projects/game-finder/7.jpg)
 ![Screenshot 8]({static}/images/projects/game-finder/8.jpg)
+
+## Process
+
+The idea came from a problem I had back then. I used to play video games, but it was hard for me to find new ones to play, especially on the platforms I had available, such as the PS3 and retro emulators. Existing solutions didn't offer the filters I needed to find something I enjoyed.
+
+So, I learned new things as needed, solved my problem, and finally published it to the Google Play Store. Without any marketing effort, it obtained a 45% conversion rate and 800+ downloads worldwide, currently with 100+ new users per month.
+
+## Acknowledgements
+
+Thanks to [IGDB](https://www.igdb.com/) for providing the data.
