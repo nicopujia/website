@@ -4,7 +4,7 @@ date: 2023-12
 tags: Python, Selenium
 category: Web scrapers
 lang: en
-status: published
+status: hidden
 thumbnail: images/projects/job-search.jpg
 github: https://github.com/nicopujia/jobs_scraper
 ---
