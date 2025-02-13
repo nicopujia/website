@@ -1,7 +1,7 @@
 ---
 title: Ravifi
 date: 2025-01
-tags: Flutter, Supabase
+tags: Dart, Flutter, SQL, PostgreSQL, Supabase
 category: Apps
 lang: en
 status: published
@@ -23,26 +23,6 @@ Here's a glance of what has been made so far.
 ![Edit log]({static}/images/projects/ravifi/3.png)
 ![Home screen with logs]({static}/images/projects/ravifi/4.png)
 ![Home screen interactivity]({static}/images/projects/ravifi/5.png)
-
-## What I've learned
-
-* MVC architecture.
-* Supabase (database, storage, and Flutter implementation).
-* Some cool Flutter packages:
-    * [get](https://pub.dev/packages/get) for state management.
-    * [brick](https://getdutchie.github.io/brick/#/) for an offline-first database.
-    * [fl_chart](https://flchart.dev) for fancy charts.
-    * [image_picker](https://pub.dev/packages/image_picker) to input user images.
-* I realized that Flutter isn't always (**usually it's not**) the best tool. [This video](https://youtu.be/OCwcedYTKDc?t=274&si=Z_dBPWzDcWZ37DZY) explains why very well.
-* Spreadsheets are really powerful, I should use them more often.
-
-## Why it's abandoned
-
-When I started I decided to develop this project to solve the problem for myself, learn in the process, and solve it for more people if they also had it.
-
-I now look at it with different eyes and think it’s a problem I initially perceived but later realized is actually solved by spreadsheets — and solved well, better than I thought.
-
-And about the learning on the process, above it's what I've learned, and the rest would probably be diving further into Flutter, and I prefer focusing on other stuff.
 
 ## Original idea
 
@@ -86,3 +66,23 @@ I first thought the basic name: was "Visual Physique Tracker". Then I copy-paste
 #### Logo
 
 Rav-ifi -> Rav-en -> A raven 🐦‍⬛
+
+## Why it's abandoned
+
+When I started I decided to develop this project to solve the problem for myself, learn in the process, and solve it for more people if they also had it.
+
+I now look at it with different eyes and think it’s a problem I initially perceived but later realized is actually solved by spreadsheets — and solved well, better than I thought.
+
+And about the learning on the process, above it's what I've learned, and the rest would probably be diving further into Flutter, and I prefer focusing on other stuff.
+
+## What I've learned
+
+* MVC architecture.
+* Supabase (database, storage, and Flutter implementation).
+* Some cool Flutter packages:
+    * [get](https://pub.dev/packages/get) for state management.
+    * [brick](https://getdutchie.github.io/brick/#/) for an offline-first database.
+    * [fl_chart](https://flchart.dev) for fancy charts.
+    * [image_picker](https://pub.dev/packages/image_picker) to input user images.
+* I realized that Flutter isn't always (**usually it's not**) the best tool. [This video](https://youtu.be/OCwcedYTKDc?t=274&si=Z_dBPWzDcWZ37DZY) explains why very well.
+* Spreadsheets are really powerful, I should use them more often.
