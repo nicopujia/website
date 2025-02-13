@@ -2,7 +2,7 @@
 title: Game Finder
 date: 2023-02
 modified: 2023-06
-tags: Flutter, AdMob, IGDB API
+tags: Dart, Flutter, AdMob, IGDB API
 category: Apps
 lang: en
 status: published

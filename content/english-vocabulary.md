@@ -2,7 +2,7 @@
 title: English Vocabulary
 date: 2022-11
 modified: 2023-01
-tags: Flutter, SQL, SQLite, BeautifulSoup
+tags: Dart, Flutter, SQL, SQLite, BeautifulSoup
 category: Apps
 lang: en
 status: published
