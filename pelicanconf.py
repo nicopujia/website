@@ -35,12 +35,12 @@ DEFAULT_PAGINATION = 12
 AUTHOR_SAVE_AS = AUTHORS_SAVE_AS = ""
 PAGE_SAVE_AS = PAGE_URL = "{slug}.html"
 PAGE_LANG_SAVE_AS = PAGE_LANG_URL = "{lang}/" + PAGE_SAVE_AS
-INDEX_SAVE_AS = "portfolio.html"
-TAGS_SAVE_AS = "portfolio/technologies.html"
-TAG_SAVE_AS = TAG_URL = "portfolio/technologies/{slug}.html"
-CATEGORIES_SAVE_AS = "portfolio/categories.html"
-CATEGORY_SAVE_AS = CATEGORY_URL = "portfolio/categories/{slug}.html"
-ARTICLE_SAVE_AS = ARTICLE_URL = "portfolio/{category}/{slug}.html"
+INDEX_SAVE_AS = "projects.html"
+TAGS_SAVE_AS = "projects/technologies.html"
+TAG_SAVE_AS = TAG_URL = "projects/technologies/{slug}.html"
+CATEGORIES_SAVE_AS = "projects/categories.html"
+CATEGORY_SAVE_AS = CATEGORY_URL = "projects/categories/{slug}.html"
+ARTICLE_SAVE_AS = ARTICLE_URL = "projects/{category}/{slug}.html"
 ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL = "{lang}/" + ARTICLE_SAVE_AS
 
 # Theme
