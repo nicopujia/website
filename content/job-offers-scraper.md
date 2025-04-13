@@ -2,7 +2,7 @@
 title: Job offers scraper
 date: 2023-12
 tags: Python, Selenium
-category: Web scrapers
+category: Apps
 lang: en
 status: hidden
 thumbnail: images/projects/job-search.jpg

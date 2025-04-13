@@ -2,7 +2,7 @@
 title: Cheap mobile phones
 date: 2021-04
 tags: Tkinter, Python, BeautifulSoup
-category: Web scrapers
+category: Apps
 lang: en
 status: published
 thumbnail: images/projects/cheap-mobile-phones.jpg
