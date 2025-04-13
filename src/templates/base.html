@@ -24,7 +24,7 @@
     </head>
     <body class="bg-gradient-to-tl from-light to-lighter dark:from-darker dark:to-dark text-dark dark:text-light text-xl font-josefin-sans min-h-screen">
         <!-- Navbar -->
-        <header class="sticky top-0 left-0 z-10 backdrop-blur-lg p-4 text-2xl font-light flex justify-between w-full gap-4 {{ navbar_extra_class }}"
+        <header class="sticky border-b border-b-light dark:border-b-dark top-0 left-0 z-10 backdrop-blur-lg p-4 text-2xl font-light flex justify-between items-center w-full gap-4 {{ navbar_extra_class }}"
                 id="navbar">
             <!-- Logo -->
             <h1 class="btn h-6 w-12 z-30">
@@ -54,7 +54,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="flex gap-8 justify-between order-first lg:order-none">
+                <div class="flex items-center gap-8 justify-between order-first lg:order-none">
                     <!-- External links -->
                     <ul class="flex gap-2">
                         {% for html, url in LINKS %}
