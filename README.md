@@ -8,8 +8,8 @@ This repository contains the source code for my personal website. It's built usi
 
 ```bash
 # Project (requires Git):
-git clone https://github.com/nicopujia/persona_website.git
-cd personal_website
+git clone https://github.com/nicopujia/personal-website.git
+cd personal-website
 
 # Python requirements (requires Python >= 3.8.1):
 python -m venv env
