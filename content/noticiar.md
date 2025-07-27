@@ -1,7 +1,7 @@
 ---
 title: Noticiar
-date: 2025-03
-tags: Python, BeautifulSoup, JavaScript, NextJS, Gemini
+date: 2025-03-08
+tags: Python, BeautifulSoup, JavaScript, NextJS, Gemini, TailwindCSS
 category: Apps
 lang: en
 status: published
@@ -9,7 +9,7 @@ thumbnail: images/projects/noticiar/logo.jpeg
 website: https://notici.ar
 ---
 
-*AI-powered* TikTok-like web app of unbiased daily **news** on what matters to *you* in just *two* minutes. Made for [ShipBA](https://shipba.dev) hackathon in 24 hours — without sleeping.
+_AI-powered_ TikTok-like web app of unbiased daily **news** on what matters to _you_ in just _two_ minutes. Made for [ShipBA](https://shipba.dev) hackathon in 24 hours — without sleeping.
 
 It scrapes news articles from multiple sources and, based on what they talk about, merges them into single events using Gemini. Thanks to this, the app provides information as unbiased as possible.
 
