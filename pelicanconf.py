@@ -11,11 +11,15 @@ EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/app-ads.txt": {"path": "app-ads.txt"},
 }
+LINKS = (
+    ("Go to top", "#"),
+    ("Email", "mailto:contact@nicolaspujia.com"),
+    ("Tags", "/tags"),
+)
 PATH = "content"
 PLUGINS = ["sitemap"]
 SEPARATOR_SYMBOL = "·"
 SOCIAL = (
-    ("Email", "mailto:contact@nicolaspujia.com"),
     ("GitHub", "https://github.com/nicopujia"),
     ("X", "https://x.com/nicopujia"),
     ("LinkedIn", "https://www.linkedin.com/in/nicopujia/"),
