@@ -5,6 +5,7 @@ tags: Godot
 category: Games
 lang: en
 status: published
+summary: Platformer video game prototype where you must beat each level before time runs out, with coin collection for extra seconds.
 thumbnail: images/projects/time-runs/icon.png
 github: https://github.com/nicopujia/old_projects/tree/main/2021/El%20tiempo%20corre
 ---

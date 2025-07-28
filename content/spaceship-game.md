@@ -5,6 +5,7 @@ tags: Godot
 category: Games
 lang: en
 status: published
+summary: Casual mobile endless game with a spaceship that destroys asteroids while avoiding destruction, designed to be satisfying.
 thumbnail: images/projects/spaceship-game/icon.png
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Spaceship%20Game
 ---

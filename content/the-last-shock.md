@@ -6,6 +6,7 @@ tags: Godot
 category: Games
 lang: en
 status: published
+summary: Speedrun platformer with dash ability and a light ray behind you, remake of Jueguito Piola with updated sprites and style.
 thumbnail: images/projects/the-last-shock/icon.png
 github: https://github.com/nicopujia/old_projects/tree/main/2022/The%20Last%20Shock
 ---

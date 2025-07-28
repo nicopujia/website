@@ -5,6 +5,7 @@ tags: Python, Selenium, Kivy, mplfinance
 category: Apps
 lang: en
 status: published
+summary: Desktop application using Selenium for dynamic web scraping to analyze NASDAQ stock trends with filtering by company, sector, and time period.
 thumbnail: images/projects/stock-trend/chart.jpg
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Stock%20trend%20(NASDAQ%20index%20companies)
 ---

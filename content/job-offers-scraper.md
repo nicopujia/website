@@ -5,6 +5,7 @@ tags: Python, Selenium
 category: Apps
 lang: en
 status: hidden
+summary: Web scraper to automatically find job offer counts for multiple positions and save data to CSV, useful for analyzing job market demand.
 thumbnail: images/projects/job-search.jpg
 github: https://github.com/nicopujia/jobs_scraper
 ---

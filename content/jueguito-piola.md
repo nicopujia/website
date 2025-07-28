@@ -5,6 +5,7 @@ tags: Godot
 category: Games
 lang: en
 status: published
+summary: Mobile platformer speedrun game where you race against a light ray behind you and get electrocuted if you stay still, featuring dash mechanics.
 thumbnail: images/projects/jueguito-piola/icon.png
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Jueguito%20Piola
 ---

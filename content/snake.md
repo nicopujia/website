@@ -5,6 +5,7 @@ tags: Pygame, Python
 category: Games
 lang: en
 status: published
+summary: The well-known Snake game, completely made from scratch with Python and Pygame using my 13-year-old brain.
 thumbnail: images/projects/snake.png
 github: https://github.com/nicopujia/old_projects/blob/main/2021/Snake.py
 ---

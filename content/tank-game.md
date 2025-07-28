@@ -5,6 +5,7 @@ tags: Pygame, Python, MS Paint
 category: Games
 lang: en
 status: published
+summary: Prototype remake of Awesome Tanks 2 made with pygame, featuring WASD movement, mouse aiming, and a CSV level editor.
 thumbnail: images/projects/tank-game/1.jpg
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Juego%20del%20Tanque
 ---

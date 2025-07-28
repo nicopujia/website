@@ -6,6 +6,7 @@ tags: Dart, Flutter, Flame Engine, GPGS, AdMob, Godot, Pygame
 category: Games
 lang: en
 status: published
+summary: Simple arcade mobile game where you dodge obstacles falling from above by moving horizontally, featuring global leaderboards via Play Games API.
 thumbnail: images/projects/dodge-the-push/icon.webp
 google_play: https://play.google.com/store/apps/details?id=com.nicopujia.dodgethepush
 ---

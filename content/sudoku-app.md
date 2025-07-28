@@ -5,6 +5,7 @@ tags: Pygame, Python
 category: Games
 lang: en
 status: published
+summary: Desktop application to play 9×9 and 4×4 sudokus with random generation, difficulty levels, and solution checking.
 thumbnail: images/projects/sudoku-app/9x9-gameplay.png
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Sudoku
 ---

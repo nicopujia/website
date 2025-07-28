@@ -5,6 +5,7 @@ tags: Python, BeautifulSoup, JavaScript, NextJS, Gemini, TailwindCSS
 category: Apps
 lang: en
 status: published
+summary: AI-powered TikTok-like web app of unbiased daily news on what matters to you in just two minutes.
 thumbnail: images/projects/noticiar/logo.jpeg
 website: https://notici.ar
 ---
