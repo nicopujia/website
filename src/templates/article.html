@@ -8,7 +8,35 @@
                    rel="bookmark"
                    title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
             </h2>
+            {% if article.google_play or article.website or article.github or article.youtube %}
+                <nav>
+                    <h3>External links</h3>
+                    <ul>
+                        {% if article.google_play %}
+                            <li>
+                                <a href="{{ article.google_play }}">Google Play</a>
+                            </li>
+                        {% endif %}
+                        {% if article.website %}
+                            <li>
+                                <a href="{{ article.website }}">Website</a>
+                            </li>
+                        {% endif %}
+                        {% if article.github %}
+                            <li>
+                                <a href="{{ article.github }}">GitHub</a>
+                            </li>
+                        {% endif %}
+                        {% if article.youtube %}
+                            <li>
+                                <a href="{{ article.youtube }}">YouTube</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            {% endif %}
         </header>
+        <h3>Overview</h3>
         {{ article.content }}
         <footer>
             <p>
