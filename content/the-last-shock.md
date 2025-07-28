@@ -12,7 +12,7 @@ github: https://github.com/nicopujia/old_projects/tree/main/2022/The%20Last%20Sh
 
 My last (as the name suggests) remake of [Jueguito Piola]({filename}/jueguito-piola.md), a speedrun platformer with dash ability and a light ray behind you. In this version, I re-made the sprites, movement, menus, music, etc. In a word, I changed the style of the game.
 
-## Screenshots
+### Screenshots
 
 ![Title screen]({static}/images/projects/the-last-shock/title-screen.jpg)
 ![Level selection screen]({static}/images/projects/the-last-shock/level-selection.jpg)

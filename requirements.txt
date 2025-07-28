@@ -1,2 +1,3 @@
 djlint
 pelican[markdown]==4.9.1
+pelican-sitemap==1.2.1

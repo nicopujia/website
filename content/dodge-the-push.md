@@ -14,7 +14,7 @@ Simple, casual, arcade mobile game with a novel video game mechanic in which you
 
 In order to give a bit more meaning to the game, I included a global leaderboard which makes use of the [Play Games API](https://developers.google.com/games/services?hl=es-419), so player can compete globally or against their friends to have the highest score.
 
-## More than just one version
+### More than just one version
 
 The first idea of the game mechanic came to my mind in 2021, when I used to make simple games using Pygame. So I created an extremely simple prototype with it, only with the core mechanic:
 
@@ -30,7 +30,7 @@ And I liked it, so I decided to improve it. But this was a mobile game, and Pyga
 
 Everything was great, until in 2023 I got [my Google Play Developer account](https://play.google.com/store/apps/dev?id=8059097220194731179) and wanted to export the game in AAB format to publish it to the Google Play Store.
 
-I was having *a lot* of trouble with that. And I also wanted to include ads, which were a headache to include with Godot 3. And by the time I was trying to publish the game to the Google Play Store, I had already developed two apps using Flutter, [one of them]({filename}/game-finder.md) with ads. Finally, I found [Flame Engine](https://docs.flame-engine.org/latest/). The game was simple. So, I decided to remake it once again, and here it is, published in the Google Play Store, by myself to the world. Enjoy :)
+I was having _a lot_ of trouble with that. And I also wanted to include ads, which were a headache to include with Godot 3. And by the time I was trying to publish the game to the Google Play Store, I had already developed two apps using Flutter, [one of them]({filename}/game-finder.md) with ads. Finally, I found [Flame Engine](https://docs.flame-engine.org/latest/). The game was simple. So, I decided to remake it once again, and here it is, published in the Google Play Store, by myself to the world. Enjoy :)
 
 ![Home screen]({static}/images/projects/dodge-the-push/title.jpg)
 ![Gameplay 1]({static}/images/projects/dodge-the-push/gameplay-1.jpg)
@@ -39,6 +39,6 @@ I was having *a lot* of trouble with that. And I also wanted to include ads, whi
 ![Defeat screen]({static}/images/projects/dodge-the-push/continue.jpg)
 ![Final screen]({static}/images/projects/dodge-the-push/game-over.jpg)
 
-## Credits
+### Credits
 
-All the songs of this game were created by my friend [C25](https://www.youtube.com/@C_25Music). (*Yeah, I'm not a musician*).
+All the songs of this game were created by my friend [C25](https://www.youtube.com/@C_25Music). (_Yeah, I'm not a musician_).

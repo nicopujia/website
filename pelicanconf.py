@@ -126,3 +126,5 @@ SOCIAL = (
         "https://www.reddit.com/user/nico_pujia/",
     ),
 )
+
+PLUGINS = ["sitemap"]

@@ -7,13 +7,11 @@ status: published
 
 ![Me]({static}/images/me.jpeg)
 
-## Journey
-
 ### Early exploration
 
-I started at the age of 12 by developing projects on my own with [**Python**](/projects/technologies/python.html), including web scraping tools, video games, automation scripts, mobile and desktop applications, and [more](https://github.com/nicopujia/old_projects). I also learned [**Godot**](/projects/technologies/godot.html) as I wanted to create *mobile* games.
+I started at the age of 12 by developing projects on my own with [**Python**](/projects/technologies/python.html), including web scraping tools, video games, automation scripts, mobile and desktop applications, and [more](https://github.com/nicopujia/old_projects). I also learned [**Godot**](/projects/technologies/godot.html) as I wanted to create _mobile_ games.
 
-At the end of 2022 and during 2023, I learned [**Dart** & **Flutter**](/projects/technologies/flutter.html) to create *high-performance* multi-platform software. At the same time, I started using **Git** & **GitHub** to keep better track of my projects. I published those first apps and video games to the [Play Store](https://play.google.com/store/apps/dev?id=8059097220194731179), including [Game Finder](https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder).
+At the end of 2022 and during 2023, I learned [**Dart** & **Flutter**](/projects/technologies/flutter.html) to create _high-performance_ multi-platform software. At the same time, I started using **Git** & **GitHub** to keep better track of my projects. I published those first apps and video games to the [Play Store](https://play.google.com/store/apps/dev?id=8059097220194731179), including [Game Finder](https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder).
 
 In late 2023 and the beginning of 2024, I experimented with **computer networking** to create an online multi-platform, multiplayer game called [Biome Fighters]({filename}/biome-fighters.md), which led me to participate in [BackdropBuild v3](https://backdropbuild.com/builds/v3/biome-fighters).
 
@@ -25,7 +23,7 @@ After that, thanks to a [friend](https://franciscoaurelio.com) of mine, I got my
 
 #### Silver.dev
 
-2025 arrived and I could finally meet someone who I had been listening to his [podcast](https://silver.dev/podcast) for about two years. I'm talking about [Gabriel Benmergui](https://x.com/conanbatt), founder of [Silver.dev](https://silver.dev) and staff engineer with over 15 years of experience in the industry. I had applied to the Founder Engineer position, and I was called for the live coding, but Gabriel wasn't going to hire me for that because I had little experience. However, given my performance —*I broke the record of the fastest developer to complete the challenge, even beating people with 10+ years of experience*—, he invented a position for me as an intern.
+2025 arrived and I could finally meet someone who I had been listening to his [podcast](https://silver.dev/podcast) for about two years. I'm talking about [Gabriel Benmergui](https://x.com/conanbatt), founder of [Silver.dev](https://silver.dev) and staff engineer with over 15 years of experience in the industry. I had applied to the Founder Engineer position, and I was called for the live coding, but Gabriel wasn't going to hire me for that because I had little experience. However, given my performance —_I broke the record of the fastest developer to complete the challenge, even beating people with 10+ years of experience_—, he invented a position for me as an intern.
 
 Here, I've learned a lot about [**TypeScript** & **NextJS**](/projects/technologies/nextjs.html) and, most importantly, about **product engineering** and **user experience**.
 

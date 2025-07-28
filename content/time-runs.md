@@ -13,7 +13,7 @@ Platformer video game prototype where you have to beat the current level before 
 
 This game has a [remake]({filename}/jueguito-piola.md).
 
-## Screenshots
+### Screenshots
 
 ![Screenshot 1]({static}/images/projects/time-runs/1.jpg)
 ![Screenshot 2]({static}/images/projects/time-runs/2.jpg)

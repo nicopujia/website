@@ -11,7 +11,7 @@ thumbnail: images/projects/english-vocabulary/icon.png
 
 Mobile app made for Spanish speaking users learning English to help them save the words they don't know, so the can practice the vocabulary and easily access the translation, image and audio of each word.
 
-## Deprecated
+### Deprecated
 
 Originally, the app used to work perfectly and you could download it from the Google Play Store. One day, unfortunately, the website from where the app scraped the images (<https://canstockphoto.com>) stopped working due to the raise of AI image generation.
 
@@ -31,7 +31,7 @@ Here's what the website had to say:
 
 Although I could, of course, find another source for the app's images, I simply prefer to focus on my latest, more exciting projects.
 
-## Screenshots
+### Screenshots
 
 ![Add the words you don't know]({static}/images/projects/english-vocabulary/1.png)
 ![Have your own words list]({static}/images/projects/english-vocabulary/2.png)

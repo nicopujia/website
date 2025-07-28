@@ -11,13 +11,13 @@ github: https://github.com/nicopujia/biome_fighters
 youtube: https://youtu.be/MzYI5f1HNUU?si=pvkVsRpZaRKO-gxa
 ---
 
-1v1 **online multiplayer** [platform fighter](https://en.wikipedia.org/wiki/Platform_fighter) video game prototype with a retro aesthetic, where there are more than just two platforms and *every corner is an opportunity for the victory*. It is inspired in [Spelunky's deatchmath](https://spelunky.fandom.com/wiki/Deathmatch_(HD)), but taken to a competitive online multiplayer environment.
+1v1 **online multiplayer** [platform fighter](https://en.wikipedia.org/wiki/Platform_fighter) video game prototype with a retro aesthetic, where there are more than just two platforms and _every corner is an opportunity for the victory_. It is inspired in [Spelunky's deatchmath](<https://spelunky.fandom.com/wiki/Deathmatch_(HD)>), but taken to a competitive online multiplayer environment.
 
-## Prototype
+### Prototype
 
 Please note that the current version is only prototype, so a lot of [initial ideas for the game](https://github.com/nicopujia/biome_fighters/labels/Enhancement) are not implemented. It only includes a minimal playable experience in a map with some platforms, with one biome (the desert) and one character (the cactus).
 
-## [BackdropBuild v3](https://backdropbuild.com/builds/v3/biome-fighters)
+### [BackdropBuild v3](https://backdropbuild.com/builds/v3/biome-fighters)
 
 I developed the prototype in the summer (January in Argentina) of 2023/24, making it public in GitHub. In February, I was sent an email to participate in this program.
 
@@ -25,7 +25,7 @@ I developed the prototype in the summer (January in Argentina) of 2023/24, makin
 
 Unfortunately, during the program I was hardly able to develop anything new. I spent a lot of time refactoring because in the state the code was in, it was impossible to add new content without creating unintelligible spaghetti.
 
-## Screenshots
+### Screenshots
 
 ![User authentication]({static}/images/projects/biome-fighters/user-authentication.jpg)
 ![Main menu]({static}/images/projects/biome-fighters/main-menu.jpg)
