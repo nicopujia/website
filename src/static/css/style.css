@@ -1,3 +1,7 @@
+:root {
+  --color-muted: gray;
+}
+
 body {
   max-width: 65ch;
   margin: 0 auto;
@@ -6,16 +10,16 @@ body {
 }
 
 body > header {
-  border-bottom: 0.2rem solid gray;
+  border-bottom: 0.2rem solid var(--color-muted);
 }
 
 body > footer {
-  border-top: 0.2rem solid gray;
+  border-top: 0.2rem solid var(--color-muted);
 }
 
 article footer {
   font-size: smaller;
-  border-top: 1px dashed gray;
+  border-top: 1px dashed var(--color-muted);
 }
 
 img {
@@ -43,6 +47,6 @@ section > article {
 }
 
 section > article > img {
-  width: 128px;
+  width: 8rem;
   height: auto;
 }
