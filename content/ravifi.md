@@ -3,8 +3,6 @@ title: Ravifi
 date: 2025-01
 tags: Dart, Flutter, SQL, PostgreSQL, Supabase
 category: Apps
-lang: en
-status: published
 summary: App to log your physical state in a simple yet complete manner.
 thumbnail: images/projects/ravifi/logo.jpg
 github: https://github.com/nicopujia/ravifi

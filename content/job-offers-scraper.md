@@ -3,7 +3,6 @@ title: Job offers scraper
 date: 2023-12
 tags: Python, Selenium
 category: Apps
-lang: en
 status: hidden
 summary: Web scraper to automatically find job offer counts for multiple positions and save data to CSV, useful for analyzing job market demand.
 thumbnail: images/projects/job-search.jpg

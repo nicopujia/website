@@ -5,7 +5,6 @@ category: Web apps
 status: draft
 date: 03-2025
 modified: 04-2025
-lang: en
 summary: Collection of open source tools including Fees Calculator, Behavioral Checker, and Resume Checker, developed during internship at Silver.dev.
 thumbnail: images/silver.png
 website: https://open.silver.dev

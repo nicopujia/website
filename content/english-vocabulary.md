@@ -4,8 +4,6 @@ date: 2022-11
 modified: 2023-01
 tags: Dart, Flutter, SQL, SQLite, BeautifulSoup
 category: Apps
-lang: en
-status: published
 summary: Mobile app for Spanish speaking users learning English to save unknown words and practice vocabulary with translations, images and audio.
 thumbnail: images/projects/english-vocabulary/icon.png
 ---

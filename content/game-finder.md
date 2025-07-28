@@ -4,8 +4,6 @@ date: 2023-02
 modified: 2023-06
 tags: Dart, Flutter, AdMob, IGDB API
 category: Apps
-lang: en
-status: published
 summary: Mobile app designed to help gamers discover new games to play. You can search for games by similarity or use a variety of filters.
 thumbnail: images/projects/game-finder/icon.webp
 google_play: https://play.google.com/store/apps/details?id=com.nicopujia.gamefinder

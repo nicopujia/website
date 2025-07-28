@@ -3,8 +3,6 @@ title: Save the Fish
 date: 2020-11
 tags: Pygame, Python, MS Paint
 category: Games
-lang: en
-status: published
 summary: The first video game I ever made where a fish follows your cursor to avoid falling toxic waste that gets faster over time.
 thumbnail: images/projects/save-the-fish/title.jpg
 github: https://github.com/nicopujia/old_projects/tree/main/2020/Salva%20al%20Pez

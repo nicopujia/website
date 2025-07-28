@@ -3,8 +3,6 @@ title: Cube Adventure
 date: 2020-12
 tags: Pygame, Python, MS Paint
 category: Games
-lang: en
-status: published
 summary: The second video game I ever made and my first platformer, featuring 5 challenging levels with annoying game mechanics.
 thumbnail: images/projects/cube-adventure/title.jpg
 github: https://github.com/nicopujia/old_projects/tree/main/2020/Cube%20Adventure

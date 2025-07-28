@@ -3,8 +3,6 @@ title: Cheap mobile phones
 date: 2021-04
 tags: Tkinter, Python, BeautifulSoup
 category: Apps
-lang: en
-status: published
 summary: Web scraper with GUI to find cheap mobile phones on Mercado Libre, analyzing descriptions to filter out broken phones automatically.
 thumbnail: images/projects/cheap-mobile-phones.jpg
 github: https://github.com/nicopujia/old_projects/blob/main/2021/Celulares%20baratos%20y%20buenos.py

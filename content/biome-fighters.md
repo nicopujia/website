@@ -4,8 +4,6 @@ date: 2023-09
 modified: 2024-03
 tags: Godot, Python, FastAPI, MongoDB, GCP, Aseprite, Linux
 category: Games
-lang: en
-status: published
 summary: 1v1 online multiplayer platform fighter video game prototype with a retro aesthetic, inspired by Spelunky's deathmatch.
 thumbnail: images/projects/biome-fighters/icon.webp
 github: https://github.com/nicopujia/biome_fighters

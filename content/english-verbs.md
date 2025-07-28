@@ -3,8 +3,6 @@ title: English verbs
 date: 2021-07
 tags: Python, Tkinter, Kivy, Beeware, BeautifulSoup
 category: Apps
-lang: en
-status: published
 summary: Simple web scraper app to conjugate English verbs.
 thumbnail: images/projects/english-verbs/tkinter.jpg
 ---

@@ -1,9 +1,7 @@
 ---
 title: About
 summary: Who is Nicolás Pujia?
-lang: en
 modified: 2025-04
-status: published
 ---
 
 ![Me]({static}/images/me.jpeg)
