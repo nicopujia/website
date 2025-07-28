@@ -1,5 +1,7 @@
 AUTHOR = SITENAME = "Nicolás Pujia"
-AUTHOR_FEED_ATOM = AUTHOR_FEED_RSS = CATEGORY_FEED_ATOM = FEED_ALL_ATOM = TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = AUTHOR_FEED_RSS = CATEGORY_FEED_ATOM = FEED_ALL_ATOM = (
+    TRANSLATION_FEED_ATOM
+) = None
 CSS_FILE = "style.css"
 DEFAULT_CATEGORY = "Other stuff"
 DEFAULT_DATE_FORMAT = "%B %Y"
@@ -11,6 +13,7 @@ EXTRA_PATH_METADATA = {
 }
 PATH = "content"
 PLUGINS = ["sitemap"]
+SEPARATOR_SYMBOL = "·"
 SOCIAL = (
     ("Email", "mailto:contact@nicolaspujia.com"),
     ("GitHub", "https://github.com/nicopujia"),

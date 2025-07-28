@@ -15,7 +15,7 @@
             <strong>Links:</strong>
             {% for name, link in LINKS %}
                 <a href="{{ link }}">{{ name }}</a>
-                {% if not loop.last %}|{% endif %}
+                {% if not loop.last %}{{ SEPARATOR_SYMBOL }}{% endif %}
             {% endfor %}
         </p>
     {% endif %}
@@ -23,9 +23,8 @@
         <p>
             <strong>Socials:</strong>
             {% for name, link in SOCIAL %}
-                {# djlint: off #}
                 <a href="{{ link }}">{{ name }}</a>
-                {# djlint: on #}
+                {% if not loop.last %}{{ SEPARATOR_SYMBOL }}{% endif %}
             {% endfor %}
         </p>
     {% endif %}

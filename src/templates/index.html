@@ -28,11 +28,11 @@
                                 <time title="Last updated" datetime="{{ article.modified.isoformat() }}"> {{ article.locale_modified }} </time>
                             {% endif %}
                             {% if article.category %}
-                                |
+                                {{ SEPARATOR_SYMBOL }}
                                 <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
                             {% endif %}
                             {% if article.tags %}
-                                |
+                                {{ SEPARATOR_SYMBOL }}
                                 {% for tag in article.tags %}
                                     {# djlint: off #}
                                     <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
