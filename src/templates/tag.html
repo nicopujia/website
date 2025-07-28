@@ -1,5 +1,3 @@
 {% extends "index.html" %}
-{% set title = "Built with " ~ tag.name %}
-{% set description = "Software I have built using " ~ tag.name %}
-{% set url = SITEURL ~ "/" ~ tag.url %}
-{% block content_title %}Built with <span class="text-primary">{{ tag }}</span>{% endblock %}
+{% block title %}{{ SITENAME|striptags }} • {{ tag }} tag{% endblock %}
+{% block content_title %}<h2>Articles tagged with {{ tag }}</h2>{% endblock %}

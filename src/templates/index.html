@@ -1,48 +1,40 @@
 {% extends "base.html" %}
-{% from "tags.html" import filter_list_item as tag_list_item with context %}
-{% from "categories.html" import filter_list_item as category_list_item with context %}
-{% set title = title|default("Projects") %}
-{% set description = description|default("The place where I keep all my projects and milestones.") %}
-{% set url = url|default(SITEURL ~ "/" ~ INDEX_SAVE_AS) %}
 {% block content %}
     <section>
-        <header class="text-center py-24 px-8">
-            <h1>
-                {% block content_title %}{{ title }}{% endblock %}
-            </h1>
-            <p>
-                Explore all the <a href="/{{ CATEGORIES_SAVE_AS }}" class="link">categories</a> & <a href="/{{ TAGS_SAVE_AS }}" class="link">technologies</a>.
-            </p>
-        </header>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 p-8 gap-8 container mx-auto">
-            {% for article in articles_page.object_list %}
-                <article class="relative bg-lighter dark:bg-darker shadow-primary shadow-sm hover:shadow-md hover:shadow-primary duration-300 rounded-lg flex flex-col">
-                    {% if article.thumbnail %}
-                        <img src="{{ SITEURL }}/{{ article.thumbnail }}"
-                             alt="Thumbnail"
-                             class="rounded-t-lg object-cover max-h-64" />
-                    {% endif %}
-                    <div class="flex flex-col gap-4 p-4 justify-between h-full">
-                        <div class="flex flex-col gap-2">
-                            <h1 class="text-3xl font-extrabold">
-                                <a href="/{{ article.url }}" class="stretched-link">{{ article.title }}</a>
-                            </h1>
-                            <span class="font-mono text-sm md:text-base">
-                                <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
-                                {% if article.modified and article.modified != article.date %}
-                                    — <time datetime="{{ article.modified.isoformat() }}">{{ article.locale_modified }}</time>
-                                {% endif %}
-                            </span>
-                            <div class="markdown">{{ article.summary }}</div>
-                        </div>
-                        <ul class="flex flex-wrap gap-x-1 h-min z-20">
-                            {{ category_list_item(article.category) }}
-                            {% for tag in article.tags|sort %}{{ tag_list_item(tag) }}{% endfor %}
-                        </ul>
-                    </div>
-                </article>
-            {% endfor %}
-        </div>
+        {% block content_title %}<h2>All articles</h2>{% endblock %}
+        {% for article in articles_page.object_list %}
+            <article>
+                <header>
+                    <h3>
+                        <a href="{{ SITEURL }}/{{ article.url }}"
+                           rel="bookmark"
+                           title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+                    </h3>
+                </header>
+                {{ article.summary }}
+                <footer>
+                    <p>
+                        <time title="Published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+                        {% if article.modified %}
+                            —
+                            <time title="Last updated" datetime="{{ article.modified.isoformat() }}"> {{ article.locale_modified }} </time>
+                        {% endif %}
+                        {% if article.category %}
+                            |
+                            <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+                        {% endif %}
+                        {% if article.tags %}
+                            |
+                            {% for tag in article.tags %}
+                                {# djlint: off #}
+                                <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+                                {# djlint: on #}
+                            {% endfor %}
+                        {% endif %}
+                    </p>
+                </footer>
+            </article>
+        {% endfor %}
         {% if articles_page.has_other_pages() %}
             {% include "pagination.html" %}
         {% endif %}

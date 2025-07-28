@@ -1,0 +1,30 @@
+body {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+body > header {
+  border-bottom: 1px solid gray;
+}
+
+body > footer {
+  border-top: 1px solid gray;
+}
+
+img {
+  width: 100%;
+  max-height: 32rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+p:has(img) {
+  display: flex;
+  overflow-x: auto;
+  gap: 0.5rem;
+}
+
+p:has(img + img) img {
+  width: 90%;
+}

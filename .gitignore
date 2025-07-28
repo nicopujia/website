@@ -4,3 +4,5 @@ env
 dist
 node_modules
 .DS_Store
+.venv
+output

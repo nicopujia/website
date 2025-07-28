@@ -1,5 +1,12 @@
-{% extends "filter.html" %}
-{% set title = "Categories" %}
-{% set objects = categories %}
-{% set list_item_extra_class = "rounded-sm" %}
-{% set url = SITEURL ~ CATEGORIES_SAVE_AS %}
+{% extends "base.html" %}
+{% block title %}{{ SITENAME|striptags }} • Categories{% endblock %}
+{% block content %}
+    <h2>Categories on {{ SITENAME }}</h2>
+    <ul>
+        {% for category, articles in categories|sort %}
+            <li>
+                <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }})
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,11 +1,23 @@
 {% extends "base.html" %}
-{% set title = page.title|striptags|title %}
-{% set lang = page.lang %}
-{% set description = page.summary|striptags %}
-{% set url = SITEURL ~ "/" ~ page.url %}
+{% block html_lang %}{{ page.lang }}{% endblock %}
+{% block title %}{{ SITENAME|striptags }} • {{ page.title|striptags }}{% endblock %}
+{% block head %}
+    {{ super() }}
+    {% import 'translations.html' as translations with context %}
+    {% if translations.entry_hreflang(page) %}{{ translations.entry_hreflang(page) }}{% endif %}
+{% endblock %}
 {% block content %}
-    <article class="flex flex-col">
-        <h1 class="text-center py-24 px-8">{{ page.title|striptags|title }}</h1>
-        <div class="markdown p-8 pt-0">{{ page.content }}</div>
+    <article>
+        <header>
+            <h2>{{ page.title }}</h2>
+        </header>
+        {% import 'translations.html' as translations with context %}
+        {{ translations.translations_for(page) }}
+        {{ page.content }}
+        {% if page.modified %}
+            <footer>
+                <p>Last updated: {{ page.locale_modified }}</p>
+            </footer>
+        {% endif %}
     </article>
-{% endblock content %}
+{% endblock %}

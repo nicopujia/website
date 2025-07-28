@@ -1,5 +1,3 @@
 {% extends "index.html" %}
-{% set title = category.name ~ " built" %}
-{% set description = "Projects I have built under the " ~ category.name|lower ~ " category" %}
-{% set url = SITEURL ~ "/" ~ category.url %}
-{% block content_title %}<span class="text-primary">{{ category.name }}</span> built{% endblock %}
+{% block title %}{{ SITENAME|striptags }} • {{ category }}{% endblock %}
+{% block content_title %}<h2>{{ category }}</h2>{% endblock %}
