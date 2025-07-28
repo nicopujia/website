@@ -1,45 +1,35 @@
-# Nicolás Pujia's personal website
+# Website
 
-This repository contains the source code for my personal website. It's built using **[Pelican](https://getpelican.com/)** and **[Tailwind](https://tailwindcss.com/)**. If everything is working correctly, you can find the live site at the URL provided in the repository settings.
+This repository contains the source code for my personal website. It's built using **[Pelican](https://getpelican.com/)**. If everything is working correctly, you should be able to find the website live at <https://nicolaspujia.com>.
 
-## Installation
+## Getting Started
 
-### 1. Set up the environment
+### Development
 
 ```bash
-# Project (requires Git):
+# Clone the repo
 git clone https://github.com/nicopujia/personal-website.git
 cd personal-website
 
-# Python requirements (requires Python >= 3.8.1):
-python -m venv env
-source env/bin/activate # For Linux / MacOS
-.\env\Scripts\activate # For Windows
-python -m pip install -r requirements.txt
+# Install dependencies
+uv venv
+source env/bin/activate
+uv pip install -r requirements.txt
 
-# Tailwind (requires Node.js):
-npm install
+# Run the development server
+pelican -lr
 ```
-
-### 2. Run the development commands
-
-In different terminals, run:
-
-- `npm run dev`
-- `python -m pelican -lr`
 
 You should now be able to see the website running at <http://127.0.0.1:8000>, and your changes should automatically be updated after pressing F5.
 
-## Deployment
+### Deployment
 
-You can easily deploy the website (for free) using the static website hosting provider of your choice (e.g. GitHub Pages, Netlify, etc).
+You can easily deploy the website (for free) using the static website hosting provider of your choice (e.g. GitHub Pages, Cloudflare Pages, etc).
 
-- Build command: `npm run build && pelican -s publishconf.py`
-- Build output directory: `dist`
+-   Build command: `pelican -s publishconf.py`
+-   Build output directory: `output`
 
 For more details about Pelican deployment, see [here](https://docs.getpelican.com/en/stable/publish.html#deployment).
-
-**Note**: remember to modify the config files (`pelicanconf.py` & `publishconf.py`) to match your own needs.
 
 ## License
 
