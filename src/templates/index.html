@@ -1,38 +1,46 @@
 {% extends "base.html" %}
 {% block content %}
     <section>
-        {% block content_title %}<h2>All articles</h2>{% endblock %}
+        {% block content_title %}<h2>Home</h2>{% endblock %}
         {% for article in articles_page.object_list %}
             <article>
-                <header>
-                    <h3>
-                        <a href="{{ SITEURL }}/{{ article.url }}"
-                           rel="bookmark"
-                           title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-                    </h3>
-                </header>
-                {{ article.summary }}
-                <footer>
-                    <p>
-                        <time title="Published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
-                        {% if article.modified %}
-                            —
-                            <time title="Last updated" datetime="{{ article.modified.isoformat() }}"> {{ article.locale_modified }} </time>
-                        {% endif %}
-                        {% if article.category %}
-                            |
-                            <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
-                        {% endif %}
-                        {% if article.tags %}
-                            |
-                            {% for tag in article.tags %}
-                                {# djlint: off #}
-                                <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
-                                {# djlint: on #}
-                            {% endfor %}
-                        {% endif %}
-                    </p>
-                </footer>
+                {% if article.thumbnail %}
+                    <img src="{{ SITEURL }}/{{ article.thumbnail }}"
+                         alt="{{ article.title|striptags }}"
+                         width="128"
+                         height="128" />
+                {% endif %}
+                <div>
+                    <header>
+                        <h3>
+                            <a href="{{ SITEURL }}/{{ article.url }}"
+                               rel="bookmark"
+                               title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+                        </h3>
+                    </header>
+                    {{ article.summary }}
+                    <footer>
+                        <p>
+                            <time title="Published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+                            {% if article.modified %}
+                                —
+                                <time title="Last updated" datetime="{{ article.modified.isoformat() }}"> {{ article.locale_modified }} </time>
+                            {% endif %}
+                            {% if article.category %}
+                                |
+                                <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+                            {% endif %}
+                            {% if article.tags %}
+                                |
+                                {% for tag in article.tags %}
+                                    {# djlint: off #}
+                                    <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+                                    {# djlint: on #}
+                                {% endfor %}
+                            {% endif %}
+                        </p>
+                    </footer>
+                </div>
             </article>
         {% endfor %}
         {% if articles_page.has_other_pages() %}

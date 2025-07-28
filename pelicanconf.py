@@ -9,7 +9,6 @@ EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/app-ads.txt": {"path": "app-ads.txt"},
 }
-PAGE_SAVE_AS = PAGE_URL = "{slug}.html"
 PATH = "content"
 PLUGINS = ["sitemap"]
 SOCIAL = (
@@ -26,3 +25,7 @@ SITESUBTITLE = "Programmer and student from Argentina."
 STATIC_PATHS = ["images", "extra"]
 THEME = "src"
 TIMEZONE = "America/Argentina/Buenos_Aires"
+
+# URLs
+ARTICLE_SAVE_AS = ARTICLE_URL = "{category}/{slug}.html"
+CATEGORY_SAVE_AS = CATEGORY_URL = PAGE_SAVE_AS = PAGE_URL = "{slug}.html"
