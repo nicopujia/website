@@ -19,6 +19,7 @@ LINKS = (
 PATH = "content"
 PLUGINS = ["sitemap"]
 SEPARATOR_SYMBOL = "·"
+SLUGIFY_SOURCE = "basename"
 SOCIAL = (
     ("GitHub", "https://github.com/nicopujia"),
     ("X", "https://x.com/nicopujia"),
