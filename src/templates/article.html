@@ -3,65 +3,52 @@
 {% block content %}
     <article>
         <header>
-            <h2>
-                <a href="{{ SITEURL }}/{{ article.url }}"
-                   rel="bookmark"
-                   title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-            </h2>
-            {% if article.google_play or article.website or article.github or article.youtube %}
-                <nav>
-                    <h3>External links</h3>
-                    <ul>
-                        {% if article.google_play %}
-                            <li>
-                                <a href="{{ article.google_play }}">Google Play</a>
-                            </li>
-                        {% endif %}
-                        {% if article.website %}
-                            <li>
-                                <a href="{{ article.website }}">Website</a>
-                            </li>
-                        {% endif %}
-                        {% if article.github %}
-                            <li>
-                                <a href="{{ article.github }}">GitHub</a>
-                            </li>
-                        {% endif %}
-                        {% if article.youtube %}
-                            <li>
-                                <a href="{{ article.youtube }}">YouTube</a>
-                            </li>
-                        {% endif %}
-                    </ul>
-                </nav>
-            {% endif %}
+            <h2>{{ article.title }}</h2>
         </header>
-        <h3>Overview</h3>
         {{ article.content }}
         <footer>
-            <p>
-                Published: <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
-            </p>
-            {% if article.modified %}
-                <p>
-                    Last updated: <time datetime="{{ article.modified.isoformat() }}"> {{ article.locale_modified }} </time>
-                </p>
-            {% endif %}
-            {% if article.category %}
-                <p>
-                    Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
-                </p>
-            {% endif %}
-            {% if article.tags %}
-                <p>
-                    Tags:
-                    {% for tag in article.tags %}
+            <ul>
+                <li>
+                    <strong>Published:</strong>
+                    <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+                </li>
+                {% if article.modified %}
+                    <li>
+                        <strong>Last updated:</strong>
+                        <time datetime="{{ article.modified.isoformat() }}"> {{ article.locale_modified }} </time>
+                    </li>
+                {% endif %}
+                {% if article.category %}
+                    <li>
+                        <strong>Category:</strong>
+                        <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+                    </li>
+                {% endif %}
+                {% if article.tags %}
+                    <li>
+                        <strong>Tags:</strong>
+                        {% for tag in article.tags %}
+                            {# djlint: off #}
+                            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+                            {# djlint: on #}
+                        {% endfor %}
+                    </li>
+                {% endif %}
+                {% if article.google_play or article.website or article.github or article.youtube %}
+                    <li>
+                        <strong>External links:</strong>
                         {# djlint: off #}
-                        <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+                        {% if article.google_play %}<a href="{{ article.google_play }}">Google Play</a>{% endif %}
+
+                        {% if article.website %}<a href="{{ article.website }}">Website</a>{% endif %}
+
+                        {% if article.github %}<a href="{{ article.github }}">GitHub</a>{% endif %}
+
+                        {% if article.youtube %}<a href="{{ article.youtube }}">YouTube</a>{% endif %}
                         {# djlint: on #}
-                    {% endfor %}
-                </p>
-            {% endif %}
+                    </li>
+                {% endif %}
+            </ul>
         </footer>
     </article>
 {% endblock %}
