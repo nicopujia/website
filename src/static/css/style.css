@@ -73,6 +73,10 @@ section article {
   padding-bottom: 1rem;
 }
 
+section article > div {
+  flex: 1;
+}
+
 section article h3 {
   margin: 0;
 }
