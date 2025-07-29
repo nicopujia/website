@@ -4,7 +4,7 @@ date: 2024-03
 modified: 2024-11
 tags: Python, Django, SQL, MySQL, Docker, Nginx, HTML, CSS, Bootstrap, JavaScript, Linux, MercadoPago SDK, unittest, Coverage.py
 category: Apps
-summary: The official website of the Siderplast S.A. company, including both the **e‑commerce** and the **ERP**, *completely made by myself*.
+summary: Official website of the Siderplast S.A. company, including both the e‑commerce and the ERP.
 thumbnail: images/projects/siderplast/icon.webp
 website: https://siderplast.com.ar
 ---
