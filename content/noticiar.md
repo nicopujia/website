@@ -38,7 +38,7 @@ The app is meant to save you as much time as possible, but still keep you inform
 
 ### Acknowledgements
 
--   To [@tomileonel](https://www.linkedin.com/in/tomas-leonel-degese-2b6064279/?originalSubdomain=ar) for being my teammate.
--   To [@montonenico](https://x.com/montonenico) and [@sebipaps](https://x.com/sebipaps) for organizing the [@shipbahackathon](https://x.com/shipbahackathon).
--   To [@markerdiaz](https://x.com/markerdiaz) and [@goncy](https://x.com/goncy) for helping us finish before deadline.
--   To [@conanbatt](https://x.com/conanbatt) for sponsoring the event.
+- To [@tomileonel](https://www.linkedin.com/in/tomas-leonel-degese-2b6064279/?originalSubdomain=ar) for being my teammate.
+- To [@montonenico](https://x.com/montonenico) and [@sebipaps](https://x.com/sebipaps) for organizing the [@shipbahackathon](https://x.com/shipbahackathon).
+- To [@markerdiaz](https://x.com/markerdiaz) and [@goncy](https://x.com/goncy) for helping us finish before deadline.
+- To [@conanbatt](https://x.com/conanbatt) for sponsoring the event.

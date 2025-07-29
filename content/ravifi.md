@@ -52,10 +52,10 @@ All your data would be available on all of your devices. But if you ever decide 
 
 Selling points:
 
--   Simplicity: Minimal input, maximum insight. No customizations required.
--   Centralization: Combines tracking for aesthetics, strength, and cardio in one multi-platform app.
--   AI-Powered: Insights to help you progress efficiently and keep your motivation.
--   Data freedom: Import/export with ease.
+- Simplicity: Minimal input, maximum insight. No customizations required.
+- Centralization: Combines tracking for aesthetics, strength, and cardio in one multi-platform app.
+- AI-Powered: Insights to help you progress efficiently and keep your motivation.
+- Data freedom: Import/export with ease.
 
 ### Name
 
@@ -75,12 +75,12 @@ And about the learning on the process, above it's what I've learned, and the res
 
 ### What I've learned
 
--   MVC architecture.
--   Supabase (database, storage, and Flutter implementation).
--   Some cool Flutter packages:
-    -   [get](https://pub.dev/packages/get) for state management.
-    -   [brick](https://getdutchie.github.io/brick/#/) for an offline-first database.
-    -   [fl_chart](https://flchart.dev) for fancy charts.
-    -   [image_picker](https://pub.dev/packages/image_picker) to input user images.
--   I realized that Flutter isn't always the best tool. [This video](https://youtu.be/OCwcedYTKDc?t=274&si=Z_dBPWzDcWZ37DZY) explains why very well.
--   Spreadsheets are really powerful, I should use them more often.
+- MVC architecture.
+- Supabase (database, storage, and Flutter implementation).
+- Some cool Flutter packages:
+  - [get](https://pub.dev/packages/get) for state management.
+  - [brick](https://getdutchie.github.io/brick/#/) for an offline-first database.
+  - [fl_chart](https://flchart.dev) for fancy charts.
+  - [image_picker](https://pub.dev/packages/image_picker) to input user images.
+- I realized that Flutter isn't always the best tool. [This video](https://youtu.be/OCwcedYTKDc?t=274&si=Z_dBPWzDcWZ37DZY) explains why very well.
+- Spreadsheets are really powerful, I should use them more often.

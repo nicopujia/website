@@ -50,13 +50,13 @@ This is the main module, which contains the logic for most operations. Therefore
 
 It contains the articles and its related models needed to work. Some worth-mentioning features are:
 
--   There are price adjustments to perform massive discounts or recharges to the prices, without the need of manually updating each of them.
+- There are price adjustments to perform massive discounts or recharges to the prices, without the need of manually updating each of them.
 
--   This was made for an Argentinian company, but they buy some articles in US dollars, so the program obtains the convertion value from either cache or an API and then calculates the final value in Argentina's currency.
+- This was made for an Argentinian company, but they buy some articles in US dollars, so the program obtains the convertion value from either cache or an API and then calculates the final value in Argentina's currency.
 
--   Bas ed on the final sale price and the suggested price, the article detail page may show a message saying that it's in discount by X percent.
+- Bas ed on the final sale price and the suggested price, the article detail page may show a message saying that it's in discount by X percent.
 
--   Stock of articles is handled automatically based on delivered orders (see below for further details on this feature).
+- Stock of articles is handled automatically based on delivered orders (see below for further details on this feature).
 
 ##### Sales
 
