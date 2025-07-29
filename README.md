@@ -1,6 +1,6 @@
 # Website
 
-This repository contains the source code for my personal website. It's built using **[Pelican](https://getpelican.com/)**. If everything is working correctly, you should be able to find the website live at <https://nicolaspujia.com>.
+This repository contains the source code for my personal website. It's built using **[Pelican](https://getpelican.com/)**. If everything is working correctly, you should be able to find it live at <https://nicolaspujia.com>.
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ uv pip install -r requirements.txt
 pelican -lr
 ```
 
-You should now be able to see the website running at <http://127.0.0.1:8000>, and your changes should automatically be updated after pressing F5.
+You should now be able to see the website running at <http://127.0.0.1:8000>, and your changes should automatically be updated after reloading the page.
 
 ### Deployment
 
