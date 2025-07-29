@@ -27,6 +27,7 @@
                 <a href="{{ link }}">{{ name }}</a>
                 {# djlint: on #}
             {% endfor %}
+            {% if GITHUB_URL %}<a href="{{ GITHUB_URL }}">Source code</a>{% endif %}
         </p>
     {% endif %}
     <p>

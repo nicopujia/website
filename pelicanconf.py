@@ -11,6 +11,7 @@ EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/app-ads.txt": {"path": "app-ads.txt"},
 }
+GITHUB_URL = "https://github.com/nicopujia/website"
 LINKS = (
     ("Go to top", "#"),
     ("Email", "mailto:contact@nicolaspujia.com"),
