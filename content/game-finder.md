@@ -10,6 +10,8 @@ google_play: https://play.google.com/store/apps/details?id=com.nicopujia.gamefin
 website: https://gamefinder.gg
 ---
 
+### Overview
+
 Mobile app designed to help gamers discover new games to play. You can search for games by similarity or use a variety of filters.
 
 ### Screenshots
@@ -23,7 +25,7 @@ Mobile app designed to help gamers discover new games to play. You can search fo
 ![Screenshot 7]({static}/images/projects/game-finder/7.jpg)
 ![Screenshot 8]({static}/images/projects/game-finder/8.jpg)
 
-### Process
+### Development
 
 The idea came from a problem I had back then. I used to play video games, but it was hard for me to find new ones to play, especially on the platforms I had available, such as the PS3 and retro emulators. Existing solutions didn't offer the filters I needed to find something I enjoyed.
 

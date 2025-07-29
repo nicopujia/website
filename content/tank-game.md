@@ -8,7 +8,11 @@ thumbnail: images/projects/tank-game/1.jpg
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Juego%20del%20Tanque
 ---
 
+### Overview
+
 Prototype remake of [Awesome Tanks 2](https://awesometanks2.com/) made with **pygame**. You move using WASD and aim and shoot using the mouse. There are shooter towers and boxes with ammo health boxes. The level editor is a CSV file.
+
+### Screenshots
 
 ![Gameplay screenshot 1]({static}/images/projects/tank-game/1.jpg)
 ![Gameplay screenshot 2]({static}/images/projects/tank-game/2.jpg)

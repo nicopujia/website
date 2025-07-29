@@ -8,13 +8,13 @@ thumbnail: images/projects/ravifi/logo.jpg
 github: https://github.com/nicopujia/ravifi
 ---
 
-> App to log your physical state in a simple yet complete manner.
+### Overview
 
-This is an abandoned project. Read further to discover the original idea, why I abandoned it, and what I learned from it.
+App to log your physical state in a simple yet complete manner.
+
+Please note that this is an abandoned project. Read further to discover the original idea, why I abandoned it, and what I learned from it.
 
 ### Screenshots
-
-Here's a glance of what has been made so far.
 
 ![Home screen without logs]({static}/images/projects/ravifi/1.png)
 ![Add log]({static}/images/projects/ravifi/2.png)
@@ -50,18 +50,18 @@ Finally, you can analyze all your tracked data by making before and after compar
 
 All your data would be available on all of your devices. But if you ever decide you don’t want to continue using the app, you could just export all your data.
 
-##### Selling points
+Selling points:
 
 -   Simplicity: Minimal input, maximum insight. No customizations required.
 -   Centralization: Combines tracking for aesthetics, strength, and cardio in one multi-platform app.
 -   AI-Powered: Insights to help you progress efficiently and keep your motivation.
 -   Data freedom: Import/export with ease.
 
-##### Name
+### Name
 
 I first thought the basic name: was "Visual Physique Tracker". Then I copy-pasted it directly into Google Translate for Spanish and it said "Rastreador Visual de Físico". I took the first vowels of those three words and voilá: Ra-Vi-Fi -> Ravifi.
 
-##### Logo
+### Logo
 
 Rav-ifi -> Rav-en -> A raven 🐦‍⬛
 
@@ -82,5 +82,5 @@ And about the learning on the process, above it's what I've learned, and the res
     -   [brick](https://getdutchie.github.io/brick/#/) for an offline-first database.
     -   [fl_chart](https://flchart.dev) for fancy charts.
     -   [image_picker](https://pub.dev/packages/image_picker) to input user images.
--   I realized that Flutter isn't always (**usually it's not**) the best tool. [This video](https://youtu.be/OCwcedYTKDc?t=274&si=Z_dBPWzDcWZ37DZY) explains why very well.
+-   I realized that Flutter isn't always the best tool. [This video](https://youtu.be/OCwcedYTKDc?t=274&si=Z_dBPWzDcWZ37DZY) explains why very well.
 -   Spreadsheets are really powerful, I should use them more often.

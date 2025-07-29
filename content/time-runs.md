@@ -8,6 +8,8 @@ thumbnail: images/projects/time-runs/icon.png
 github: https://github.com/nicopujia/old_projects/tree/main/2021/El%20tiempo%20corre
 ---
 
+### Overview
+
 Platformer video game prototype where you have to beat the current level before the time (as the name suggests) runs out. Besides, you can collect coins to get extra seconds. There are 3 levels.
 
 This game has a [remake]({filename}/jueguito-piola.md).

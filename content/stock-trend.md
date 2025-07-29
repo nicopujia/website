@@ -8,7 +8,11 @@ thumbnail: images/projects/stock-trend/chart.jpg
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Stock%20trend%20(NASDAQ%20index%20companies)
 ---
 
+### Overview
+
 Desktop application I made to learn dynamic web scraping with Selenium.
+
+### Explanation
 
 1. Through the GUI, which has filters to search, you choose the company you want. If you want Apple, for example, you search for "Apple" and with the filters you can already get its symbol on the NASDAQ index, which is AAPL. You should also be able to search by sector, country and market cap.
 

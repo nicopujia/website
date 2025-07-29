@@ -8,6 +8,8 @@ thumbnail: images/projects/jueguito-piola/icon.png
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Jueguito%20Piola
 ---
 
+### Overview
+
 Mobile platformer video game prototype where you have to beat the levels as fast as possible, not only to set the best time but also because there is a light ray behind you. If you stay still, you get electrocuted! In order to go faster, the character can dash.
 
 ### Screenshots

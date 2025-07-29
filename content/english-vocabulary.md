@@ -8,7 +8,17 @@ summary: Mobile app for Spanish speaking users learning English to save unknown 
 thumbnail: images/projects/english-vocabulary/icon.png
 ---
 
+### Overview
+
 Mobile app made for Spanish speaking users learning English to help them save the words they don't know, so the can practice the vocabulary and easily access the translation, image and audio of each word.
+
+### Screenshots
+
+![Add the words you don't know]({static}/images/projects/english-vocabulary/1.png)
+![Have your own words list]({static}/images/projects/english-vocabulary/2.png)
+![Translate, listen, and visualize easily]({static}/images/projects/english-vocabulary/3.png)
+![Practice]({static}/images/projects/english-vocabulary/4.png)
+![See your progress]({static}/images/projects/english-vocabulary/5.png)
 
 ### Deprecated
 
@@ -29,11 +39,3 @@ Here's what the website had to say:
 > \- The Can Stock Photo Team
 
 Although I could, of course, find another source for the app's images, I simply prefer to focus on my latest, more exciting projects.
-
-### Screenshots
-
-![Add the words you don't know]({static}/images/projects/english-vocabulary/1.png)
-![Have your own words list]({static}/images/projects/english-vocabulary/2.png)
-![Translate, listen, and visualize easily]({static}/images/projects/english-vocabulary/3.png)
-![Practice]({static}/images/projects/english-vocabulary/4.png)
-![See your progress]({static}/images/projects/english-vocabulary/5.png)

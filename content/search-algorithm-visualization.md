@@ -7,7 +7,11 @@ thumbnail: images/projects/search-algorithm-visualization/search-1.jpg
 github: https://github.com/nicopujia/old_projects/blob/main/2021/Visualizaci%C3%B3n%20algoritmo%20de%20b%C3%BAsqueda.py
 ---
 
+### Overview
+
 Visualization of [A\* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) made with pygame.
+
+### Screenshots
 
 ![Flags setting]({static}/images/projects/search-algorithm-visualization/flags.jpg)
 ![Walls setting]({static}/images/projects/search-algorithm-visualization/walls.jpg)

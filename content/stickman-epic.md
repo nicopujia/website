@@ -8,9 +8,13 @@ thumbnail: images/projects/stickman-epic/running.png
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Stickman%20Epic
 ---
 
+### Overview
+
 Prototype of a platformer video game where players create their own platforms by drawing them with the mouse.
 
 Oh, and the character blinks when he gets bored 👀
+
+### Screenshots
 
 ![Initial screen]({static}/images/projects/stickman-epic/initial.png)
 ![Character running]({static}/images/projects/stickman-epic/running.png)

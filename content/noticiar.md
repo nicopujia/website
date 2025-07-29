@@ -8,7 +8,11 @@ thumbnail: images/projects/noticiar/logo.jpeg
 website: https://notici.ar
 ---
 
-_AI-powered_ TikTok-like web app of unbiased daily **news** on what matters to _you_ in just _two_ minutes. Made for [ShipBA](https://shipba.dev) hackathon in 24 hours — without sleeping.
+### Overview
+
+AI-powered TikTok-like web app of unbiased daily **news** on what matters to _you_ in just two minutes.
+
+Made for [ShipBA](https://shipba.dev) hackathon in 24 hours _without sleeping_.
 
 It scrapes news articles from multiple sources and, based on what they talk about, merges them into single events using Gemini. Thanks to this, the app provides information as unbiased as possible.
 
@@ -33,8 +37,6 @@ The app is meant to save you as much time as possible, but still keep you inform
 ![ShipBA](/images/projects/noticiar/photos/presentation/dark.jpeg)
 
 ### Acknowledgements
-
-I'd like to give special thanks to the following people because this wouldn't have been possible without them.
 
 -   To [@tomileonel](https://www.linkedin.com/in/tomas-leonel-degese-2b6064279/?originalSubdomain=ar) for being my teammate.
 -   To [@montonenico](https://x.com/montonenico) and [@sebipaps](https://x.com/sebipaps) for organizing the [@shipbahackathon](https://x.com/shipbahackathon).

@@ -8,6 +8,8 @@ thumbnail: images/projects/spaceship-game/icon.png
 github: https://github.com/nicopujia/old_projects/tree/main/2022/Spaceship%20Game
 ---
 
+### Overview
+
 Casual mobile video game I created with the instruction that [a friend of mine](https://youtube.com/@C_25Music) gave me to create a _satisfying game_. It's quite simple: an endless game with a spaceship that has to destroy asteroids and avoid its destruction.
 
 ### Screenshots

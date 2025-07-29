@@ -7,16 +7,12 @@ summary: Simple web scraper app to conjugate English verbs.
 thumbnail: images/projects/english-verbs/tkinter.jpg
 ---
 
+### Overview
+
 Simple web scraper app to conjugate English verbs. Made thrice with three different Python GUI libraries:
 
-### Tkinter
+### Screenshots
 
 ![Tkinter version screenshot]({static}/images/projects/english-verbs/tkinter.jpg)
-
-### Beeware
-
 ![Beeware version screenshot]({static}/images/projects/english-verbs/beeware.jpg)
-
-### Kivy
-
 ![Kivy version screenshot]({static}/images/projects/english-verbs/kivy.jpg)

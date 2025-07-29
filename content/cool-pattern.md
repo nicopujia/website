@@ -7,4 +7,10 @@ thumbnail: images/projects/cool-pattern.jpg
 github: https://github.com/nicopujia/old_projects/blob/main/2021/Patr%C3%B3n%20con%20Turtle%20Graphics.py
 ---
 
+### Overview
+
 Just what you can see — A cool pattern made with the [Turtle](https://docs.python.org/3/library/turtle.html) library.
+
+### Screenshots
+
+![Screenshot 1]({static}/images/projects/cool-pattern.jpg)
