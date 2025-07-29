@@ -9,7 +9,6 @@
     {% endif %}
 {% endblock head %}
 {% block footer %}
-    <p>© {{ AUTHOR }} 2020-2025.</p>
     {% if SOCIAL %}
         <p>
             <strong>Social:</strong>
@@ -30,4 +29,7 @@
             {% endfor %}
         </p>
     {% endif %}
+    <p>
+        <small>© 2020-2025 {{ AUTHOR }}</small>
+    </p>
 {% endblock footer %}
