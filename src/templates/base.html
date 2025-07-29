@@ -10,21 +10,23 @@
 {% endblock head %}
 {% block footer %}
     <p>© {{ AUTHOR }} 2020-2025.</p>
-    {% if LINKS %}
+    {% if SOCIAL %}
         <p>
-            <strong>Links:</strong>
-            {% for name, link in LINKS %}
+            <strong>Social:</strong>
+            {% for name, link in SOCIAL %}
+                {# djlint: off #}
                 <a href="{{ link }}">{{ name }}</a>
-                {% if not loop.last %}{{ SEPARATOR_SYMBOL }}{% endif %}
+                {# djlint: on #}
             {% endfor %}
         </p>
     {% endif %}
-    {% if SOCIAL %}
+    {% if LINKS %}
         <p>
-            <strong>Socials:</strong>
-            {% for name, link in SOCIAL %}
+            <strong>Other:</strong>
+            {% for name, link in LINKS %}
+                {# djlint: off #}
                 <a href="{{ link }}">{{ name }}</a>
-                {% if not loop.last %}{{ SEPARATOR_SYMBOL }}{% endif %}
+                {# djlint: on #}
             {% endfor %}
         </p>
     {% endif %}
