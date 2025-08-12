@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title|striptags }} • {{ SITENAME|striptags }}{% endblock %}
+{% block description %}{{ article.summary|striptags }}{% endblock %}
 {% block content %}
     <article>
         <header>
