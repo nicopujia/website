@@ -30,7 +30,6 @@ SOCIAL = (
     ("Reddit", "https://www.reddit.com/user/nico_pujia"),
 )
 SITEURL = "http://127.0.0.1:8000"
-SITESUBTITLE = "Programmer and student from Argentina."
 STATIC_PATHS = ["images", "extra"]
 THEME = "src"
 TIMEZONE = "America/Argentina/Buenos_Aires"

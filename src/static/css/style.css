@@ -1,25 +1,14 @@
 :root {
-    --color-muted: gray;
+  --color-muted: gray;
+  --color-primary: dodgerblue;
 }
 
 body {
-    max-width: 65ch;
-    margin: 0 auto;
-    padding: 0 1rem;
-    font-family:
-        Lexend,
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Oxygen,
-        Ubuntu,
-        Cantarell,
-        "Open Sans",
-        "Helvetica Neue",
-        sans-serif;
-    line-height: 1.5rem;
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-family: "IBMPlexSans";
+  line-height: 1.5rem;
 }
 
 code,
@@ -30,80 +19,110 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Source Code Pro", monospace;
+  font-family: "Lilex";
 }
 
 body > header {
-    border-bottom: 0.2rem solid var(--color-muted);
+  border-bottom: 0.2rem solid var(--color-muted);
 }
 
-body > header > nav a {
-    text-decoration: none;
+body > header a {
+  color: inherit;
+  text-decoration: none;
 }
 
-body > header > nav a:hover {
-    text-decoration: underline;
-    text-decoration-style: dashed;
+body > header a:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 body > header > nav a[aria-current] {
-    text-decoration: underline;
-    text-decoration-style: solid;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+body > header > nav > ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+body > header h1 > a {
+  line-height: 1.25;
 }
 
 body > footer {
-    border-top: 0.2rem solid var(--color-muted);
+  border-top: 0.2rem solid var(--color-muted);
 }
 
 article footer {
-    font-size: smaller;
-    border-top: 1px dashed var(--color-muted);
+  font-size: smaller;
+  border-top: 1px dashed var(--color-muted);
 }
 
 img {
-    width: 100%;
-    max-height: 90vh;
-    border-radius: 0.5rem;
-    object-fit: cover;
+  width: 100%;
+  max-height: 90vh;
+  border-radius: 0.5rem;
+  object-fit: cover;
 }
 
 p:has(img) {
-    display: flex;
-    overflow-x: auto;
-    gap: 0.5rem;
+  display: flex;
+  overflow-x: auto;
+  gap: 0.5rem;
 }
 
 p:has(img + img) img {
-    width: 90%;
+  width: 90%;
 }
 
 section article {
-    display: flex;
-    gap: 1rem;
-    align-items: self-start;
-    padding-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: self-start;
+  padding-bottom: 1rem;
 }
 
 section article > div {
-    flex: 1;
+  flex: 1;
 }
 
 section article h3 {
-    margin: 0;
+  margin: 0;
 }
 
 section article > img {
-    width: 8rem;
-    height: auto;
+  width: 8rem;
+  height: auto;
+}
+
+@media (min-width: 600px) {
+  body > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 @font-face {
-    font-family: Lexend;
-    src: url("/static/fonts/Lexend-VariableFont_wght.ttf") format("TrueType");
+  font-family: "Lilex";
+  src: url("/theme/fonts/Lilex[wght].ttf") format("TrueType");
 }
-
 @font-face {
-    font-family: "Source Code Pro";
-    src: url("/static/fonts/SourceCodePro-VariableFont_wght.ttf")
-        format("TrueType");
+  font-family: "Lilex";
+  src: url("/theme/fonts/Lilex-Italic[wght].ttf") format("TrueType");
+  font-style: italic;
+}
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("/theme/fonts/IBMPlexSans-VariableFont_wdth,wght.ttf")
+    format("TrueType");
+}
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("/theme/fonts/IBMPlexSans-Italic-VariableFont_wdth,wght.ttf")
+    format("TrueType");
+  font-style: italic;
 }
