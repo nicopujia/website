@@ -12,7 +12,7 @@ modified: 2025-10
 - [Game Finder]({filename}/game-finder.md): 1,000+ downloads, still growing
 - Set record time at [Silver.dev](https://silver.dev) technical interview
 - Top 3 at [Vibe a Startup](https://vibeastartup.com) hackathon
-- Crowd favorite presentation at [ShipBA](https://shipba.dev)
+- Crowd-favorite presentation at [ShipBA](https://shipba.dev)
 
 ---
 
