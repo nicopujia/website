@@ -2,7 +2,7 @@
 {% block title %}{{ SITENAME|striptags }}{% endblock %}
 {% block content %}
     <section>
-        {% block content_title %}<h2>Home</h2>{% endblock %}
+        {% block content_title %}<h2>All articles</h2>{% endblock %}
         {% for article in articles_page.object_list %}
             <article>
                 {% if article.thumbnail %}
