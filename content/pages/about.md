@@ -1,7 +1,7 @@
 ---
 title: About
 summary: Who is Nicolás Pujia?
-modified: 2025-11-30
+modified: 2025-12-06
 ---
 
 ### Overview
