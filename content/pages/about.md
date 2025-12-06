@@ -20,7 +20,7 @@ modified: 2025-11-30
 
 I was born and raised in the neighborhood of Caballito, Buenos Aires, **Argentina**, in August 2007, in a middle-class family with my brother, 3 years older than me, and two parents, both graduated system engineers from the [UTN](https://en.wikipedia.org/wiki/National_Technological_University).
 
-My life as a kid was fairly normal. **Football** has been my favorite sport, and **Minecraft** my favorite video game. I started playing football at a club when I was 7 and stayed there for 5 years. At around 10, I have a very clear memory, lying in my bed upside down, daydreaming about becoming a professional player when I grew up. However, I wasn't built for that: even though I had a healthy lifestyle, I was quite skinny and rather pale. I used to think that was just _normal for me_, until years later I realized it was not...
+My life as a kid was fairly normal. **Football** has been my favorite sport, and **Minecraft** my favorite video game. I started playing football at a club when I was 7 and stayed there for 5 years. At around 10, I have a clear memory, lying in my bed upside down, daydreaming about becoming a professional player when I grew up. However, I wasn't built for that: even though I had a healthy lifestyle, I was quite skinny and rather pale. I used to think that was just _normal for me_, until years later I realized it was not...
 
 ### Discovering programming (2020–2023)
 
@@ -42,13 +42,13 @@ At around the same time I started with programming, I started reading non-fictio
 
 In the middle of 2022, I started playing football again in another club. Simultaneously, my physique got weaker, notably paler, and more underweight.
 
-As an anecdote, in the club we once did an endurance test; I was the worst one, even among the category below mine. Another time, my dad and I went for a run to the park and, after just 6 minutes of slow, non-stop jogging, I had to sit down on the floor due to absolute exhaustion. "It's so weird that you can't continue given your age and active lifestyle", he said. I agreed, but the only solution was to just keep pushing harder. Or at least that's what I belived and answered.
+As an anecdote, in the club we once did an endurance test; I was the worst one, even among the category below mine. Another time, my dad and I went for a run to the park and, after just 6 minutes of slow, non-stop jogging, I had to sit down on the floor due to absolute exhaustion. "It's so weird that you can't continue given your age and active lifestyle", he said. I agreed, but the only solution was to just keep pushing harder. Or at least that's what I believed and answered.
 
-Given that I really wanted to get better at the sport and wasn't getting noticeable results, in the summer of 2024 I asked my coach what I could do to improve. He gave me a workout plan, consisting of timed sprints and jogging. I followed it analogous to how a religious devotee follows his God's mandates.
+Given that I really wanted to get better at the sport and wasn't getting noticeable results, in the summer of 2024, I asked my coach what I could do to improve. He gave me a workout plan, consisting of timed sprints and jogging. I followed it analogous to how a religious devotee follows his God's mandates.
 
 ![Pale and skinny in the beach]({static}/images/photos/2024/beach.jpeg)
 
-One sunny day of the 2024 summer holidays, with my family at [Miramar](https://es.wikipedia.org/wiki/Miramar_(Buenos_Aires)), we went to the beach in the morning as usual. As on any other day, we enjoyed the atmosphere, spent time relaxing, and I swam in the sea. In the afternoon, because it got cloudy, my mum suggested going to the hospital for a checkup, given that I'd been having digestive issues the last days.
+One sunny day of the 2024 summer holidays, with my family at [Miramar](https://es.wikipedia.org/wiki/Miramar_(Buenos_Aires)), we went to the beach in the morning as usual. As on any other day, we enjoyed the atmosphere, spent time relaxing, and I swam in the sea. In the afternoon, because it got cloudy, my mum suggested going to the hospital for a checkup, given that I'd been having digestive issues over the last days.
 
 > This kid needs hospitalization and a blood transfusion.
 
@@ -56,7 +56,7 @@ What? I had just swum in the sea that morning. But, indeed, in the following day
 
 ![Strong and muscular in the beach]({static}/images/photos/2025/beach.jpeg)
 
-As the months passed, I continued improving even more. But beyond the physical aspect, this experience showed me how sometimes you don't realize how bad your current state is until you start to be at a decent, _actually normal_ level. It also made me very disciplined over time, as the habit of pushing myself hard to improve remained within me, even if it weren't as necessary as it used to be. On top of that, it was very mind-opening: realizing that my aforetime indisputable belief was actually wrong, was like realizing I'd been running with blinders and had them just removed, observing how the end goal had been next to me all the time, yet I wasn't able to see the big picture.
+As the months passed, I continued improving even more. But beyond the physical aspect, this experience showed me how sometimes you don't realize how bad your current state is until you start to be at a decent, _actually normal_ level. It also made me very disciplined over time, as the habit of pushing myself hard to improve has remained within me, even if it isn't as necessary as it used to be. On top of that, it was very mind-opening: realizing that my aforetime indisputable belief was actually wrong was like realizing I'd been running with blinders and had them just removed, observing how the end goal had been next to me all the time, yet I wasn't able to see the big picture.
 
 ### First commercial project (2024)
 
@@ -66,7 +66,7 @@ In that same year, when the school year started, a friend of mine told me that h
 
 Previously, I had only touched backend in a project using FastAPI, but I decided to use **Django** (which I had just completed the docs tutorial a month ago) as it seemed a better fit for the requirements of [the project]({filename}/siderplast.md).
 
-Three months passed in working without knowing whether I was going to get paid or not, until one day they called and asked me how much I wanted to charge. Without much of an idea, I made a quote and got 10% more than I had asked for. So, I had accumulated a total of $2,620 combined with my little life savings. Down to zero, I spent all the money I had and bought myself a MacBook and an iPhone, getting rid of the limitations of having to share the home PC with my brother and using a computer that crashed when running a few **Docker** containers.
+Three months passed working without knowing whether I was going to get paid or not, until one day they called and asked me how much I wanted to charge. Without much of an idea, I made a quote and got 10% more than I had asked for. So, I had accumulated a total of $2,620 combined with my little life savings. Down to zero, I spent all the money I had and bought myself a MacBook and an iPhone, getting rid of the limitations of having to share the home PC with my brother and using a computer that crashed when running a few **Docker** containers.
 
 I kept working for around 6 months more, in which I grasped the tech stack, gained experience turning client requests into features, and learned how to handle large projects.
 
@@ -78,7 +78,7 @@ I kept working for around 6 months more, in which I grasped the tech stack, gain
 
 Thanks to my dad's recommendation, since 2023, I've listened to the [Tecnología Informal](https://www.youtube.com/playlist?list=PLrtLMjKidFAvi_CTWo5WQV3_X_E5FoaNg) podcast. I genuinely liked the way of thinking of the author, [Gabriel Benmergui](https://x.com/conanbatt). My favorite episode is, not coincidentally, _[El Programador de Hierro](https://open.spotify.com/episode/02poYpZXmfX2YRejgXYUWP)_ (_The Iron Programmer_, in English), where he compares the attitudes of two contrasting programmer archetypes: the _iron_ one, who wants to get good just for the sake of it, is eager to win, and listens to those who point his errors; and the _wooden_ one, who is conformist, only does the job for the money, and is defensive against those who tell him that he's bad. I mention it in detail because I really resonate with the idea of living with the _iron_ attitude.
 
-Around two years later, in February 2025, Gabriel published the founding engineer [job position](https://x.com/Conanbatt/status/1886154690519249094) at his company, [Silver.dev](https://silver.dev). _This is my opportunity_, I thought, despite I didn't meet the requirements (not even the working hours, since I was still attending school in the mornings). But I applied, anyway. A few days later, while hanging out with some friends, I received an email inviting me to the live coding interview. That alone was very surprising, given my poor experience for the role. But apart from that, the email detailed the problems I had to solve, something that looked strange to me (_what's the point of the interview then? Everyone will pass it!_, I used to think). Ignoring my confusion, I just practiced those problems until I could solve them in time.
+Around two years later, in February 2025, Gabriel published the founding engineer [job position](https://x.com/Conanbatt/status/1886154690519249094) at his company, [Silver.dev](https://silver.dev). _This is my opportunity_, I thought, although I didn't meet the requirements (not even the working hours, since I was still attending school in the mornings). But I applied, anyway. A few days later, while hanging out with some friends, I received an email inviting me to the live coding interview. That alone was very surprising, given my poor experience for the role. But apart from that, the email detailed the problems I had to solve, something that looked strange to me (_what's the point of the interview then? Everyone will pass it!_, I used to think). Ignoring my confusion, I just practiced those problems until I could solve them in time.
 
 The interview day arrived, and, indeed, I had to solve the problems I had practiced. Only one of the two, actually, so I solved the problem in half of the available time. To my great surprise, that was record time, so Gabriel was fascinated and hired me as an intern. I'd later discover that it was my answer to "Why are you interested in this position?" that attracted his attention in the first place, and that I had practiced _way more_ than usual for the interview.
 
@@ -118,7 +118,7 @@ I arrived at the US customs in Houston, Texas, and the security guard asked me t
 
 ![With Guillermo Rauch]({static}/images/photos/2025/rauch.jpeg)
 
-Finally, I arrived in San Francisco, and the magic began. Biking through the famous bridge, self-driving cars, the beautiful architecture, the tech billboards, and all the incredible people I met from different origins, but shaped with the same Bay Area culture, where one's creativity and ability to make an impact matter more than anything else. What a better example of this than [Guillermo Rauch](https://x.com/rauchg), whom I got the opportunity to meet. Besides, it was mind-bending discovering how common it is for millions of dollars to flow in and out of tech startups. Wrapping up: although the trip was just little a bit more than a week long, it radically reinforced my desire to stay for at least a few years more.
+Finally, I arrived in San Francisco, and the magic began. Biking through the famous bridge, self-driving cars, the beautiful architecture, the tech billboards, and all the incredible people I met from different origins, but shaped with the same Bay Area culture, where one's creativity and ability to make an impact matter more than anything else. What better example of this than [Guillermo Rauch](https://x.com/rauchg), whom I got the opportunity to meet. Besides, it was mind-bending discovering how common it is for millions of dollars to flow in and out of tech startups. Wrapping up: although the trip was just a little bit more than a week long, it radically reinforced my desire to stay for at least a few years more.
 
 ### Today and tomorrow
 
