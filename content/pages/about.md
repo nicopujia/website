@@ -32,7 +32,7 @@ I've really enjoyed building stuff, so I continued to develop [more projects](ht
 
 That's how I learned to program, basically; I used to decide to build _X_, which required me to learn _Y_ in the process, and I'd also try to make each project different than the previous one in terms of learning, so each of them could teach me something new. Besides, as I grew up during my teens, my interest shifted increasingly more to programming.
 
-At around the same time I started with programming, I started reading non-fiction books. I used to read the books in my dad's bookshelf, such as _Mathematics, Are You There?_, by A. Paenza; _The 7 Habits of Highly Successful People_, by S. Covey; _Rich Dad, Poor Dad_, by R. Kiyosaki; and _Create or Die_, by A. Oppenheimer. I then downloaded more books from the internet and spent all my money from birthday gifts to buy myself a Kindle. Looking back, all this reading shaped a good portion of my current mindset towards life overall. As seen below, a clear example of this is how I've approached fitness.
+At around the same time I started with programming, I started reading non-fiction books. I used to read the books in my dad's bookshelf, such as _Mathematics, Are You There?_, by A. Paenza; _The 7 Habits of Highly Successful People_, by S. Covey; _Rich Dad, Poor Dad_, by R. Kiyosaki; and _Create or Die_, by A. Oppenheimer. I then downloaded more books from the internet and spent all my money from birthday gifts to buy myself a Kindle. Looking back, all this reading shaped a good portion of my current mindset towards life overall. As detailed below, a clear example of this is how I've approached fitness.
 
 ### Health issues (2018–2024)
 
