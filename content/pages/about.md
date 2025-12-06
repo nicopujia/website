@@ -62,8 +62,6 @@ I kept working for around 6 months more, in which I grasped the tech stack, gain
 
 ### Taking the leap (2025)
 
-Whoa, 2025. What a year...
-
 #### Silver.dev
 
 Thanks to my dad's recommendation, since 2023, I've listened to the [Tecnología Informal](https://www.youtube.com/playlist?list=PLrtLMjKidFAvi_CTWo5WQV3_X_E5FoaNg) podcast. I genuinely liked the way of thinking of the author, [Gabriel Benmergui](https://x.com/conanbatt). My favorite episode is, not coincidentally, _[El Programador de Hierro](https://open.spotify.com/episode/02poYpZXmfX2YRejgXYUWP)_ (_The Iron Programmer_, in English), where he compares the attitudes of two contrasting programmer archetypes: the _iron_ one, who wants to get good just for the sake of it, is eager to win, and listens to those who point his errors; and the _wooden_ one, who is conformist, only does the job for the money, and is defensive against those who tell him that he's bad. I mention it in detail because I really resonate with the idea of living with the _iron_ attitude.
