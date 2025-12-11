@@ -7,7 +7,7 @@ modified: 2025-12-06
 ### Overview
 
 - Member of [Puentes](https://puentes.antigravity.capital) (5% acceptance rate) by [Antigravity Capital](https://antigravity.capital)
-- Set record time at [Silver.dev](https://silver.dev) technical interview (#1 of 430+ software engineers)
+- Set record time at [Silver.dev](https://silver.dev) technical interview (#1 of 440 software engineers)
 - Built [Game Finder]({filename}/game-finder.md) (2,000+ downloads without advertising)
 - Top 3 at [Vibe a Startup](https://vibeastartup.com) hackathon
 - Crowd-favorite presentation at [ShipBA](https://shipba.dev)
