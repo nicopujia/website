@@ -453,7 +453,7 @@ Although I started programming at 12, I attended my first tech-related event, Sh
 
 Before entering, you could feel the aura from posters: “Build something people want,” “Launch now.” Inside, a group of students was behind us. We talked, amazed by all we shared—even had calluses from calisthenics! Later, talking with a 19-year-old, he mentioned recently raising $2.1M for his startup. 
 
-> What?
+What?
 
 Presentation time. Even months later, people would approach and say mine was legendary, though we didn’t win. Despite losing, I shared barbecues, runs, and more hackathons, got a scholarship at the university where the guys I met study, flew abroad for the first time, and realized the USA is a realistic path. Above all, ShipBA was the turning point when building shifted from a solitary activity to one focused on sharing, discussing, and iterating with others.
 
