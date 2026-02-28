@@ -2,7 +2,10 @@
 {% block title %}{{ SITENAME|striptags }}{% endblock %}
 {% block content %}
     <section>
-        {% block content_title %}<h2>All articles</h2>{% endblock %}
+        <hgroup>
+          {% block content_title %}<h2>All articles</h2>{% endblock %}
+          <p>{{ articles_page.object_list|count }} entries</p>
+        </hgroup>
         {% for article in articles_page.object_list %}
             <article>
                 {% if article.thumbnail %}
