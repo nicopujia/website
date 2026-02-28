@@ -2,7 +2,7 @@
 title: Stanford Essays
 date: 2025-11-01
 category: Essays
-summary: Essays I wrote for my Stanford application. See apart, my [Personal Essay]({filename}/personal.md).
+summary: Essays I wrote for my Stanford application.
 thumbnail: images/stanford.avif
 ---
 
