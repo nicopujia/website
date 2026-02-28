@@ -45,4 +45,5 @@ TIMEZONE = "America/Argentina/Buenos_Aires"
 
 # URLs
 AUTHOR_URL = AUTHOR_SAVE_AS = ""
-CATEGORY_SAVE_AS = CATEGORY_URL = PAGE_SAVE_AS = PAGE_URL = "{slug}.html"
+ARTICLE_URL = CATEGORY_URL = PAGE_URL = "{slug}"
+ARTICLE_SAVE_AS = CATEGORY_SAVE_AS = PAGE_SAVE_AS = "{slug}.html"
