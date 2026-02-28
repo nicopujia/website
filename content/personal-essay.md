@@ -3,6 +3,7 @@ title: Personal Essay
 date: 2025-12-31
 category: Essays
 summary: Common App's personal essay for college admissions.
+tags: College Admissions
 ---
 
 > The lessons we take from obstacles we encounter can be fundamental to later success. Recount a time when you faced a challenge, setback, or failure. How did it affect you, and what did you learn from the experience? (250–650 words)
