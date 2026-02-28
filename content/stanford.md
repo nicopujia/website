@@ -6,7 +6,7 @@ summary: Essays I wrote for my Stanford application. See apart, my [Personal Ess
 thumbnail: images/stanford.avif
 ---
 
-See apart, my [Personal Essay]({filename}/personal.md).
+See apart, my [Personal Essay]({filename}/personal-essay.md).
 
 ### Short questions (1–50 words)
 
