@@ -132,6 +132,20 @@ section article > img {
   opacity: 1;
 }
 
+.footnote {
+  font-size: smaller;
+}
+
+.footnote ol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.footnote-backref {
+  text-decoration: none;
+}
+
 @media (min-width: 600px) {
   body > header {
     display: flex;

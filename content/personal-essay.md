@@ -1,8 +1,8 @@
 ---
 title: Personal Essay
-date: 2025-11-01
+date: 2025-12-31
 category: Essays
-summary: Common App essays, including the Personal Essay and Additional Information ones.
+summary: Common App's personal essay for college admissions.
 ---
 
 > The lessons we take from obstacles we encounter can be fundamental to later success. Recount a time when you faced a challenge, setback, or failure. How did it affect you, and what did you learn from the experience? (250–650 words)
@@ -25,6 +25,8 @@ Before, I could barely finish a lap around the park—with pauses. After only tw
 
 Looking back, I followed hard work as a dogma. That same dogma, though, is how I’ve built my discipline, so I don’t neglect it entirely—heck, I’m proud that I endured so much pain. However, this experience has nuanced my previously hard-work-only approach and now makes me question my everyday assumptions much more.
 
-For instance, I initially rejected the San Francisco trip! “I’ve got to finish my essays; I have to prioritize,” I reasoned. Then, Gabriel Benmergui (mentor and Silver.dev founder) pushed back—after all, I couldn’t really know if this kind of opportunity would appear again. I almost dismissed him as I had my biology teacher, but then I started reconsidering. I could actually make time, whether that meant working on my essays there, and the trip’s upside was enormous. Ultimately, I recognized he was right, and I’m so glad I told Gadi Borovich I'd changed my mind.
+For instance, I initially rejected the San Francisco trip! “I’ve got to finish my essays; I have to prioritize,” I reasoned. Then, Gabriel Benmergui (mentor and Silver.dev founder) pushed back—after all, I couldn’t really know if this kind of opportunity would appear again. I almost dismissed him as I had my biology teacher, but then I started reconsidering. I could actually make time, whether that meant working on my essays there, and the trip’s upside was enormous. Ultimately, I recognized he was right, and I’m so glad I told Gadi Borovich[^1] I'd changed my mind.
 
 So now, if I find myself assuming I’m right, I remember my dad’s words: “It’s so weird you can’t continue.” And the weirdest thing wasn’t about my body, but that I had never questioned my approach.
+
+[^1]: His name wasn't out of context, as I explained who's him in the Additional Information section.
