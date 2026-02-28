@@ -46,19 +46,21 @@ In the middle of 2022, I started playing football again in another club. Simulta
 
 As an anecdote, in the club we once did an endurance test; I was the worst one, even among the category below mine. Another time, my dad and I went for a run to the park and, after just 6 minutes of slow, non-stop jogging, I had to sit down on the floor due to absolute exhaustion. "It's so weird that you can't continue given your age and active lifestyle", he said. I agreed, but the only solution was to just keep pushing harder. Or at least that's what I believed and answered.
 
-Given that I really wanted to get better at the sport and wasn't getting noticeable results, in the summer of 2024, I asked my coach what I could do to improve. He gave me a workout plan, consisting of timed sprints and jogging. I followed it analogous to how a religious devotee follows his God's mandates.
+Given that I really wanted to get better at the sport and wasn't getting noticeable results, in the summer of 2024, I asked my coach what I could do to improve. He gave me a workout plan, consisting of timed sprints and jogging, and I followed it to the letter.
 
 ![Pale and skinny in the beach]({static}/images/photos/2024/beach.jpeg)
 
-One sunny day of the 2024 summer holidays, with my family at [Miramar](https://es.wikipedia.org/wiki/Miramar_(Buenos_Aires)), we went to the beach in the morning as usual. As on any other day, we enjoyed the atmosphere, spent time relaxing, and I swam in the sea. In the afternoon, because it got cloudy, my mum suggested going to the hospital for a checkup, given that I'd been having digestive issues over the last days.
+One sunny day of the 2024 summer holidays, with my family at [Miramar](https://es.wikipedia.org/wiki/Miramar_(Buenos_Aires)), we went to the beach in the morning, as usual. As on any other day, we enjoyed the atmosphere, spent time relaxing, and I swam in the sea. In the afternoon, because it got cloudy, my mum suggested going to the hospital for a checkup, given that I'd been having digestive issues over the last days.
 
 > This kid needs hospitalization and a blood transfusion.
 
-What? I had just swum in the sea that morning. But, indeed, in the following days, we came back to our home city; I got hospitalized and, after a few days, I was, _thankfully_, diagnosed with celiac disease. Thankfully, because, despite consuming everyday food like bread or pizza severely damages my intestine, after just two months of a strict diet, I gained ~10 kg (I used to weigh 42.5 kg!), could jog for ~30 minutes straight, and my skin got normal. And not just for _normal for me_ this time.
+What? I had just swum in the sea that morning. Indeed, I got hospitalized and, after a few days, diagnosed with celiac disease. It turned out to be better than I expected. After just two months of a strict diet, I gained ~10 kg (I used to weigh 42.5 kg!), went from 6 to ~30 minutes of nonstop jogging, and my skin went from pale to normal. And not just for what _I thought_ was normal, but actually normal. As the months passed, I continued improving even more, reaching 60.5kg and 1h 20min of jogging.
 
 ![Strong and muscular in the beach]({static}/images/photos/2025/beach.jpeg)
 
-As the months passed, I continued improving even more. But beyond the physical aspect, this experience showed me how sometimes you don't realize how bad your current state is until you start to be at a decent, _actually normal_ level. It also made me very disciplined over time, as the habit of pushing myself hard to improve has remained within me, even if it isn't as necessary as it used to be. On top of that, it was very mind-opening: realizing that my aforetime indisputable belief was actually wrong was like realizing I'd been running with blinders and had them just removed, observing how the end goal had been next to me all the time, yet I wasn't able to see the big picture.
+But beyond the physical aspect, this experience showed me how sometimes you don't realize how bad your current state is until you start to be at a decent, _actually normal_ level. It also made me very disciplined and resistant to pain over time, given how hard I had to push myself to keep up with my teammates. 
+
+Besides, it was very mind-opening realizing that my formerly indisputable belief (no results = must train harder) was actually wrong. It was like realizing I'd been running with blinders and had them just removed, finally being able to observe how the end goal (physical improvement) had been next to me all the time (by switching diets), yet I wasn't able to see the big picture (that I have celiac disease).
 
 #### 2024: First commercial project
 
@@ -68,9 +70,11 @@ In that same year, when the school year started, a friend of mine told me that h
 
 Previously, I had only touched backend in a project using FastAPI, but I decided to use **Django** (which I had just completed the docs tutorial a month ago) as it seemed a better fit for the requirements of [the project]({filename}/siderplast.md).
 
-Three months passed working without knowing whether I was going to get paid or not, until one day they called and asked me how much I wanted to charge. Without much of an idea, I made a quote and got 10% more than I had asked for. So, I had accumulated a total of $2,620 combined with my little life savings. Down to zero, I spent all the money I had and bought myself a MacBook and an iPhone, getting rid of the limitations of having to share the home PC with my brother and using a computer that crashed when running a few **Docker** containers.
+Three months passed working without knowing whether I was going to get paid or not, until one day they called and asked me how much I wanted to charge. Without much of an idea, I made a quote and received 10% more than I had asked for. 
 
-I kept working for around 6 months more, in which I grasped the tech stack, gained experience turning client requests into features, and learned how to handle large projects.
+So, I had accumulated a total of $2,620 combined with my little life savings. Down to zero, I spent all the money I had and bought myself a MacBook and an iPhone, getting rid of the limitations of having to share the home PC with my brother and of using a computer that crashed when running a few **Docker** containers.
+
+I kept working for around 6 months more, in which I grasped the tech stack, gained experience dealing with the client, and learned how to handle a large project.
 
 #### 2025: Taking the leap
 
@@ -78,7 +82,7 @@ I kept working for around 6 months more, in which I grasped the tech stack, gain
 
 ![Professional Silver.dev photo]({static}/images/photos/2025/silver.jpeg)
 
-Thanks to my dad's recommendation, since 2023, I've listened to the [Tecnología Informal](https://www.youtube.com/playlist?list=PLrtLMjKidFAvi_CTWo5WQV3_X_E5FoaNg) podcast. I genuinely liked the way of thinking of the author, [Gabriel Benmergui](https://x.com/conanbatt). My favorite episode is, not coincidentally, _[El Programador de Hierro](https://open.spotify.com/episode/02poYpZXmfX2YRejgXYUWP)_ (_The Iron Programmer_, in English), where he compares the attitudes of two contrasting programmer archetypes: the _iron_ one, who wants to get good just for the sake of it, is eager to win, and listens to those who point his errors; and the _wooden_ one, who is conformist, only does the job for the money, and is defensive against those who tell him that he's bad. I mention it in detail because I really resonate with the idea of living with the _iron_ attitude.
+Since 2023, thanks to my dad's recommendation, I've listened to the [Tecnología Informal](https://silver.dev/podcast) podcast. I genuinely liked the way of thinking of the author, [Gabriel Benmergui](https://x.com/conanbatt). My favorite episode is, not coincidentally, _[El Programador de Hierro](https://open.spotify.com/episode/02poYpZXmfX2YRejgXYUWP)_ (_The Iron Programmer_, in English), where he compares the attitudes of two contrasting programmer archetypes: the _iron_ one, who wants to get good just for the sake of it, is eager to win, and listens to those who point his errors; and the _wooden_ one, who is conformist, only does the job for the money, and is defensive against those who tell him that he's bad. I mention it in detail because I really resonate with the idea of living with the _iron_ attitude.
 
 Around two years later, in February 2025, Gabriel published the founding engineer [job position](https://x.com/Conanbatt/status/1886154690519249094) at his company, [Silver.dev](https://silver.dev). _This is my opportunity_, I thought, although I didn't meet the requirements (not even the working hours, since I was still attending school in the mornings). But I applied, anyway. A few days later, while hanging out with some friends, I received an email inviting me to the live coding interview. That alone was very surprising, given my poor experience for the role. But apart from that, the email detailed the problems I had to solve, something that looked strange to me (_what's the point of the interview then? Everyone will pass it!_, I used to think). Ignoring my confusion, I just practiced those problems until I could solve them in time.
 
@@ -90,19 +94,19 @@ So, I got in as a software engineer intern. In the mornings, I still attended se
 
 ![Pitching VCs & founders at Vibe A Startup hackathon]({static}/images/photos/2025/vibe-a-startup.jpeg)
 
-In March, I participated in my first hackathon ever, [ShipBA](https://shipba.dev), alongside the only programmer friend I knew by that time and my cousin. Without sleeping, we built [Noticiar]({filename}/noticiar.md), a TikTok-like AI-powered news app. Although we didn't win the competition, a bunch of people liked my presentation so much that they later invited me to more events, where I met even more people involved in the tech world.
+In March, I participated in my first hackathon ever, [ShipBA](https://x.com/shipbahackathon), alongside the only programmer friend I knew by that time and my cousin. Without sleeping, we built [Noticiar]({filename}/noticiar.md), a TikTok-like AI-powered news app. Although we didn't win the competition, a bunch of people liked my presentation so much that they later invited me to more events, where I met even more people involved in the tech world.
 
 In July, at my second hackathon, [Vibe a Startup](https://www.vibeastartup.com/), I placed third with my team by assembling and presenting Nuvem Voice (a.k.a. _el coso del cosito_ project), a customer service AI voice agent.
 
-![Holding DDIA next to Santiago Ruberto]({static}/images/photos/2025/ruberto.jpeg)
-
 Besides the cool projects, the people I met in these events would later influence my decisions and considerably help me throughout the rest of the year.
+
+![Holding DDIA next to Santiago Ruberto]({static}/images/photos/2025/ruberto.jpeg)
 
 ##### University Admission
 
 ![At the Stanford University campus]({static}/images/photos/2025/stanford.jpeg)
 
-Being my senior year at school, I had to decide what I wanted to do afterwards, just as any other teen. At first, given that I had already made money programming, I was doubting whether to go to college or not. To figure it out, I was suggested to clarify to myself who I wanted to become in 5 or 10 years. What was clear to me was that I wanted to build cool stuff. To that end, both options were fine; however, one of them was clearly better done at that age than later. Still, I wasn't completely sure to commit to that decision yet.
+Being my senior year at school, just as any other teen, I had to decide what I wanted to do afterwards. At first, given that I had already made money programming, I was doubting whether to go to college or not. To figure it out, I was suggested to clarify to myself who I wanted to become in 5 or 10 years. What was clear to me was that I wanted to do great work. To that end, both options were fine; however, college is clearly better done young than old. Still, I wasn't completely sure to commit to that decision yet.
 
 My college alternatives were mainly two: the free and public [UBA](https://en.wikipedia.org/wiki/University_of_Buenos_Aires), recommended by my parents and teachers, where my brother had gone to and I had even completed 3 subjects the year before; and perhaps, if I could earn a scholarship, the expensive [ITBA](https://es.wikipedia.org/wiki/Instituto_Tecnol%C3%B3gico_de_Buenos_Aires), recommended by Gabriel, where many people I met at ShipBA were studying.
 
@@ -114,13 +118,13 @@ Fortunately, among the people I've met this year, [Santiago](https://x.com/santi
 
 In September, Gadi told me he was about to announce the 2nd cohort of [Puentes](https://puentes.antigravity.capital), which was taking place in October. He invited me, and I rejected it, reasoning that I planned to spend that month writing my college essays. Thankfully, a week later, Gabriel and [Paske](https://x.com/lautaropaske) made me rethink the decision. They argued that not everyone had this opportunity, and that the alternatives were either to write the essays at school or write them after talking with Guillermo Rauch. I hadn't thought about it that way; they were right, so I followed their advice.
 
-However, there wasn't much time left for the trip, and I didn't have a Visa yet. Luckily, I'm also a Spanish citizen thanks to my mum and grandma, so I didn't have trouble with it. So, at 18, I left my home country for the first time in my life.
+I arrived at the US customs in Houston, Texas, and the security guard asked me the typical _business or leisure_ question. "Business," I said, though it wasn't completely one or the other. A few clicks and keystrokes later, he called a fat, uniformed guy to go away with me. He took me to the famous little room, a place filled with people who seemed _quite different_ from me—big tattooed guys seeming crackheads. A few minutes later, the desktop guy called me and started investigating me. He wondered, "how can you be a software developer so young and without a degree?" I explained to him briefly. He criticized the Silver website as a scam, but finally let me go, given that I had nothing to hide and it was clear that I would return to Argentina in the short term.
 
-I arrived at the US customs in Houston, Texas, and the security guard asked me the typical _business or leisure_ question. Business, I said, though it wasn't completely one or the other. A few clicks and keystrokes later, he called a fat guy in uniform to go away with me. He took me to the famous little room, a place filled with people who seemed _rather different_ from me—big tattooed guys who looked like crackheads. A few minutes later, the desktop guy called me and started investigating me. _How can you be a software developer so young and without a degree?_, he wondered. I explained to him briefly, he criticized the Silver website as a scam, and then let me go, given that I had nothing to hide and it was clear that I would return to Argentina in the short term.
+So, I had arrived in San Francisco for the first time!
 
 ![With Guillermo Rauch]({static}/images/photos/2025/rauch.jpeg)
 
-Finally, I arrived in San Francisco, and the magic began. Biking through the famous bridge, self-driving cars, the beautiful architecture, the tech billboards, and all the incredible people I met from different origins, but shaped with the same Bay Area culture, where one's creativity and ability to make an impact matter more than anything else. What better example of this than [Guillermo Rauch](https://x.com/rauchg), whom I got the opportunity to meet. Besides, it was mind-bending discovering how common it is for millions of dollars to flow in and out of tech startups. Wrapping up: although the trip was just a little bit more than a week long, it radically reinforced my desire to stay for at least a few years more.
+Travelling on self-driving cars, biking through the famous bridge, watching the tech billboards, and talking with all the amazing founders, VCs, and early startup employees, showed me what the Bay Area is like firsthand. Being like the modern version of the 15th-century Florence, it's a place I don't want to miss living at. Besides, it was mind-bending discovering how common it is for millions of dollars to flow in and out of tech startups. So, although the trip was just a little bit more than a week long, it greatly reinforced my desire to stay for at least a few years more.
 
 ---
 
