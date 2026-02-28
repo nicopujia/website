@@ -5,4 +5,4 @@ sys.path.append(os.curdir)
 
 from pelicanconf import *
 
-SITEURL = "https://nicolaspujia.com"
+SITEURL = FEED_DOMAIN = "https://nicolaspujia.com"

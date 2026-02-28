@@ -3,6 +3,7 @@ AUTHOR = "Nicolás Agustín Pujia"
 AUTHOR_FEED_ATOM = AUTHOR_FEED_RSS = CATEGORY_FEED_ATOM = FEED_ALL_ATOM = (
     TRANSLATION_FEED_ATOM
 ) = None
+FEED_ALL_RSS = "feed.xml"
 CSS_FILE = "style.css"
 DEFAULT_CATEGORY = "Misc"
 DEFAULT_DATE_FORMAT = "%B %Y"
@@ -26,6 +27,7 @@ LINKS = (
     ("Go to top", "#"),
     ("Email", "mailto:contact@nicolaspujia.com"),
     ("Tags", "/tags"),
+    ("RSS", "/feed.xml"),
 )
 PATH = "content"
 PLUGIN_PATHS = ["plugins"]
