@@ -1,20 +1,22 @@
 ---
 title: About
-summary: Who is Nicolás Pujia?
-modified: 2025-12-06
+modified: 2026-02-28
 ---
 
 ### Overview
 
-- Member of [Puentes](https://puentes.antigravity.capital) (5% acceptance rate) by [Antigravity Capital](https://antigravity.capital)
-- Set record time at [Silver.dev](https://silver.dev) technical interview (#1 of 440 software engineers)
-- Built [Game Finder]({filename}/game-finder.md) (2,000+ downloads without advertising)
-- Top 3 at [Vibe a Startup](https://vibeastartup.com) hackathon
-- Crowd-favorite presentation at [ShipBA](https://shipba.dev)
+- Joined as the 2nd engineer at [Silver.dev](https://silver.dev) at age 17 after setting the live coding interview speed record (#1/440 senior engineers), and built a tool that [went viral](https://x.com/nicopujia/status/1993870025262862689?s=20).
+- Selected as youngest engineer for [Puentes](https://puentes.antigravity.capital), a ~5%-acceptance Silicon Valley immersion for top LatAm hackers.
+- Went from 6-min jogs to 1h 20min nonstop and [gained 18kg of muscle mass in under a year](#2018-2024-health-issues).
+- Solely built [e-commerce + ERP system]({filename}/siderplast.md) for a local [company](https://siderplast.com.ar), earning 110% of quote and saving them $1K/year.
+- [Top 3](https://www.vibeastartup.com/participants) at Buenos Aires's most product-focused [hackathon](https://x.com/vibeastartup) as the youngest participant, [pitching](https://x.com/arielmathov/status/1949273177298817057) an AI customer service agent.
+- Self-taught on game/web/mobile dev, web scraping, DSA, and networking, shipping 20+ projects including an [app with 2K+ organic downloads]({filename}/game-finder.md).
 
 ---
 
-### Growing up in Buenos Aires (2007–2019)
+### Bio
+
+#### 2007-2019: Growing up in Buenos Aires
 
 ![Buenos Aires]({static}/images/photos/2020/bsas.jpeg)
 
@@ -22,7 +24,7 @@ I was born and raised in the neighborhood of Caballito, Buenos Aires, **Argentin
 
 My life as a kid was fairly normal. **Football** has been my favorite sport, and **Minecraft** my favorite video game. I started playing football at a club when I was 7 and stayed there for 5 years. At around 10, I have a clear memory, lying in my bed upside down, daydreaming about becoming a professional player when I grew up. However, I wasn't built for that: even though I had a healthy lifestyle, I was quite skinny and rather pale. I used to think that was just _normal for me_, until years later I realized it was not...
 
-### Discovering programming (2020–2023)
+#### 2020-2023: Discovering programming
 
 ![Programming and drinking mate at 15 years old]({static}/images/photos/2023/programming.jpeg)
 
@@ -36,7 +38,7 @@ That's how I learned to program, basically; I used to decide to build _X_, which
 
 At around the same time I started with programming, I started reading non-fiction books. I used to read the books in my dad's bookshelf, such as _Mathematics, Are You There?_, by A. Paenza; _The 7 Habits of Highly Successful People_, by S. Covey; _Rich Dad, Poor Dad_, by R. Kiyosaki; and _Create or Die_, by A. Oppenheimer. I then downloaded more books from the internet and spent all my money from birthday gifts to buy myself a Kindle. Looking back, all this reading shaped a good portion of my current mindset towards life overall. As detailed below, a clear example of this is how I've approached fitness.
 
-### Health issues (2018–2024)
+#### 2018-2024: Health issues
 
 ![Playing soccer kicking a free kick]({static}/images/photos/2022/football.jpeg)
 
@@ -52,13 +54,13 @@ One sunny day of the 2024 summer holidays, with my family at [Miramar](https://e
 
 > This kid needs hospitalization and a blood transfusion.
 
-What? I had just swum in the sea that morning. But, indeed, in the following days, we came back to our home city; I got hospitalized and, after a few days, I was, _thankfully_, diagnosed with celiac disease. Thankfully, because, despite consuming everyday food like bread or pizza severely damages my intestine, after just two months of a strict diet, I gained ~10 kg (I used to weigh 44 kg!), could jog for ~30 minutes straight, and my skin got normal. And not just for _normal for me_ this time.
+What? I had just swum in the sea that morning. But, indeed, in the following days, we came back to our home city; I got hospitalized and, after a few days, I was, _thankfully_, diagnosed with celiac disease. Thankfully, because, despite consuming everyday food like bread or pizza severely damages my intestine, after just two months of a strict diet, I gained ~10 kg (I used to weigh 42.5 kg!), could jog for ~30 minutes straight, and my skin got normal. And not just for _normal for me_ this time.
 
 ![Strong and muscular in the beach]({static}/images/photos/2025/beach.jpeg)
 
 As the months passed, I continued improving even more. But beyond the physical aspect, this experience showed me how sometimes you don't realize how bad your current state is until you start to be at a decent, _actually normal_ level. It also made me very disciplined over time, as the habit of pushing myself hard to improve has remained within me, even if it isn't as necessary as it used to be. On top of that, it was very mind-opening: realizing that my aforetime indisputable belief was actually wrong was like realizing I'd been running with blinders and had them just removed, observing how the end goal had been next to me all the time, yet I wasn't able to see the big picture.
 
-### First commercial project (2024)
+#### 2024: First commercial project
 
 ![My new Mac with the Siderplast website open]({static}/images/photos/2024/siderplast.jpeg)
 
@@ -70,9 +72,9 @@ Three months passed working without knowing whether I was going to get paid or n
 
 I kept working for around 6 months more, in which I grasped the tech stack, gained experience turning client requests into features, and learned how to handle large projects.
 
-### Taking the leap (2025)
+#### 2025: Taking the leap
 
-#### Silver.dev
+##### Silver.dev
 
 ![Professional Silver.dev photo]({static}/images/photos/2025/silver.jpeg)
 
@@ -84,7 +86,7 @@ The interview day arrived, and, indeed, I had to solve the problems I had practi
 
 So, I got in as a software engineer intern. In the mornings, I still attended secondary school; in the afternoons, I worked at Silver. I've learned **TypeScript** & **NextJS**, product engineering, and how to work as part of a team rather than just on my own. Besides, I've realized what the other side of the interviews looks like.
 
-#### Hackathons
+##### Hackathons
 
 ![Pitching VCs & founders at Vibe A Startup hackathon]({static}/images/photos/2025/vibe-a-startup.jpeg)
 
@@ -96,7 +98,7 @@ In July, at my second hackathon, [Vibe a Startup](https://www.vibeastartup.com/)
 
 Besides the cool projects, the people I met in these events would later influence my decisions and considerably help me throughout the rest of the year.
 
-#### University Admission
+##### University Admission
 
 ![At the Stanford University campus]({static}/images/photos/2025/stanford.jpeg)
 
@@ -106,7 +108,7 @@ My college alternatives were mainly two: the free and public [UBA](https://en.wi
 
 Fortunately, among the people I've met this year, [Santiago](https://x.com/santiagomelian_) and [Gadi](https://x.com/gadiborovich) (both of whom I met thanks to ShipBA) encouraged me to study in the US at Stanford or some Ivy, something that hadn't crossed my mind until then. At first, it sounded quite unrealistic (_how could I, just a student at a school in Caballito, possibly get admitted to such a university?_). But Gadi connected me with [Lichu](https://x.com/lichuacu), an Argentinian who had gotten into Stanford, who showed me that, while not easy, it wasn't an irrational idea. Thus, a third alternative had emerged on the table. Considering that Stanford, particularly Silicon Valley, is the global center for technology and innovation, I viewed it as the best place to continue my life. I decided to give it a chance, now fully committed to going to college.
 
-#### San Francisco
+##### San Francisco
 
 ![At the Golden Gate with a bike helmet]({static}/images/photos/2025/san-francisco.jpeg)
 
@@ -120,6 +122,8 @@ I arrived at the US customs in Houston, Texas, and the security guard asked me t
 
 Finally, I arrived in San Francisco, and the magic began. Biking through the famous bridge, self-driving cars, the beautiful architecture, the tech billboards, and all the incredible people I met from different origins, but shaped with the same Bay Area culture, where one's creativity and ability to make an impact matter more than anything else. What better example of this than [Guillermo Rauch](https://x.com/rauchg), whom I got the opportunity to meet. Besides, it was mind-bending discovering how common it is for millions of dollars to flow in and out of tech startups. Wrapping up: although the trip was just a little bit more than a week long, it radically reinforced my desire to stay for at least a few years more.
 
-### Today and tomorrow
+---
 
-Right now, I'm 18 years old, I've just finished secondary school, I'm still working at Silver (now full-time), and I'm awaiting my university admission answers. If I get in, I'd start in August 2026; so, until then, I have several months to work on cool things. I'll update this page as the story continues. See you.
+### Now
+
+I've just finished secondary school a few months ago; I'm still working at [Silver.dev](https://silver.dev), now full-time; and I'm awaiting my university admission answers. If I get in, I'd start in August 2026. So, until then, I have several months to do some _great work_.
