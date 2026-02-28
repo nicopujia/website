@@ -3,7 +3,7 @@ title: Applying to College
 date: 2025-11-01
 modified: 2026-01-01
 category: Essays
-summary: Common App, Stanford, MIT, Harvard, Yale, Dartmouth, Notre Dame, and Bowdoin essays.
+summary: Common App, Stanford, MIT, Harvard, Yale, Dartmouth, Notre Dame, Bowdoin, and Minerva writings.
 ---
 
 <!-- I've commented out repetitive activities beyond Common App ones -->
@@ -18,6 +18,8 @@ summary: Common App, Stanford, MIT, Harvard, Yale, Dartmouth, Notre Dame, and Bo
 * **Rank**: top 5%
 
 ## 🇦🇷 ITBA
+
+**Status**: Admitted with 75% scholarship.
 
 > Al Comité de Becas del Instituto Tecnológico de Buenos Aires,
 
@@ -35,6 +37,8 @@ Atentamente,
 Nicolás Agustín Pujia  
 
 ## 🛠️ MIT
+
+**Status**: waiting answer
 
 ### Application information
 
@@ -181,7 +185,7 @@ It may seem evident in hindsight, but I hadn’t fully realized how bad I was un
 
 Looking back, I’d followed hard work as a dogma. That same dogma, though, is how I’ve built my discipline, so I don’t neglect it entirely—heck, I’m proud that I endured so much pain. However, this experience has nuanced my previously hard-work-only approach and now makes me question my everyday assumptions much more.
 
-#### Additional information
+<!--#### Additional information
 
 > No application can meet the needs of every individual. If there is significant information that you were not able to include elsewhere in the application, you may include it here. (Many students will leave this section blank—and that’s okay.)
 
@@ -203,11 +207,17 @@ Before meeting, studying abroad had never crossed my mind. He asked me why not t
 
 On my personal website, I document all my projects and maintain a growing 2,000-word page about my life journey. Even though my motivation is simply to have a record of the things I build, an unknown person at the Silver.dev 1M Party and a Venezuelan developer both mentioned reading it and being inspired to start their own side project and join the Buenos Aires ecosystem, respectively.
 
-[https://nicolaspujia.com](https://nicolaspujia.com/)
-<!--
+[https://nicolaspujia.com](https://nicolaspujia.com/)-->
+
 ## 🌎 Minerva
 
+**Status:** 
+
 ### Accomplishments
+
+Very similar to [Common App activities](#activities).
+
+<!--### Accomplishments
 
 **≤500 chars**
 
@@ -289,6 +299,15 @@ I have been working on a paid internship since March 2025, earning $1,000 USD pe
 
 From October 18th to 26th, 2025, I traveled to San Francisco, CA, USA, for the Puentes program, a high-performance tech and entrepreneurship immersion. I personally funded the flight tickets ($1,051 USD) from my internship savings. The program covered housing and most meals. This trip was strictly for professional development and networking within the technology sector, which is my field of interest.-->
 
+### Challenges
+
+- Math & Reading were very similar to SAT, so it's worth practicing it despite it's not required.
+- For Writing I really recommend practicing typing fast and learning [touch typing](https://www.typingclub.com/), so you can simply transcribe your thoughts.
+
+### Interview (parents included)
+
+Mostly informational, no prep required at all.
+
 ## 🌐 Common App
 
 ### Personal Essay
@@ -354,9 +373,10 @@ Honored with Best Teammate Award (voted by peers) and Most Progression Award (co
 #### Hackathon participant and team lead, ShipBA (by Vercel) and Vibe A Startup (by TiendaNube)
 
 Built working prototypes in <24hrs. Pitched in front of founders & venture capitalists. 3rd place at Vibe a Startup. Crowd-favorite at ShipBA.
+
 ## 🌲 Stanford
 
-Status: Rejected. Applied REA.
+**Status**: Rejected. Applied REA.
 
 ### Short essays
 
@@ -423,6 +443,8 @@ At Stanford, when teams hit compute budgets on LLM research projects, I won't as
 
 ## 🏨 Harvard
 
+**Status**: waiting answer
+
 ### Short questions
 
 > The following required five short-answer questions invite you to reflect on and share how your life experiences and academic and extracurricular activities shaped you, how you will engage with others at Harvard, and your aspirations for the future. Each question can be answered in about 100 words.
@@ -477,6 +499,8 @@ However, I don't know which problem I'll solve next (thus exploration), yet I’
 
 ## 🌳 Dartmouth
 
+**Status**: waiting answer
+
 ### Why Dartmouth?
 
 > As you seek admission to Dartmouth’s Class of 2030, what aspects of the college’s academic program, community, and/or campus environment attract your interest? How is Dartmouth a good fit for you?
@@ -509,7 +533,36 @@ Months later, while discussing active versus passive learning, I raised my hand 
 
 So, as the sort of chimpanzees that we are, complaining that I was right didn’t work out. In fact, continuing to do it would have just kept me inside my mind bubble, believing I was right and he was plain wrong. Instead, genuinely listening first, and then finding common ground, turned out to be a growth experience: my teacher saw that an opposing student could change; my classmates gained a new perspective on whether they actually understand what they read; and I realized that it’s quite possible to agree with people I initially strongly reject.
 
+### Interview
+
+#### Questions I prepared for the interviewer
+
+- Greek life (non-existent in Argentina, so I was curious)
+- If you were me, what wouldn't you do?
+- You at the beginning vs. at the end of your Dartmouth experience
+- AI: where it's heading and what it implies
+
+#### Brain dump after the interview
+
+[Cleaned up by Claude Sonnet 4.6 for easier reading.]
+
+We started by talking about how I discovered Dartmouth — I mentioned ShipBA, then Puentes. He shared about his two startups and his trip to Argentina. We discussed AI: he did an AI startup back in the early 80s, so we talked about how the field has evolved and where it's going now.
+
+I shared about my work at Silver.dev. He mentioned that it's great to have Argentine students applying and wanting to bring their experience to Dartmouth. He said he knew nothing about engineering when he arrived, and that the liberal arts environment and the variety of people helped him discover much more about the world than he expected.
+
+When I asked what he wouldn't do if he were me, he advised not to limit myself — to meet people and learn how they do both simple things, like eating, and bigger things, like solving world problems. We discussed how problems are always people problems: once you know math and CS, you only know about 10% of what you need, because the rest is about understanding people.
+
+He asked why Dartmouth. I talked about the intersection of things I care about: a strong engineering school with the Magnuson Center; my two hobbies being programming and soccer/calisthenics/running, so the outdoor culture appealed to me; and the liberal arts side, where I mentioned reading *The Righteous Mind* out of pure curiosity despite it having nothing to do with programming. That's when he said he liked the concept of intersection, and that what he found most valuable about Dartmouth was exactly that — the liberal arts. We talked about how it's not enough to write programs for computers; you also need to write for humans, meaning communicate.
+
+Early in the interview I described my ShipBA presentation — people mentioning it months later, how I controlled gestures and silences. I also described the hackathon project itself, and then said: "but it has a problem, which is why we didn't win despite the presentation." He asked what the problem was. I talked about the monetization issue.
+
+He asked about social life in Argentina. I mentioned soccer, which is everywhere and which I love; parties, which are common but not really my scene; and barbecues — we both agreed the meat here is something else.
+
+Throughout, he seemed genuinely engaged: smiling, asking follow-up questions, eager to answer mine. He ended by saying it had been a fun interview.
+
 ## 🐶 Yale
+
+**Status**: waiting answer
 
 ### What excites me
 
@@ -575,6 +628,8 @@ Moreover, Monto and Papa organized it at a loss, which reflects the culture that
 
 ## ⛪ Notre Dame
 
+**Status**: waiting answer
+
 ### Why CS?
 
 > Briefly share what draws you to the area(s) of study you listed.
@@ -627,6 +682,8 @@ For meritocracy. I don't deny that luck plays a role, but I do believe we can st
 
 ## 🏝️ Bowdoin
 
+**Status**: waiting answer
+
 ### Discovering Bowdoin
 
 > How did you first learn about Bowdoin?
@@ -637,19 +694,19 @@ I was reading the history of Netflix on its Wikipedia page, clicked on co-founde
 
 > Generations of students have found connection and meaning in Bowdoin's “The Offer of the College,” written in 1906 by Bowdoin President William DeWitt Hyde.
 
-1. *To be at home in all lands and all ages;*
+> 1. *To be at home in all lands and all ages;*
 
-2. *to count Nature a familiar acquaintance,*
+> 2. *to count Nature a familiar acquaintance,*
 
-3. *and Art, an intimate friend;*
+> 3. *and Art, an intimate friend;*
 
-4. *to gain a standard for the appreciation of others' work and the criticism of your own;*
+> 4. *to gain a standard for the appreciation of others' work and the criticism of your own;*
 
-5. *to carry the keys of the world's library in your pocket, and feel its resources behind you in whatever task you undertake;*
+> 5. *to carry the keys of the world's library in your pocket, and feel its resources behind you in whatever task you undertake;*
 
-6. *to make hosts of friends...who are to be leaders in all walks of life;*
+> 6. *to make hosts of friends...who are to be leaders in all walks of life;*
 
-7. *to lose yourself in generous enthusiasms and cooperate with others for common ends –*
+> 7. *to lose yourself in generous enthusiasms and cooperate with others for common ends –*
 
 > This is the offer of the college for the best four years of your life.
 
