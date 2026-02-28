@@ -215,11 +215,7 @@ On my personal website, I document all my projects and maintain a growing 2,000-
 
 ### Accomplishments
 
-Very similar to [Common App activities](#activities).
-
-<!--### Accomplishments
-
-**≤500 chars**
+<!--Very similar to [Common App activities](#activities).-->
 
 > Briefly describe your accomplishment and why you are most proud of it.
 
@@ -289,15 +285,15 @@ This is how I learned to program, basically: I'd decide to build X, which requir
 
 #### Efforts
 
-> S2. Please explain any efforts you have taken or will take to fundraise and support yourself financially while attending Minerva. If you have sent out letters, applications, or have participated in fundraising efforts, please upload supporting documentation (if available).
+> Please explain any efforts you have taken or will take to fundraise and support yourself financially while attending Minerva. If you have sent out letters, applications, or have participated in fundraising efforts, please upload supporting documentation (if available).
 
 I have been working on a paid internship since March 2025, earning $1,000 USD per month. To date, I have earned $10,000 USD. I have invested around $3,000 of these funds into my professional development and college readiness, specifically covering the 'Puentes' program, university application fees, and various expenses. The remaining $7,000 is reserved for my first year of education and personal expenses at Minerva. $6,350 is in my bank account (Wallbit), and the rest is in cash.
 
 #### International trips
 
-> S9. Please list any international trips you, personally, took during the last 3 years. Please include the duration, purpose, and countries visited during each trip. Was the trip(s) expensed personally and/or by family?
+> Please list any international trips you, personally, took during the last 3 years. Please include the duration, purpose, and countries visited during each trip. Was the trip(s) expensed personally and/or by family?
 
-From October 18th to 26th, 2025, I traveled to San Francisco, CA, USA, for the Puentes program, a high-performance tech and entrepreneurship immersion. I personally funded the flight tickets ($1,051 USD) from my internship savings. The program covered housing and most meals. This trip was strictly for professional development and networking within the technology sector, which is my field of interest.-->
+From October 18th to 26th, 2025, I traveled to San Francisco, CA, USA, for the Puentes program, a high-performance tech and entrepreneurship immersion. I personally funded the flight tickets ($1,051 USD) from my internship savings. The program covered housing and most meals. This trip was strictly for professional development and networking within the technology sector, which is my field of interest.
 
 ### Challenges
 
