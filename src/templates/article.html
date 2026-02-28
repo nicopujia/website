@@ -6,6 +6,12 @@
         <header>
             <h2>{{ article.title }}</h2>
         </header>
+        {% if article.toc %}
+            <nav class="toc">
+                <h3>Table of contents</h3>
+                {{ article.toc }}
+            </nav>
+        {% endif %}
         {{ article.content }}
         <footer>
             <ul>

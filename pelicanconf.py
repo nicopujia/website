@@ -28,7 +28,8 @@ LINKS = (
     ("Tags", "/tags"),
 )
 PATH = "content"
-PLUGINS = ["sitemap"]
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["sitemap", "extract_toc"]
 SEPARATOR_SYMBOL = "·"
 SLUGIFY_SOURCE = "basename"
 SOCIAL = (
