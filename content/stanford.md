@@ -36,7 +36,7 @@ See apart, my [Personal Essay]({filename}/personal.md).
 
 #### Excitement about learning
 
-*The Stanford community is deeply curious and driven to learn in and out of the classroom. Reflect on an idea or experience that makes you genuinely excited about learning.*
+> The Stanford community is deeply curious and driven to learn in and out of the classroom. Reflect on an idea or experience that makes you genuinely excited about learning.
 
 I was browsing YouTube after finishing a programming course, when a video titled "How does the Internet work?" caught my attention. My mom reminded me to do my geography homework, but I watched the video instead.
 
@@ -52,7 +52,7 @@ I can't stand gaps in my mental model of things I'm curious about. Geography hom
 
 #### Note to future roommate
 
-*Virtually all of Stanford's undergraduates live on campus. Write a note to your future roommate that reveals something about you or that will help your roommate – and us – get to know you better.*
+> Virtually all of Stanford's undergraduates live on campus. Write a note to your future roommate that reveals something about you or that will help your roommate – and us – get to know you better.
 
 Hey,
 
@@ -70,7 +70,7 @@ Nico
 
 #### Distinctive contribution
 
-*Please describe what aspects of your life experiences, interests, and character would help you make a distinctive contribution as an undergraduate to Stanford University.*
+> Please describe what aspects of your life experiences, interests, and character would help you make a distinctive contribution as an undergraduate to Stanford University.
 
 At 15, I finished Game Finder and wanted to publish it. Google Play Store costs $25 one-time; Apple App Store requires $100 per year, plus a MacBook. Being in Argentina, even $25 was significant. I asked my grandma to gift it to me.
 
