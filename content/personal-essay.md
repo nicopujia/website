@@ -3,7 +3,6 @@ title: Personal Essay
 date: 2025-11-01
 category: Essays
 summary: Common App essays, including the Personal Essay and Additional Information ones.
-thumbnail: images/me-nextjs.jpg
 ---
 
 *The lessons we take from obstacles we encounter can be fundamental to later success. Recount a time when you faced a challenge, setback, or failure. How did it affect you, and what did you learn from the experience? (250–650 words)*
