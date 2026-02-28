@@ -15,7 +15,7 @@ MARKDOWN = {
     },
     "output_format": "html5",
 }
-DIRECT_TEMPLATES = ["index", "categories", "tags"]
+DIRECT_TEMPLATES = ["index", "categories", "tags", "404"]
 EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/app-ads.txt": {"path": "app-ads.txt"},
