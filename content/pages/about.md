@@ -3,7 +3,11 @@ title: About
 modified: 2026-02-28
 ---
 
-### Overview
+### TL;DR
+
+18-year-old self-taught hacker from Argentina, going from building side projects as a kid to working professionally; competing in hackathons; and applying to US universities, currently waiting for the responses.
+
+### Accomplishments
 
 - Joined as the 2nd engineer at [Silver.dev](https://silver.dev) at age 17 after setting the live coding interview speed record (#1/440 senior engineers), and built a tool that [went viral](https://x.com/nicopujia/status/1993870025262862689?s=20).
 - Selected as youngest engineer for [Puentes](https://puentes.antigravity.capital), a ~5%-acceptance Silicon Valley immersion program for top LatAm hackers.
@@ -12,9 +16,7 @@ modified: 2026-02-28
 - [Top 3](https://www.vibeastartup.com/participants) at Buenos Aires's most product-focused [hackathon](https://x.com/vibeastartup) as the youngest participant, [pitching](https://x.com/arielmathov/status/1949273177298817057) an AI customer service agent.
 - Self-taught on game/web/mobile dev, web scraping, DSA, and networking, shipping 20+ projects including an [app with 2K+ organic downloads]({filename}/game-finder.md).
 
----
-
-### Bio
+### Autobiography
 
 #### 2007-2019: Growing up in Buenos Aires
 
