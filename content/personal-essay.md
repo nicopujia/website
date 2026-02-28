@@ -5,44 +5,26 @@ category: Essays
 summary: Common App essays, including the Personal Essay and Additional Information ones.
 ---
 
-*The lessons we take from obstacles we encounter can be fundamental to later success. Recount a time when you faced a challenge, setback, or failure. How did it affect you, and what did you learn from the experience? (250–650 words)*
+> The lessons we take from obstacles we encounter can be fundamental to later success. Recount a time when you faced a challenge, setback, or failure. How did it affect you, and what did you learn from the experience? (250–650 words)
 
-Like any other 7-year-old kid in Buenos Aires who enjoyed playing soccer, my dream was to become the next Messi. A few years later, at 12, my dad suggested I try programming, and I quickly loved building my own games rather than playing predefined ones. Those have been my two hobbies as a teenager, and I approached both with the same philosophy I learned from the books on my home’s bookshelf: hard work always pays off.
+I was 15, exercised weekly, slept 8 hours nightly, but had to stop after 6 minutes of jogging because I couldn’t keep going.
 
-Programming answered pretty well to that approach. I'd faced bugs by trying whatever came to mind, without much thought, until something worked. I ended up building around 15 projects this way, so I never questioned whether there was a better approach. I just followed my curiosity and pushed through frustration when it appeared. When a project stopped being interesting, time for the next one.
+I’d play soccer and increasingly started questioning what I did with my time. I started reading some self-help books from my dad’s bookshelf, like The 7 Habits, then pirated ones online. These books did more than I initially expected. But it wasn’t a day-long, week-long, or even month-long noticeable change. It was more like a half-conscious, half-subconscious reshaping of my decisions about time and effort. I started putting long-term goals over short-term pleasure.
 
-Soccer, however, didn’t respond as well. One day, my dad and I went out for a run. After 6 minutes of jogging, I could feel my lungs about to surpass the limits of their capacity, so I had to sit down on the floor due to absolute exhaustion. He said that it was so weird that I couldn’t continue, given my age and active lifestyle. I wished there was another way, but that was just normal to me, and the solution was simply to continue training under the summer heat. That’s what I believed and answered. However, I was getting weaker, more underweight, and paler.
+Back then, I was quite skinny and pale. We once did an endurance test, and I ended dead last—even behind the category below mine. But I wouldn’t conform. Improvement for its own sake, as the books had taught me, had become my goal.
 
-Turns out, I had celiac disease, so years of eating bread and pasta had been severely damaging my intestine. When the doctor told me, I sighed deeply and said ok. I had an actual physical limitation that made me realize I had to do things differently.
+Next summer, I messaged my coach for advice, and he eagerly sent a workout plan. Mondays, Tuesdays, Wednesdays, and Fridays, I’d put on my sleeveless shirt, River Plate shorts, digital watch, and—as my mom used to say—incinerate myself under the park’s heat. I’d start jogging—first minute, no problem. In the second minute, my breathing was still under conscious control. Third minute... no matter how often I told myself “it’s all mental,” my burned lungs forced me to stop. Hands on my knees, after a brief breath, I’d walk for 1.5 minutes, then repeat. Again and again.
 
-Only two months after the diagnosis, I gained 10kg and could jog an entire hour nonstop. It seemed evident in hindsight, but I hadn’t realized how bad I was until I started to be at a decent level. The problem hadn’t been my lack of effort but the question I wasn’t asking and my stubbornness in believing I was correct.
+One day, my dad joined me. After 6 minutes, I had to sit halfway through the track from sheer exhaustion. He was confused that I couldn’t continue, given my lifestyle. “I know, okay!” I thought internally. I wished I were better, but that was just “normal for me,” and the solution was to keep training harder than yesterday. That’s what I believed, answered my dad, and acted upon.
 
-After that, I started to question my thoughts in other areas of my life. For example, in programming, a few months later, building an ERP for a local company, I hit a bug: users couldn’t save new rows. I tried resetting the database, and it worked… Except that, after three weeks, it happened again. I was about to use the same approach again to patch it, until I asked myself what the root cause actually was. Then, I realized that the system was formatting numbers with commas (“1000” became “1,000”), which broke its ability to reference the rows. Fundamental problem solved, and it never returned.
+As the school year started, my improvement was noticed. Heh, no. My deterioration got noticed. My biology teacher asked if I was alright, given how pale I looked. “Maybe you have celiac disease?” “No, I don’t have that,” I replied, dismissing her.
 
-When I find myself dogmatically believing something or assuming I'm right, I hear my dad after that run: “It's so weird that you can't continue.” He was right. And the weirdest thing wasn't my body, but that I had never questioned my approach.
+Surprise! Two years later, I discovered I indeed have celiac disease. Years of daily bread and pasta had severely damaged my intestines, thus impeding proper nutrient absorption. When the doctor told me, I sighed, but everything clicked.
 
----
+Before, I could barely finish a lap around the park—with pauses. After only two months, damn, I completed three laps and could continue. I looked down at my legs, still moving after 30 minutes, and couldn’t believe it. It may seem evident in hindsight, but I hadn’t fully realized how bad I was until I reached an actually normal level. It was like running with blinders, the goal right beside me, and even people occasionally telling me to turn sideways.
 
-## Additional Information
+Looking back, I followed hard work as a dogma. That same dogma, though, is how I’ve built my discipline, so I don’t neglect it entirely—heck, I’m proud that I endured so much pain. However, this experience has nuanced my previously hard-work-only approach and now makes me question my everyday assumptions much more.
 
-### Challenge (1–250 words)
+For instance, I initially rejected the San Francisco trip! “I’ve got to finish my essays; I have to prioritize,” I reasoned. Then, Gabriel Benmergui (mentor and Silver.dev founder) pushed back—after all, I couldn’t really know if this kind of opportunity would appear again. I almost dismissed him as I had my biology teacher, but then I started reconsidering. I could actually make time, whether that meant working on my essays there, and the trip’s upside was enormous. Ultimately, I recognized he was right, and I’m so glad I told Gadi Borovich I'd changed my mind.
 
-*Please describe the challenges or circumstances and how they have impacted you.*
-
-(Didn't write anything)
-
-### Additional details (1–300 words)
-
-*Please provide any additional information you wish to share.*
-
-March 8, 2025\. My first hackathon, ShipBA. I went with a programmer friend and my cousin, and we built Noticiar in 24 hours straight without sleeping. We didn't win, but people loved my presentation. Months later, strangers still approach me about it.
-
-That weekend opened doors I didn't know existed. I met one of the organizers, who later introduced me to an entrepreneur who'd studied in the US. He told me I should apply to top American universities. At first, it sounded unrealistic. How could I, just a student at a school in Caballito, get into one? But he connected me with an Argentine who'd gotten in, and it stopped sounding irrational.
-
-In August, I went all-in: paused my projects, studied 10+ hours daily for the SAT, and started my essays for the November 1st deadline. In September, the entrepreneur invited me to spend a week in San Francisco.
-
-I said no. My essays weren't finished, and I thought I needed to stay focused. Gabriel (employer and mentor) pushed back: "You should go. You don't know if an opportunity like this will present again. Not everyone gets opportunities like this—you have it because you built social recognition. Besides, you can write your essays there. The alternative is writing them at school." He was right, so I went.
-
-In San Francisco, I met founders whose companies are worth billions and had conversations I never imagined at 18\. They weren't superhuman, just people who'd once been where I am. That demystification made what seemed impossible feel reachable.
-
-I'm writing this essay in San Francisco. One decision to show up at ShipBA led to meeting people who opened doors I didn't know existed. One decision to trust my mentor's advice over my fear of falling behind led to new perspectives I couldn't have gained otherwise.
+So now, if I find myself assuming I’m right, I remember my dad’s words: “It’s so weird you can’t continue.” And the weirdest thing wasn’t about my body, but that I had never questioned my approach.
