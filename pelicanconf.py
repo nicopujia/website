@@ -1,4 +1,5 @@
-AUTHOR = SITENAME = "Nicolás Pujia"
+SITENAME = "Nico Pujia"
+AUTHOR = "Nicolás Agustín Pujia"
 AUTHOR_FEED_ATOM = AUTHOR_FEED_RSS = CATEGORY_FEED_ATOM = FEED_ALL_ATOM = (
     TRANSLATION_FEED_ATOM
 ) = None
