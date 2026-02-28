@@ -1,7 +1,3 @@
-* {
-  transition-duration: 200ms;
-}
-
 :root {
   --color-muted: #bfbfbf;
   --color-primary: dodgerblue;
@@ -28,6 +24,7 @@ nav {
 }
 
 a {
+  transition-duration: 200ms;
   color: CanvasText;
   text-decoration-color: var(--color-muted);
   text-underline-offset: 0.2rem;
