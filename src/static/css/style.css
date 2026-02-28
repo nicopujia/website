@@ -43,6 +43,10 @@ ul {
   gap: 0.4rem;
 }
 
+ul ul {
+  margin-top: 0.4rem;
+}
+
 body > header {
   border-bottom: 0.2rem solid var(--color-muted);
 }
