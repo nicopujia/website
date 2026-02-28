@@ -6,6 +6,15 @@ CSS_FILE = "style.css"
 DEFAULT_CATEGORY = "Misc"
 DEFAULT_DATE_FORMAT = "%B %Y"
 DELETE_OUTPUT_DIRECTORY = True
+MARKDOWN = {
+    "extension_configs": {
+        "markdown.extensions.meta": {},
+        "markdown.extensions.toc": {
+            "permalink": True,
+        },
+    },
+    "output_format": "html5",
+}
 DIRECT_TEMPLATES = ["index", "categories", "tags"]
 EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},

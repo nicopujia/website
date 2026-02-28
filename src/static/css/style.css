@@ -99,6 +99,16 @@ section article > img {
   height: auto;
 }
 
+.headerlink {
+  text-decoration: none;
+  opacity: 0;
+  margin-left: 0.25em;
+}
+
+:is(h1, h2, h3, h4, h5, h6):hover .headerlink {
+  opacity: 1;
+}
+
 @media (min-width: 600px) {
   body > header {
     display: flex;
