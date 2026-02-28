@@ -81,3 +81,7 @@ Eventually, I accumulated $2,620 and spent it all on a $2,000 MacBook and $620 i
 They did. The MacBook didn't crash in my first hackathon, and the iPhone let me test the app properly. That investment taught me where resources should go: invest in what compounds your capability, and cut everything else.
 
 At Stanford, when teams hit compute budgets on LLM research projects, I won't assume we need more money. I've built systems on free hosting because I had to, so I’ll contribute to making limited resources work. And when designing products, I'll push us to consider users beyond Silicon Valley conditions: people on shared devices, undervalued currencies, and complex payment barriers, because I was that user.
+
+---
+
+PS. I got rejected.
