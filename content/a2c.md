@@ -648,12 +648,6 @@ Since that weekend, a place with builder culture, such as Notre Dame’s IDEA Ce
 
 ### Short questions
 
-> Please choose three questions from the options below.
-
-#### Faith
-
-> How does faith influence the decisions you make?
-
 #### Life experiences → contributions.
 
 > What is distinctive about your personal experiences and development (eg, family support, culture, disability, personal background, community)?  Why are these experiences important to you, and how will you enrich the Notre Dame community?
@@ -665,10 +659,6 @@ Arriving at Houston customs, the guard asked: "Business or leisure?" Business. K
 > Notre Dame’s undergraduate experience is characterized by a collective sense of care for every person.  How do you foster service to others in your community?
 
 In high school, I was used to receiving questions, often “how do you solve this exercise?” or “what’s the answer for problem 3?” Although some classmates would sigh in impatience, I’d usually start answering by rhetorically asking them, “What does this equation actually mean?” or similar, and so on, until they reached the answer by following a logical path. I’d try to make sure they understood, not just pass the exam. After this, a particular girl, Juani, became curious about chemistry, learned beyond the requirements, and even ended up teaching me afterward.
-
-#### Compliment
-
-> What compliment are you most proud of receiving, and why does it mean so much to you?
 
 #### Fight for
 
