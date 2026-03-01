@@ -5,7 +5,7 @@ modified: 2026-02-28
 
 ### TL;DR
 
-18-year-old self-taught hacker from Argentina, going from building side projects as a kid to working professionally; competing in hackathons; and applying to US universities, currently waiting for the responses.
+Self-taught Argentine hacker, pitcher, and US university applicant.
 
 ### Accomplishments
 
