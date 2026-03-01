@@ -1,6 +1,7 @@
 ---
 title: About
 modified: 2026-02-28
+summary: Self-taught Argentine software developer, startup pitcher, and US university applicant.
 ---
 
 ### TL;DR
@@ -9,11 +10,11 @@ Self-taught Argentine hacker, startup pitcher, and US university applicant.
 
 ### Accomplishments
 
-- Joined as the 2nd engineer at [Silver.dev](https://silver.dev) at age 17 after setting the live coding interview speed record (#1/440 senior engineers), and built a tool that [went viral](https://x.com/nicopujia/status/1993870025262862689?s=20).
-- Selected as youngest engineer for [Puentes](https://puentes.antigravity.capital), a ~5%-acceptance Silicon Valley immersion program for top LatAm hackers.
+- Joined as the 2nd engineer at [Silver.dev](https://silver.dev) after setting the technical interview speed record (#1/440 senior engineers), and built a tool that [went viral](https://x.com/nicopujia/status/1993870025262862689?s=20).
+- Selected for [Puentes](https://puentes.antigravity.capital), a ~5%-acceptance Silicon Valley immersion program for top LatAm hackers.
 - Went from 6-min jogs to 1h 20min nonstop and [gained 18kg of muscle mass in under a year](#2018-2024-health-issues).
 - Solely built [e-commerce + ERP system]({filename}/siderplast.md) for a local [company](https://siderplast.com.ar), earning 110% of quote and saving them $1K/year.
-- [Top 3](https://www.vibeastartup.com/participants) at Buenos Aires's most product-focused [hackathon](https://x.com/vibeastartup) as the youngest participant, [pitching](https://x.com/arielmathov/status/1949273177298817057) an AI customer service agent.
+- [Top 3](https://www.vibeastartup.com/participants) at Buenos Aires's most product-focused [hackathon](https://x.com/vibeastartup), [pitching](https://x.com/arielmathov/status/1949273177298817057) an AI customer service agent to [founders and VCs](https://www.vibeastartup.com/#judges).
 - Self-taught on game/web/mobile dev, web scraping, DSA, and networking, shipping 20+ projects including an [app with 2K+ organic downloads]({filename}/game-finder.md).
 
 ### Autobiography
