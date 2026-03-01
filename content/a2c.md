@@ -4,7 +4,7 @@ date: 2025-11-01
 modified: 2026-01-01
 category: Essays
 summary: Common App, Stanford, MIT, Harvard, Yale, Dartmouth, Notre Dame, Bowdoin, and Minerva writings.
-status: hidden
+status: draft
 ---
 
 <!-- I've commented out repetitive activities beyond Common App ones -->
