@@ -10,6 +10,7 @@ DEFAULT_DATE_FORMAT = "%B %Y"
 DELETE_OUTPUT_DIRECTORY = True
 MARKDOWN = {
     "extension_configs": {
+        "markdown.extensions.footnotes": {},
         "markdown.extensions.meta": {},
         "markdown.extensions.toc": {
             "permalink": True,
