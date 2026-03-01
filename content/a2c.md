@@ -22,7 +22,7 @@ status: draft
 
 **Status**: Admitted with 75% scholarship.
 
-> Al Comité de Becas del Instituto Tecnológico de Buenos Aires,
+Al Comité de Becas del Instituto Tecnológico de Buenos Aires,
 
 Mi nombre es Nicolás Pujia, soy un estudiante de la Ciudad Autónoma de Buenos Aires. Aprendí programación de manera autodidacta a los 12 años y, gracias a ello, conseguí mi primer trabajo a los 16. Tuve el privilegio de descubrir que tengo una profunda vocación por el desarrollo de software y he vivido mi adolescencia de ese modo.
 
