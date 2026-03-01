@@ -5,7 +5,7 @@ modified: 2026-02-28
 
 ### TL;DR
 
-Self-taught Argentine hacker, pitcher, and US university applicant.
+Self-taught Argentine hacker, startup pitcher, and US university applicant.
 
 ### Accomplishments
 
