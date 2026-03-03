@@ -11,7 +11,7 @@ A Gadi lo conocí mientras él buscaba gente para el viaje este a SF. La primera
 
 Entonces charlo con ellos y me cuentan cómo funciona todo esto. Es un mundo aparte, así que no me lo voy a explicar acá. Long story short, decido que quiero ir. Pero para aplicar allá lleva una banda de tiempo armar la postulación.
 
-Pasaron unas semanas hasta que un nos encontramos en persona con Gadi, en un asado. Y ahí no me acuerdó bien cómo llegamos a esto pero me nos quedamos charlando sobre una relación mía con una chica de mi curso. Nada que ver. Él simplemente quería conocerme mejor.
+Pasaron unas semanas hasta que un día nos encontramos en persona con Gadi, en un asado. Y ahí no me acuerdo bien cómo llegamos a esto pero me nos quedamos charlando sobre una relación mía con una chica de mi curso. Nada que ver. Él simplemente quería conocerme mejor.
 
 ### Lo rechazo
 
@@ -66,4 +66,4 @@ Obviamente no puedo viajar a través de lineas temporales. Pero puedo hacer una 
 - No hubiera conocido a toda esta gente que el día de mañana yo vuelvo para allá por mi cuenta y ya las conozco
 - No estaría tan seguro de querer volver.
 
-Y eso fue mi caso, argumentablemente el peor de todos en comparación, siendo el de un pibe de secundaria con poca experiencia laboral que se presentaba diciendo que estaba aplicando a Stanford en lugar de apuntar más de lleno a conseguir laburo. Claramente no hice todo bien. Y aún así, mirá todo lo de lo que me hubiera perdido de no haber ido. Si me llegara a aparecer un Puentes a los 20-23 años, al toque consigo _varias_ ofertas, elijo la que más me guste, y me voy. Y no lo digo por decir; lo digo porque varios de mis compañeros hicieron exactamente eso.
+Y eso fue mi caso, argumentablemente el peor de todos en comparación, siendo el de un pibe de secundaria con poca experiencia laboral que se presentaba diciendo que estaba aplicando a Stanford en lugar de apuntar más de lleno a conseguir laburo. Claramente no hice todo bien. Y aún así, mirá todo de lo que me hubiera perdido de no haber ido. Si me llegara a aparecer un Puentes a los 20-23 años, al toque consigo _varias_ ofertas, elijo la que más me guste, y me voy. Y no lo digo por decir; lo digo porque varios de mis compañeros hicieron exactamente eso.
