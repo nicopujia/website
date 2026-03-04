@@ -20,7 +20,7 @@ status: draft
 
 ## 🇦🇷 ITBA
 
-**Status**: Admitted with 75% scholarship.
+**Status**: Admitted
 
 Al Comité de Becas del Instituto Tecnológico de Buenos Aires,
 
@@ -212,7 +212,7 @@ On my personal website, I document all my projects and maintain a growing 2,000-
 
 ## 🌎 Minerva
 
-**Status:** 
+**Status:** Admitted
 
 ### Accomplishments
 
