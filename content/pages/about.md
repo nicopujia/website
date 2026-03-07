@@ -127,7 +127,7 @@ So, I had arrived in San Francisco for the first time!
 
 ![With Guillermo Rauch]({static}/images/photos/2025/rauch.jpeg)
 
-Travelling on self-driving cars, biking through the famous bridge, watching the tech billboards, and talking with all the amazing founders, VCs, and early startup employees, showed me what the Bay Area is like firsthand. Being like the modern version of the 15th-century Florence, it's a place I don't want to miss living at. Besides, it was mind-bending discovering how common it is for millions of dollars to flow in and out of tech startups. So, although the trip was just a little bit more than a week long, it greatly reinforced my desire to stay for at least a few years more.
+Travelling on self-driving cars; biking through the famous bridge; watching the tech billboards; talking with founders, VCs, and early startup employees; and discovering how common it is for millions of dollars to flow in and out of tech startups; showed me what the Bay Area is like firsthand. It's like the modern version of the 15th-century Florence, where the great [painters](https://paulgraham.com/hp.html) join together in a single place. So, although the trip was just a little bit more than a week long, it greatly reinforced my desire to stay for, at least, a few years more.
 
 ---
 
