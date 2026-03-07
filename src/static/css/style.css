@@ -110,6 +110,11 @@ article > header {
 article footer {
   font-size: smaller;
   border-top: 1px dashed var(--color-muted);
+  margin-top: 2rem;
+}
+
+hr {
+  margin: 2rem 0;
 }
 
 img {
