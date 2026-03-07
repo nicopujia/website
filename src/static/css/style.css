@@ -86,6 +86,27 @@ body > footer {
   border-top: 0.2rem solid var(--color-muted);
 }
 
+article > h3 {
+  font-size: 1.75rem;
+}
+
+article > h4 {
+  font-size: 1.45rem;
+}
+
+article > h5 {
+  font-size: 1.2rem;
+}
+
+article > h6 {
+  font-size: 1.05rem;
+}
+
+article > header {
+  border-bottom: 1px dashed var(--color-muted);
+  padding-bottom: 1rem;
+}
+
 article footer {
   font-size: smaller;
   border-top: 1px dashed var(--color-muted);
