@@ -3,7 +3,7 @@ title: Just Ralph it
 date: 2026-03-07
 summary: The proper tool around the Ralph Wiggum technique.
 category: Apps
-thumbnail: images/projects/just-ralph-it/image-removebg-preview.png
+thumbnail: images/projects/just-ralph-it/ralph.png
 ---
 
 ### Problem statement
